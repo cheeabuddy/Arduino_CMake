@@ -1,4 +1,5 @@
-add_library(libarduinocore
+
+add_library(arduinocore
         Arduino.h
         CDC.cpp
         Client.h

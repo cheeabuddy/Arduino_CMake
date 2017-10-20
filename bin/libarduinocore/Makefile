@@ -48,10 +48,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test"
+CMAKE_SOURCE_DIR = /Users/liamsycamore/Documents/Arduino_Test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin"
+CMAKE_BINARY_DIR = /Users/liamsycamore/Documents/Arduino_Test/bin
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin" && $(CMAKE_COMMAND) -E cmake_progress_start "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/CMakeFiles" "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/libarduinocore/CMakeFiles/progress.marks"
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin" && $(MAKE) -f CMakeFiles/Makefile2 libarduinocore/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/CMakeFiles" 0
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(CMAKE_COMMAND) -E cmake_progress_start /Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore/CMakeFiles/progress.marks
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f CMakeFiles/Makefile2 libarduinocore/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin" && $(MAKE) -f CMakeFiles/Makefile2 libarduinocore/clean
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f CMakeFiles/Makefile2 libarduinocore/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,33 +97,33 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin" && $(MAKE) -f CMakeFiles/Makefile2 libarduinocore/preinstall
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f CMakeFiles/Makefile2 libarduinocore/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin" && $(MAKE) -f CMakeFiles/Makefile2 libarduinocore/preinstall
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f CMakeFiles/Makefile2 libarduinocore/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
-libarduinocore/CMakeFiles/libarduinocore.dir/rule:
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin" && $(MAKE) -f CMakeFiles/Makefile2 libarduinocore/CMakeFiles/libarduinocore.dir/rule
-.PHONY : libarduinocore/CMakeFiles/libarduinocore.dir/rule
+libarduinocore/CMakeFiles/arduinocore.dir/rule:
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f CMakeFiles/Makefile2 libarduinocore/CMakeFiles/arduinocore.dir/rule
+.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/rule
 
 # Convenience name for target.
-libarduinocore: libarduinocore/CMakeFiles/libarduinocore.dir/rule
+arduinocore: libarduinocore/CMakeFiles/arduinocore.dir/rule
 
-.PHONY : libarduinocore
+.PHONY : arduinocore
 
 # fast build rule for target.
-libarduinocore/fast:
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin" && $(MAKE) -f libarduinocore/CMakeFiles/libarduinocore.dir/build.make libarduinocore/CMakeFiles/libarduinocore.dir/build
-.PHONY : libarduinocore/fast
+arduinocore/fast:
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/build
+.PHONY : arduinocore/fast
 
 CDC.obj: CDC.cpp.obj
 
@@ -131,7 +131,7 @@ CDC.obj: CDC.cpp.obj
 
 # target to build an object file
 CDC.cpp.obj:
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin" && $(MAKE) -f libarduinocore/CMakeFiles/libarduinocore.dir/build.make libarduinocore/CMakeFiles/libarduinocore.dir/CDC.cpp.obj
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/CDC.cpp.obj
 .PHONY : CDC.cpp.obj
 
 CDC.i: CDC.cpp.i
@@ -140,7 +140,7 @@ CDC.i: CDC.cpp.i
 
 # target to preprocess a source file
 CDC.cpp.i:
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin" && $(MAKE) -f libarduinocore/CMakeFiles/libarduinocore.dir/build.make libarduinocore/CMakeFiles/libarduinocore.dir/CDC.cpp.i
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/CDC.cpp.i
 .PHONY : CDC.cpp.i
 
 CDC.s: CDC.cpp.s
@@ -149,7 +149,7 @@ CDC.s: CDC.cpp.s
 
 # target to generate assembly for a file
 CDC.cpp.s:
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin" && $(MAKE) -f libarduinocore/CMakeFiles/libarduinocore.dir/build.make libarduinocore/CMakeFiles/libarduinocore.dir/CDC.cpp.s
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/CDC.cpp.s
 .PHONY : CDC.cpp.s
 
 HardwareSerial.obj: HardwareSerial.cpp.obj
@@ -158,7 +158,7 @@ HardwareSerial.obj: HardwareSerial.cpp.obj
 
 # target to build an object file
 HardwareSerial.cpp.obj:
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin" && $(MAKE) -f libarduinocore/CMakeFiles/libarduinocore.dir/build.make libarduinocore/CMakeFiles/libarduinocore.dir/HardwareSerial.cpp.obj
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial.cpp.obj
 .PHONY : HardwareSerial.cpp.obj
 
 HardwareSerial.i: HardwareSerial.cpp.i
@@ -167,7 +167,7 @@ HardwareSerial.i: HardwareSerial.cpp.i
 
 # target to preprocess a source file
 HardwareSerial.cpp.i:
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin" && $(MAKE) -f libarduinocore/CMakeFiles/libarduinocore.dir/build.make libarduinocore/CMakeFiles/libarduinocore.dir/HardwareSerial.cpp.i
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial.cpp.i
 .PHONY : HardwareSerial.cpp.i
 
 HardwareSerial.s: HardwareSerial.cpp.s
@@ -176,7 +176,7 @@ HardwareSerial.s: HardwareSerial.cpp.s
 
 # target to generate assembly for a file
 HardwareSerial.cpp.s:
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin" && $(MAKE) -f libarduinocore/CMakeFiles/libarduinocore.dir/build.make libarduinocore/CMakeFiles/libarduinocore.dir/HardwareSerial.cpp.s
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial.cpp.s
 .PHONY : HardwareSerial.cpp.s
 
 HardwareSerial0.obj: HardwareSerial0.cpp.obj
@@ -185,7 +185,7 @@ HardwareSerial0.obj: HardwareSerial0.cpp.obj
 
 # target to build an object file
 HardwareSerial0.cpp.obj:
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin" && $(MAKE) -f libarduinocore/CMakeFiles/libarduinocore.dir/build.make libarduinocore/CMakeFiles/libarduinocore.dir/HardwareSerial0.cpp.obj
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial0.cpp.obj
 .PHONY : HardwareSerial0.cpp.obj
 
 HardwareSerial0.i: HardwareSerial0.cpp.i
@@ -194,7 +194,7 @@ HardwareSerial0.i: HardwareSerial0.cpp.i
 
 # target to preprocess a source file
 HardwareSerial0.cpp.i:
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin" && $(MAKE) -f libarduinocore/CMakeFiles/libarduinocore.dir/build.make libarduinocore/CMakeFiles/libarduinocore.dir/HardwareSerial0.cpp.i
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial0.cpp.i
 .PHONY : HardwareSerial0.cpp.i
 
 HardwareSerial0.s: HardwareSerial0.cpp.s
@@ -203,7 +203,7 @@ HardwareSerial0.s: HardwareSerial0.cpp.s
 
 # target to generate assembly for a file
 HardwareSerial0.cpp.s:
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin" && $(MAKE) -f libarduinocore/CMakeFiles/libarduinocore.dir/build.make libarduinocore/CMakeFiles/libarduinocore.dir/HardwareSerial0.cpp.s
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial0.cpp.s
 .PHONY : HardwareSerial0.cpp.s
 
 HardwareSerial1.obj: HardwareSerial1.cpp.obj
@@ -212,7 +212,7 @@ HardwareSerial1.obj: HardwareSerial1.cpp.obj
 
 # target to build an object file
 HardwareSerial1.cpp.obj:
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin" && $(MAKE) -f libarduinocore/CMakeFiles/libarduinocore.dir/build.make libarduinocore/CMakeFiles/libarduinocore.dir/HardwareSerial1.cpp.obj
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial1.cpp.obj
 .PHONY : HardwareSerial1.cpp.obj
 
 HardwareSerial1.i: HardwareSerial1.cpp.i
@@ -221,7 +221,7 @@ HardwareSerial1.i: HardwareSerial1.cpp.i
 
 # target to preprocess a source file
 HardwareSerial1.cpp.i:
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin" && $(MAKE) -f libarduinocore/CMakeFiles/libarduinocore.dir/build.make libarduinocore/CMakeFiles/libarduinocore.dir/HardwareSerial1.cpp.i
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial1.cpp.i
 .PHONY : HardwareSerial1.cpp.i
 
 HardwareSerial1.s: HardwareSerial1.cpp.s
@@ -230,7 +230,7 @@ HardwareSerial1.s: HardwareSerial1.cpp.s
 
 # target to generate assembly for a file
 HardwareSerial1.cpp.s:
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin" && $(MAKE) -f libarduinocore/CMakeFiles/libarduinocore.dir/build.make libarduinocore/CMakeFiles/libarduinocore.dir/HardwareSerial1.cpp.s
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial1.cpp.s
 .PHONY : HardwareSerial1.cpp.s
 
 HardwareSerial2.obj: HardwareSerial2.cpp.obj
@@ -239,7 +239,7 @@ HardwareSerial2.obj: HardwareSerial2.cpp.obj
 
 # target to build an object file
 HardwareSerial2.cpp.obj:
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin" && $(MAKE) -f libarduinocore/CMakeFiles/libarduinocore.dir/build.make libarduinocore/CMakeFiles/libarduinocore.dir/HardwareSerial2.cpp.obj
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial2.cpp.obj
 .PHONY : HardwareSerial2.cpp.obj
 
 HardwareSerial2.i: HardwareSerial2.cpp.i
@@ -248,7 +248,7 @@ HardwareSerial2.i: HardwareSerial2.cpp.i
 
 # target to preprocess a source file
 HardwareSerial2.cpp.i:
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin" && $(MAKE) -f libarduinocore/CMakeFiles/libarduinocore.dir/build.make libarduinocore/CMakeFiles/libarduinocore.dir/HardwareSerial2.cpp.i
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial2.cpp.i
 .PHONY : HardwareSerial2.cpp.i
 
 HardwareSerial2.s: HardwareSerial2.cpp.s
@@ -257,7 +257,7 @@ HardwareSerial2.s: HardwareSerial2.cpp.s
 
 # target to generate assembly for a file
 HardwareSerial2.cpp.s:
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin" && $(MAKE) -f libarduinocore/CMakeFiles/libarduinocore.dir/build.make libarduinocore/CMakeFiles/libarduinocore.dir/HardwareSerial2.cpp.s
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial2.cpp.s
 .PHONY : HardwareSerial2.cpp.s
 
 HardwareSerial3.obj: HardwareSerial3.cpp.obj
@@ -266,7 +266,7 @@ HardwareSerial3.obj: HardwareSerial3.cpp.obj
 
 # target to build an object file
 HardwareSerial3.cpp.obj:
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin" && $(MAKE) -f libarduinocore/CMakeFiles/libarduinocore.dir/build.make libarduinocore/CMakeFiles/libarduinocore.dir/HardwareSerial3.cpp.obj
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial3.cpp.obj
 .PHONY : HardwareSerial3.cpp.obj
 
 HardwareSerial3.i: HardwareSerial3.cpp.i
@@ -275,7 +275,7 @@ HardwareSerial3.i: HardwareSerial3.cpp.i
 
 # target to preprocess a source file
 HardwareSerial3.cpp.i:
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin" && $(MAKE) -f libarduinocore/CMakeFiles/libarduinocore.dir/build.make libarduinocore/CMakeFiles/libarduinocore.dir/HardwareSerial3.cpp.i
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial3.cpp.i
 .PHONY : HardwareSerial3.cpp.i
 
 HardwareSerial3.s: HardwareSerial3.cpp.s
@@ -284,7 +284,7 @@ HardwareSerial3.s: HardwareSerial3.cpp.s
 
 # target to generate assembly for a file
 HardwareSerial3.cpp.s:
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin" && $(MAKE) -f libarduinocore/CMakeFiles/libarduinocore.dir/build.make libarduinocore/CMakeFiles/libarduinocore.dir/HardwareSerial3.cpp.s
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial3.cpp.s
 .PHONY : HardwareSerial3.cpp.s
 
 IPAddress.obj: IPAddress.cpp.obj
@@ -293,7 +293,7 @@ IPAddress.obj: IPAddress.cpp.obj
 
 # target to build an object file
 IPAddress.cpp.obj:
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin" && $(MAKE) -f libarduinocore/CMakeFiles/libarduinocore.dir/build.make libarduinocore/CMakeFiles/libarduinocore.dir/IPAddress.cpp.obj
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/IPAddress.cpp.obj
 .PHONY : IPAddress.cpp.obj
 
 IPAddress.i: IPAddress.cpp.i
@@ -302,7 +302,7 @@ IPAddress.i: IPAddress.cpp.i
 
 # target to preprocess a source file
 IPAddress.cpp.i:
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin" && $(MAKE) -f libarduinocore/CMakeFiles/libarduinocore.dir/build.make libarduinocore/CMakeFiles/libarduinocore.dir/IPAddress.cpp.i
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/IPAddress.cpp.i
 .PHONY : IPAddress.cpp.i
 
 IPAddress.s: IPAddress.cpp.s
@@ -311,7 +311,7 @@ IPAddress.s: IPAddress.cpp.s
 
 # target to generate assembly for a file
 IPAddress.cpp.s:
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin" && $(MAKE) -f libarduinocore/CMakeFiles/libarduinocore.dir/build.make libarduinocore/CMakeFiles/libarduinocore.dir/IPAddress.cpp.s
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/IPAddress.cpp.s
 .PHONY : IPAddress.cpp.s
 
 PluggableUSB.obj: PluggableUSB.cpp.obj
@@ -320,7 +320,7 @@ PluggableUSB.obj: PluggableUSB.cpp.obj
 
 # target to build an object file
 PluggableUSB.cpp.obj:
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin" && $(MAKE) -f libarduinocore/CMakeFiles/libarduinocore.dir/build.make libarduinocore/CMakeFiles/libarduinocore.dir/PluggableUSB.cpp.obj
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/PluggableUSB.cpp.obj
 .PHONY : PluggableUSB.cpp.obj
 
 PluggableUSB.i: PluggableUSB.cpp.i
@@ -329,7 +329,7 @@ PluggableUSB.i: PluggableUSB.cpp.i
 
 # target to preprocess a source file
 PluggableUSB.cpp.i:
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin" && $(MAKE) -f libarduinocore/CMakeFiles/libarduinocore.dir/build.make libarduinocore/CMakeFiles/libarduinocore.dir/PluggableUSB.cpp.i
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/PluggableUSB.cpp.i
 .PHONY : PluggableUSB.cpp.i
 
 PluggableUSB.s: PluggableUSB.cpp.s
@@ -338,7 +338,7 @@ PluggableUSB.s: PluggableUSB.cpp.s
 
 # target to generate assembly for a file
 PluggableUSB.cpp.s:
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin" && $(MAKE) -f libarduinocore/CMakeFiles/libarduinocore.dir/build.make libarduinocore/CMakeFiles/libarduinocore.dir/PluggableUSB.cpp.s
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/PluggableUSB.cpp.s
 .PHONY : PluggableUSB.cpp.s
 
 Print.obj: Print.cpp.obj
@@ -347,7 +347,7 @@ Print.obj: Print.cpp.obj
 
 # target to build an object file
 Print.cpp.obj:
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin" && $(MAKE) -f libarduinocore/CMakeFiles/libarduinocore.dir/build.make libarduinocore/CMakeFiles/libarduinocore.dir/Print.cpp.obj
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/Print.cpp.obj
 .PHONY : Print.cpp.obj
 
 Print.i: Print.cpp.i
@@ -356,7 +356,7 @@ Print.i: Print.cpp.i
 
 # target to preprocess a source file
 Print.cpp.i:
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin" && $(MAKE) -f libarduinocore/CMakeFiles/libarduinocore.dir/build.make libarduinocore/CMakeFiles/libarduinocore.dir/Print.cpp.i
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/Print.cpp.i
 .PHONY : Print.cpp.i
 
 Print.s: Print.cpp.s
@@ -365,7 +365,7 @@ Print.s: Print.cpp.s
 
 # target to generate assembly for a file
 Print.cpp.s:
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin" && $(MAKE) -f libarduinocore/CMakeFiles/libarduinocore.dir/build.make libarduinocore/CMakeFiles/libarduinocore.dir/Print.cpp.s
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/Print.cpp.s
 .PHONY : Print.cpp.s
 
 Stream.obj: Stream.cpp.obj
@@ -374,7 +374,7 @@ Stream.obj: Stream.cpp.obj
 
 # target to build an object file
 Stream.cpp.obj:
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin" && $(MAKE) -f libarduinocore/CMakeFiles/libarduinocore.dir/build.make libarduinocore/CMakeFiles/libarduinocore.dir/Stream.cpp.obj
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/Stream.cpp.obj
 .PHONY : Stream.cpp.obj
 
 Stream.i: Stream.cpp.i
@@ -383,7 +383,7 @@ Stream.i: Stream.cpp.i
 
 # target to preprocess a source file
 Stream.cpp.i:
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin" && $(MAKE) -f libarduinocore/CMakeFiles/libarduinocore.dir/build.make libarduinocore/CMakeFiles/libarduinocore.dir/Stream.cpp.i
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/Stream.cpp.i
 .PHONY : Stream.cpp.i
 
 Stream.s: Stream.cpp.s
@@ -392,7 +392,7 @@ Stream.s: Stream.cpp.s
 
 # target to generate assembly for a file
 Stream.cpp.s:
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin" && $(MAKE) -f libarduinocore/CMakeFiles/libarduinocore.dir/build.make libarduinocore/CMakeFiles/libarduinocore.dir/Stream.cpp.s
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/Stream.cpp.s
 .PHONY : Stream.cpp.s
 
 Tone.obj: Tone.cpp.obj
@@ -401,7 +401,7 @@ Tone.obj: Tone.cpp.obj
 
 # target to build an object file
 Tone.cpp.obj:
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin" && $(MAKE) -f libarduinocore/CMakeFiles/libarduinocore.dir/build.make libarduinocore/CMakeFiles/libarduinocore.dir/Tone.cpp.obj
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/Tone.cpp.obj
 .PHONY : Tone.cpp.obj
 
 Tone.i: Tone.cpp.i
@@ -410,7 +410,7 @@ Tone.i: Tone.cpp.i
 
 # target to preprocess a source file
 Tone.cpp.i:
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin" && $(MAKE) -f libarduinocore/CMakeFiles/libarduinocore.dir/build.make libarduinocore/CMakeFiles/libarduinocore.dir/Tone.cpp.i
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/Tone.cpp.i
 .PHONY : Tone.cpp.i
 
 Tone.s: Tone.cpp.s
@@ -419,7 +419,7 @@ Tone.s: Tone.cpp.s
 
 # target to generate assembly for a file
 Tone.cpp.s:
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin" && $(MAKE) -f libarduinocore/CMakeFiles/libarduinocore.dir/build.make libarduinocore/CMakeFiles/libarduinocore.dir/Tone.cpp.s
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/Tone.cpp.s
 .PHONY : Tone.cpp.s
 
 USBCore.obj: USBCore.cpp.obj
@@ -428,7 +428,7 @@ USBCore.obj: USBCore.cpp.obj
 
 # target to build an object file
 USBCore.cpp.obj:
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin" && $(MAKE) -f libarduinocore/CMakeFiles/libarduinocore.dir/build.make libarduinocore/CMakeFiles/libarduinocore.dir/USBCore.cpp.obj
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/USBCore.cpp.obj
 .PHONY : USBCore.cpp.obj
 
 USBCore.i: USBCore.cpp.i
@@ -437,7 +437,7 @@ USBCore.i: USBCore.cpp.i
 
 # target to preprocess a source file
 USBCore.cpp.i:
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin" && $(MAKE) -f libarduinocore/CMakeFiles/libarduinocore.dir/build.make libarduinocore/CMakeFiles/libarduinocore.dir/USBCore.cpp.i
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/USBCore.cpp.i
 .PHONY : USBCore.cpp.i
 
 USBCore.s: USBCore.cpp.s
@@ -446,7 +446,7 @@ USBCore.s: USBCore.cpp.s
 
 # target to generate assembly for a file
 USBCore.cpp.s:
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin" && $(MAKE) -f libarduinocore/CMakeFiles/libarduinocore.dir/build.make libarduinocore/CMakeFiles/libarduinocore.dir/USBCore.cpp.s
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/USBCore.cpp.s
 .PHONY : USBCore.cpp.s
 
 WInterrupts.obj: WInterrupts.c.obj
@@ -455,7 +455,7 @@ WInterrupts.obj: WInterrupts.c.obj
 
 # target to build an object file
 WInterrupts.c.obj:
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin" && $(MAKE) -f libarduinocore/CMakeFiles/libarduinocore.dir/build.make libarduinocore/CMakeFiles/libarduinocore.dir/WInterrupts.c.obj
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/WInterrupts.c.obj
 .PHONY : WInterrupts.c.obj
 
 WInterrupts.i: WInterrupts.c.i
@@ -464,7 +464,7 @@ WInterrupts.i: WInterrupts.c.i
 
 # target to preprocess a source file
 WInterrupts.c.i:
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin" && $(MAKE) -f libarduinocore/CMakeFiles/libarduinocore.dir/build.make libarduinocore/CMakeFiles/libarduinocore.dir/WInterrupts.c.i
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/WInterrupts.c.i
 .PHONY : WInterrupts.c.i
 
 WInterrupts.s: WInterrupts.c.s
@@ -473,7 +473,7 @@ WInterrupts.s: WInterrupts.c.s
 
 # target to generate assembly for a file
 WInterrupts.c.s:
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin" && $(MAKE) -f libarduinocore/CMakeFiles/libarduinocore.dir/build.make libarduinocore/CMakeFiles/libarduinocore.dir/WInterrupts.c.s
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/WInterrupts.c.s
 .PHONY : WInterrupts.c.s
 
 WMath.obj: WMath.cpp.obj
@@ -482,7 +482,7 @@ WMath.obj: WMath.cpp.obj
 
 # target to build an object file
 WMath.cpp.obj:
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin" && $(MAKE) -f libarduinocore/CMakeFiles/libarduinocore.dir/build.make libarduinocore/CMakeFiles/libarduinocore.dir/WMath.cpp.obj
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/WMath.cpp.obj
 .PHONY : WMath.cpp.obj
 
 WMath.i: WMath.cpp.i
@@ -491,7 +491,7 @@ WMath.i: WMath.cpp.i
 
 # target to preprocess a source file
 WMath.cpp.i:
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin" && $(MAKE) -f libarduinocore/CMakeFiles/libarduinocore.dir/build.make libarduinocore/CMakeFiles/libarduinocore.dir/WMath.cpp.i
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/WMath.cpp.i
 .PHONY : WMath.cpp.i
 
 WMath.s: WMath.cpp.s
@@ -500,7 +500,7 @@ WMath.s: WMath.cpp.s
 
 # target to generate assembly for a file
 WMath.cpp.s:
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin" && $(MAKE) -f libarduinocore/CMakeFiles/libarduinocore.dir/build.make libarduinocore/CMakeFiles/libarduinocore.dir/WMath.cpp.s
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/WMath.cpp.s
 .PHONY : WMath.cpp.s
 
 WString.obj: WString.cpp.obj
@@ -509,7 +509,7 @@ WString.obj: WString.cpp.obj
 
 # target to build an object file
 WString.cpp.obj:
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin" && $(MAKE) -f libarduinocore/CMakeFiles/libarduinocore.dir/build.make libarduinocore/CMakeFiles/libarduinocore.dir/WString.cpp.obj
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/WString.cpp.obj
 .PHONY : WString.cpp.obj
 
 WString.i: WString.cpp.i
@@ -518,7 +518,7 @@ WString.i: WString.cpp.i
 
 # target to preprocess a source file
 WString.cpp.i:
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin" && $(MAKE) -f libarduinocore/CMakeFiles/libarduinocore.dir/build.make libarduinocore/CMakeFiles/libarduinocore.dir/WString.cpp.i
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/WString.cpp.i
 .PHONY : WString.cpp.i
 
 WString.s: WString.cpp.s
@@ -527,7 +527,7 @@ WString.s: WString.cpp.s
 
 # target to generate assembly for a file
 WString.cpp.s:
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin" && $(MAKE) -f libarduinocore/CMakeFiles/libarduinocore.dir/build.make libarduinocore/CMakeFiles/libarduinocore.dir/WString.cpp.s
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/WString.cpp.s
 .PHONY : WString.cpp.s
 
 abi.obj: abi.cpp.obj
@@ -536,7 +536,7 @@ abi.obj: abi.cpp.obj
 
 # target to build an object file
 abi.cpp.obj:
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin" && $(MAKE) -f libarduinocore/CMakeFiles/libarduinocore.dir/build.make libarduinocore/CMakeFiles/libarduinocore.dir/abi.cpp.obj
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/abi.cpp.obj
 .PHONY : abi.cpp.obj
 
 abi.i: abi.cpp.i
@@ -545,7 +545,7 @@ abi.i: abi.cpp.i
 
 # target to preprocess a source file
 abi.cpp.i:
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin" && $(MAKE) -f libarduinocore/CMakeFiles/libarduinocore.dir/build.make libarduinocore/CMakeFiles/libarduinocore.dir/abi.cpp.i
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/abi.cpp.i
 .PHONY : abi.cpp.i
 
 abi.s: abi.cpp.s
@@ -554,7 +554,7 @@ abi.s: abi.cpp.s
 
 # target to generate assembly for a file
 abi.cpp.s:
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin" && $(MAKE) -f libarduinocore/CMakeFiles/libarduinocore.dir/build.make libarduinocore/CMakeFiles/libarduinocore.dir/abi.cpp.s
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/abi.cpp.s
 .PHONY : abi.cpp.s
 
 hooks.obj: hooks.c.obj
@@ -563,7 +563,7 @@ hooks.obj: hooks.c.obj
 
 # target to build an object file
 hooks.c.obj:
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin" && $(MAKE) -f libarduinocore/CMakeFiles/libarduinocore.dir/build.make libarduinocore/CMakeFiles/libarduinocore.dir/hooks.c.obj
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/hooks.c.obj
 .PHONY : hooks.c.obj
 
 hooks.i: hooks.c.i
@@ -572,7 +572,7 @@ hooks.i: hooks.c.i
 
 # target to preprocess a source file
 hooks.c.i:
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin" && $(MAKE) -f libarduinocore/CMakeFiles/libarduinocore.dir/build.make libarduinocore/CMakeFiles/libarduinocore.dir/hooks.c.i
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/hooks.c.i
 .PHONY : hooks.c.i
 
 hooks.s: hooks.c.s
@@ -581,7 +581,7 @@ hooks.s: hooks.c.s
 
 # target to generate assembly for a file
 hooks.c.s:
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin" && $(MAKE) -f libarduinocore/CMakeFiles/libarduinocore.dir/build.make libarduinocore/CMakeFiles/libarduinocore.dir/hooks.c.s
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/hooks.c.s
 .PHONY : hooks.c.s
 
 new.obj: new.cpp.obj
@@ -590,7 +590,7 @@ new.obj: new.cpp.obj
 
 # target to build an object file
 new.cpp.obj:
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin" && $(MAKE) -f libarduinocore/CMakeFiles/libarduinocore.dir/build.make libarduinocore/CMakeFiles/libarduinocore.dir/new.cpp.obj
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/new.cpp.obj
 .PHONY : new.cpp.obj
 
 new.i: new.cpp.i
@@ -599,7 +599,7 @@ new.i: new.cpp.i
 
 # target to preprocess a source file
 new.cpp.i:
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin" && $(MAKE) -f libarduinocore/CMakeFiles/libarduinocore.dir/build.make libarduinocore/CMakeFiles/libarduinocore.dir/new.cpp.i
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/new.cpp.i
 .PHONY : new.cpp.i
 
 new.s: new.cpp.s
@@ -608,7 +608,7 @@ new.s: new.cpp.s
 
 # target to generate assembly for a file
 new.cpp.s:
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin" && $(MAKE) -f libarduinocore/CMakeFiles/libarduinocore.dir/build.make libarduinocore/CMakeFiles/libarduinocore.dir/new.cpp.s
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/new.cpp.s
 .PHONY : new.cpp.s
 
 wiring.obj: wiring.c.obj
@@ -617,7 +617,7 @@ wiring.obj: wiring.c.obj
 
 # target to build an object file
 wiring.c.obj:
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin" && $(MAKE) -f libarduinocore/CMakeFiles/libarduinocore.dir/build.make libarduinocore/CMakeFiles/libarduinocore.dir/wiring.c.obj
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/wiring.c.obj
 .PHONY : wiring.c.obj
 
 wiring.i: wiring.c.i
@@ -626,7 +626,7 @@ wiring.i: wiring.c.i
 
 # target to preprocess a source file
 wiring.c.i:
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin" && $(MAKE) -f libarduinocore/CMakeFiles/libarduinocore.dir/build.make libarduinocore/CMakeFiles/libarduinocore.dir/wiring.c.i
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/wiring.c.i
 .PHONY : wiring.c.i
 
 wiring.s: wiring.c.s
@@ -635,7 +635,7 @@ wiring.s: wiring.c.s
 
 # target to generate assembly for a file
 wiring.c.s:
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin" && $(MAKE) -f libarduinocore/CMakeFiles/libarduinocore.dir/build.make libarduinocore/CMakeFiles/libarduinocore.dir/wiring.c.s
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/wiring.c.s
 .PHONY : wiring.c.s
 
 wiring_analog.obj: wiring_analog.c.obj
@@ -644,7 +644,7 @@ wiring_analog.obj: wiring_analog.c.obj
 
 # target to build an object file
 wiring_analog.c.obj:
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin" && $(MAKE) -f libarduinocore/CMakeFiles/libarduinocore.dir/build.make libarduinocore/CMakeFiles/libarduinocore.dir/wiring_analog.c.obj
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/wiring_analog.c.obj
 .PHONY : wiring_analog.c.obj
 
 wiring_analog.i: wiring_analog.c.i
@@ -653,7 +653,7 @@ wiring_analog.i: wiring_analog.c.i
 
 # target to preprocess a source file
 wiring_analog.c.i:
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin" && $(MAKE) -f libarduinocore/CMakeFiles/libarduinocore.dir/build.make libarduinocore/CMakeFiles/libarduinocore.dir/wiring_analog.c.i
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/wiring_analog.c.i
 .PHONY : wiring_analog.c.i
 
 wiring_analog.s: wiring_analog.c.s
@@ -662,7 +662,7 @@ wiring_analog.s: wiring_analog.c.s
 
 # target to generate assembly for a file
 wiring_analog.c.s:
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin" && $(MAKE) -f libarduinocore/CMakeFiles/libarduinocore.dir/build.make libarduinocore/CMakeFiles/libarduinocore.dir/wiring_analog.c.s
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/wiring_analog.c.s
 .PHONY : wiring_analog.c.s
 
 wiring_digital.obj: wiring_digital.c.obj
@@ -671,7 +671,7 @@ wiring_digital.obj: wiring_digital.c.obj
 
 # target to build an object file
 wiring_digital.c.obj:
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin" && $(MAKE) -f libarduinocore/CMakeFiles/libarduinocore.dir/build.make libarduinocore/CMakeFiles/libarduinocore.dir/wiring_digital.c.obj
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/wiring_digital.c.obj
 .PHONY : wiring_digital.c.obj
 
 wiring_digital.i: wiring_digital.c.i
@@ -680,7 +680,7 @@ wiring_digital.i: wiring_digital.c.i
 
 # target to preprocess a source file
 wiring_digital.c.i:
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin" && $(MAKE) -f libarduinocore/CMakeFiles/libarduinocore.dir/build.make libarduinocore/CMakeFiles/libarduinocore.dir/wiring_digital.c.i
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/wiring_digital.c.i
 .PHONY : wiring_digital.c.i
 
 wiring_digital.s: wiring_digital.c.s
@@ -689,7 +689,7 @@ wiring_digital.s: wiring_digital.c.s
 
 # target to generate assembly for a file
 wiring_digital.c.s:
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin" && $(MAKE) -f libarduinocore/CMakeFiles/libarduinocore.dir/build.make libarduinocore/CMakeFiles/libarduinocore.dir/wiring_digital.c.s
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/wiring_digital.c.s
 .PHONY : wiring_digital.c.s
 
 wiring_pulse.obj: wiring_pulse.c.obj
@@ -698,7 +698,7 @@ wiring_pulse.obj: wiring_pulse.c.obj
 
 # target to build an object file
 wiring_pulse.c.obj:
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin" && $(MAKE) -f libarduinocore/CMakeFiles/libarduinocore.dir/build.make libarduinocore/CMakeFiles/libarduinocore.dir/wiring_pulse.c.obj
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/wiring_pulse.c.obj
 .PHONY : wiring_pulse.c.obj
 
 wiring_pulse.i: wiring_pulse.c.i
@@ -707,7 +707,7 @@ wiring_pulse.i: wiring_pulse.c.i
 
 # target to preprocess a source file
 wiring_pulse.c.i:
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin" && $(MAKE) -f libarduinocore/CMakeFiles/libarduinocore.dir/build.make libarduinocore/CMakeFiles/libarduinocore.dir/wiring_pulse.c.i
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/wiring_pulse.c.i
 .PHONY : wiring_pulse.c.i
 
 wiring_pulse.s: wiring_pulse.c.s
@@ -716,7 +716,7 @@ wiring_pulse.s: wiring_pulse.c.s
 
 # target to generate assembly for a file
 wiring_pulse.c.s:
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin" && $(MAKE) -f libarduinocore/CMakeFiles/libarduinocore.dir/build.make libarduinocore/CMakeFiles/libarduinocore.dir/wiring_pulse.c.s
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/wiring_pulse.c.s
 .PHONY : wiring_pulse.c.s
 
 wiring_shift.obj: wiring_shift.c.obj
@@ -725,7 +725,7 @@ wiring_shift.obj: wiring_shift.c.obj
 
 # target to build an object file
 wiring_shift.c.obj:
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin" && $(MAKE) -f libarduinocore/CMakeFiles/libarduinocore.dir/build.make libarduinocore/CMakeFiles/libarduinocore.dir/wiring_shift.c.obj
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/wiring_shift.c.obj
 .PHONY : wiring_shift.c.obj
 
 wiring_shift.i: wiring_shift.c.i
@@ -734,7 +734,7 @@ wiring_shift.i: wiring_shift.c.i
 
 # target to preprocess a source file
 wiring_shift.c.i:
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin" && $(MAKE) -f libarduinocore/CMakeFiles/libarduinocore.dir/build.make libarduinocore/CMakeFiles/libarduinocore.dir/wiring_shift.c.i
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/wiring_shift.c.i
 .PHONY : wiring_shift.c.i
 
 wiring_shift.s: wiring_shift.c.s
@@ -743,7 +743,7 @@ wiring_shift.s: wiring_shift.c.s
 
 # target to generate assembly for a file
 wiring_shift.c.s:
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin" && $(MAKE) -f libarduinocore/CMakeFiles/libarduinocore.dir/build.make libarduinocore/CMakeFiles/libarduinocore.dir/wiring_shift.c.s
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/wiring_shift.c.s
 .PHONY : wiring_shift.c.s
 
 # Help Target
@@ -754,7 +754,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... libarduinocore"
+	@echo "... arduinocore"
 	@echo "... CDC.obj"
 	@echo "... CDC.i"
 	@echo "... CDC.s"
@@ -835,6 +835,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

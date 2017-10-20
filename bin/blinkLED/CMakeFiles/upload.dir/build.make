@@ -43,10 +43,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test"
+CMAKE_SOURCE_DIR = /Users/liamsycamore/Documents/Arduino_Test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin"
+CMAKE_BINARY_DIR = /Users/liamsycamore/Documents/Arduino_Test/bin
 
 # Utility rule file for upload.
 
@@ -54,8 +54,8 @@ CMAKE_BINARY_DIR = "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bi
 include blinkLED/CMakeFiles/upload.dir/progress.make
 
 blinkLED/CMakeFiles/upload:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Uploading to target"
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/blinkLED" && avrdude -p atmega328p -c arduino -b 115200 -P /dev/tty.usbmodem1411 -D -U flash:w:blinkLED.hex
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Uploading to target"
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/blinkLED && avrdude -p atmega328p -c arduino -b 115200 -P /dev/tty.usbmodem1411 -D -U flash:w:blinkLED.hex
 
 upload: blinkLED/CMakeFiles/upload
 upload: blinkLED/CMakeFiles/upload.dir/build.make
@@ -68,10 +68,10 @@ blinkLED/CMakeFiles/upload.dir/build: upload
 .PHONY : blinkLED/CMakeFiles/upload.dir/build
 
 blinkLED/CMakeFiles/upload.dir/clean:
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/blinkLED" && $(CMAKE_COMMAND) -P CMakeFiles/upload.dir/cmake_clean.cmake
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/blinkLED && $(CMAKE_COMMAND) -P CMakeFiles/upload.dir/cmake_clean.cmake
 .PHONY : blinkLED/CMakeFiles/upload.dir/clean
 
 blinkLED/CMakeFiles/upload.dir/depend:
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test" "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/blinkLED" "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin" "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/blinkLED" "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/blinkLED/CMakeFiles/upload.dir/DependInfo.cmake" --color=$(COLOR)
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/liamsycamore/Documents/Arduino_Test /Users/liamsycamore/Documents/Arduino_Test/blinkLED /Users/liamsycamore/Documents/Arduino_Test/bin /Users/liamsycamore/Documents/Arduino_Test/bin/blinkLED /Users/liamsycamore/Documents/Arduino_Test/bin/blinkLED/CMakeFiles/upload.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : blinkLED/CMakeFiles/upload.dir/depend
 

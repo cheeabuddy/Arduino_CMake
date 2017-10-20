@@ -1,11 +1,11 @@
 
-include_directories(${ArduinoCode_SOURCE_DIR}/libarduinocore)
-link_directories(${ArduinoCode_SOURCE_DIR}/libarduinocore)
+include_directories(/libarduinocore)
+link_directories(/libarduinocore)
 
 link_libraries(arduinocore)
 
-set(TARGET_PGRM blinkLED)
-add_executable(${TARGET_PGRM} blinkLED.cc)
+#set(TARGET_PGRM blinkLED)
+add_executable(blinkLED blinkLED.cc)
 
 set(AVR_HEX)
 
@@ -14,8 +14,8 @@ list(APPEND AVR_HEX
     "ihex"
     "-R"
     ".eeprom"
-    "${TARGET_PGRM}"
-    "${TARGET_PGRM}.hex"
+    "blinkLED"
+    "blinkLED.hex"
     )
 
 set(AVRDUDE_ARGS)
@@ -30,7 +30,7 @@ list(APPEND AVRDUDE_ARGS
     "-b" "${UPLOAD_SPEED}"     # Baud rate
     "-P" "${PORT}"                         # Serial port
     "-D"                                # Dont erase
-    "-U" "flash:w:${TARGET_PGRM}.hex"
+    "-U" "flash:w:blinkLED.hex"
     )
 
 add_custom_command(TARGET blinkLED POST_BUILD

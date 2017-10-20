@@ -1,4 +1,4 @@
-# Install script for directory: /Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/libarduinocore
+# Install script for directory: /Users/liamsycamore/Documents/Arduino_Test/libarduinocore
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

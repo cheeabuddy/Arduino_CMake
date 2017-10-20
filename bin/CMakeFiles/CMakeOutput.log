@@ -2,7 +2,7 @@ The target system is: Generic -  -
 The host system is: Darwin - 15.6.0 - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler: /usr/local/CrossPack-AVR/bin/avr-gcc 
-Build flags: 
+Build flags: -mmcu=atmega328p;-gstabs;-DF_CPU=16000000;-I/Users/liamsycamore/Documents/Arduino_Test/libarduinocore;-Os;-Wall;-Wstrict-prototypes;-std=gnu99;
 Id flags:  
 
 The output was:
@@ -11,11 +11,11 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/CMakeFiles/3.9.0/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles/3.9.0/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/local/CrossPack-AVR/bin/avr-g++ 
-Build flags: 
+Build flags: -mmcu=atmega328p;-DF_CPU=16000000;-I/Users/liamsycamore/Documents/Arduino_Test/libarduinocore;-Os
 Id flags:  
 
 The output was:
@@ -24,30 +24,30 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/CMakeFiles/3.9.0/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles/3.9.0/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/CMakeFiles/CMakeTmp
+Change Dir: /Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_55b3e/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_55b3e.dir/build.make CMakeFiles/cmTC_55b3e.dir/build
-Building C object CMakeFiles/cmTC_55b3e.dir/testCCompiler.c.obj
-/usr/local/CrossPack-AVR/bin/avr-gcc    -o CMakeFiles/cmTC_55b3e.dir/testCCompiler.c.obj   -c "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/CMakeFiles/CMakeTmp/testCCompiler.c"
-Linking C executable cmTC_55b3e
-/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_55b3e.dir/link.txt --verbose=1
-/usr/local/CrossPack-AVR/bin/avr-gcc      CMakeFiles/cmTC_55b3e.dir/testCCompiler.c.obj  -o cmTC_55b3e 
+Run Build Command:"/usr/bin/make" "cmTC_5f392/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_5f392.dir/build.make CMakeFiles/cmTC_5f392.dir/build
+Building C object CMakeFiles/cmTC_5f392.dir/testCCompiler.c.obj
+/usr/local/CrossPack-AVR/bin/avr-gcc    -o CMakeFiles/cmTC_5f392.dir/testCCompiler.c.obj   -c /Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_5f392
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f392.dir/link.txt --verbose=1
+/usr/local/CrossPack-AVR/bin/avr-gcc      CMakeFiles/cmTC_5f392.dir/testCCompiler.c.obj  -o cmTC_5f392 
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/CMakeFiles/CMakeTmp
+Change Dir: /Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_6b3f0/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_6b3f0.dir/build.make CMakeFiles/cmTC_6b3f0.dir/build
-Building C object CMakeFiles/cmTC_6b3f0.dir/CMakeCCompilerABI.c.obj
-/usr/local/CrossPack-AVR/bin/avr-gcc    -o CMakeFiles/cmTC_6b3f0.dir/CMakeCCompilerABI.c.obj   -c /Applications/CMake.app/Contents/share/cmake-3.9/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_6b3f0
-/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6b3f0.dir/link.txt --verbose=1
-/usr/local/CrossPack-AVR/bin/avr-gcc     -v CMakeFiles/cmTC_6b3f0.dir/CMakeCCompilerABI.c.obj  -o cmTC_6b3f0 
+Run Build Command:"/usr/bin/make" "cmTC_05972/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_05972.dir/build.make CMakeFiles/cmTC_05972.dir/build
+Building C object CMakeFiles/cmTC_05972.dir/CMakeCCompilerABI.c.obj
+/usr/local/CrossPack-AVR/bin/avr-gcc    -o CMakeFiles/cmTC_05972.dir/CMakeCCompilerABI.c.obj   -c /Applications/CMake.app/Contents/share/cmake-3.9/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_05972
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_05972.dir/link.txt --verbose=1
+/usr/local/CrossPack-AVR/bin/avr-gcc     -v CMakeFiles/cmTC_05972.dir/CMakeCCompilerABI.c.obj  -o cmTC_05972 
 Using built-in specs.
 COLLECT_GCC=/usr/local/CrossPack-AVR/bin/avr-gcc
 COLLECT_LTO_WRAPPER=/usr/local/CrossPack-AVR-20131216/libexec/gcc/avr/4.8.1/lto-wrapper
@@ -57,21 +57,21 @@ Thread model: single
 gcc version 4.8.1 (GCC) 
 COMPILER_PATH=/usr/local/CrossPack-AVR-20131216/libexec/gcc/avr/4.8.1/:/usr/local/CrossPack-AVR-20131216/libexec/gcc/avr/4.8.1/:/usr/local/CrossPack-AVR-20131216/libexec/gcc/avr/:/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/:/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/:/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/bin/
 LIBRARY_PATH=/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/:/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6b3f0'
- /usr/local/CrossPack-AVR-20131216/libexec/gcc/avr/4.8.1/collect2 -o cmTC_6b3f0 -L/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1 -L/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib CMakeFiles/cmTC_6b3f0.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lm -lc --end-group
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_05972'
+ /usr/local/CrossPack-AVR-20131216/libexec/gcc/avr/4.8.1/collect2 -o cmTC_05972 -L/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1 -L/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib CMakeFiles/cmTC_05972.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lm -lc --end-group
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(avr-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_6b3f0/fast"]
-  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_6b3f0.dir/build.make CMakeFiles/cmTC_6b3f0.dir/build]
-  ignore line: [Building C object CMakeFiles/cmTC_6b3f0.dir/CMakeCCompilerABI.c.obj]
-  ignore line: [/usr/local/CrossPack-AVR/bin/avr-gcc    -o CMakeFiles/cmTC_6b3f0.dir/CMakeCCompilerABI.c.obj   -c /Applications/CMake.app/Contents/share/cmake-3.9/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_6b3f0]
-  ignore line: [/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6b3f0.dir/link.txt --verbose=1]
-  ignore line: [/usr/local/CrossPack-AVR/bin/avr-gcc     -v CMakeFiles/cmTC_6b3f0.dir/CMakeCCompilerABI.c.obj  -o cmTC_6b3f0 ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_05972/fast"]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_05972.dir/build.make CMakeFiles/cmTC_05972.dir/build]
+  ignore line: [Building C object CMakeFiles/cmTC_05972.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [/usr/local/CrossPack-AVR/bin/avr-gcc    -o CMakeFiles/cmTC_05972.dir/CMakeCCompilerABI.c.obj   -c /Applications/CMake.app/Contents/share/cmake-3.9/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_05972]
+  ignore line: [/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_05972.dir/link.txt --verbose=1]
+  ignore line: [/usr/local/CrossPack-AVR/bin/avr-gcc     -v CMakeFiles/cmTC_05972.dir/CMakeCCompilerABI.c.obj  -o cmTC_05972 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/local/CrossPack-AVR/bin/avr-gcc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/local/CrossPack-AVR-20131216/libexec/gcc/avr/4.8.1/lto-wrapper]
@@ -81,14 +81,14 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 4.8.1 (GCC) ]
   ignore line: [COMPILER_PATH=/usr/local/CrossPack-AVR-20131216/libexec/gcc/avr/4.8.1/:/usr/local/CrossPack-AVR-20131216/libexec/gcc/avr/4.8.1/:/usr/local/CrossPack-AVR-20131216/libexec/gcc/avr/:/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/:/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/:/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/bin/]
   ignore line: [LIBRARY_PATH=/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/:/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6b3f0']
-  link line: [ /usr/local/CrossPack-AVR-20131216/libexec/gcc/avr/4.8.1/collect2 -o cmTC_6b3f0 -L/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1 -L/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib CMakeFiles/cmTC_6b3f0.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lm -lc --end-group]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_05972']
+  link line: [ /usr/local/CrossPack-AVR-20131216/libexec/gcc/avr/4.8.1/collect2 -o cmTC_05972 -L/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1 -L/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib CMakeFiles/cmTC_05972.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lm -lc --end-group]
     arg [/usr/local/CrossPack-AVR-20131216/libexec/gcc/avr/4.8.1/collect2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_6b3f0] ==> ignore
+    arg [cmTC_05972] ==> ignore
     arg [-L/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1] ==> dir [/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1]
     arg [-L/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib] ==> dir [/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib]
-    arg [CMakeFiles/cmTC_6b3f0.dir/CMakeCCompilerABI.c.obj] ==> ignore
+    arg [CMakeFiles/cmTC_05972.dir/CMakeCCompilerABI.c.obj] ==> ignore
     arg [--start-group] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [-lm] ==> lib [m]
@@ -104,15 +104,15 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/CMakeFiles/CMakeTmp
+Change Dir: /Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_cdf8e/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_cdf8e.dir/build.make CMakeFiles/cmTC_cdf8e.dir/build
-Building C object CMakeFiles/cmTC_cdf8e.dir/feature_tests.c.obj
-/usr/local/CrossPack-AVR/bin/avr-gcc   -std=c11 -o CMakeFiles/cmTC_cdf8e.dir/feature_tests.c.obj   -c "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/CMakeFiles/feature_tests.c"
-Linking C executable cmTC_cdf8e
-/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cdf8e.dir/link.txt --verbose=1
-/usr/local/CrossPack-AVR/bin/avr-gcc      CMakeFiles/cmTC_cdf8e.dir/feature_tests.c.obj  -o cmTC_cdf8e 
+Run Build Command:"/usr/bin/make" "cmTC_70cf5/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_70cf5.dir/build.make CMakeFiles/cmTC_70cf5.dir/build
+Building C object CMakeFiles/cmTC_70cf5.dir/feature_tests.c.obj
+/usr/local/CrossPack-AVR/bin/avr-gcc   -std=c11 -o CMakeFiles/cmTC_70cf5.dir/feature_tests.c.obj   -c /Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles/feature_tests.c
+Linking C executable cmTC_70cf5
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70cf5.dir/link.txt --verbose=1
+/usr/local/CrossPack-AVR/bin/avr-gcc      CMakeFiles/cmTC_70cf5.dir/feature_tests.c.obj  -o cmTC_70cf5 
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -122,15 +122,15 @@ Linking C executable cmTC_cdf8e
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/CMakeFiles/CMakeTmp
+Change Dir: /Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_19d45/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_19d45.dir/build.make CMakeFiles/cmTC_19d45.dir/build
-Building C object CMakeFiles/cmTC_19d45.dir/feature_tests.c.obj
-/usr/local/CrossPack-AVR/bin/avr-gcc   -std=c99 -o CMakeFiles/cmTC_19d45.dir/feature_tests.c.obj   -c "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/CMakeFiles/feature_tests.c"
-Linking C executable cmTC_19d45
-/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19d45.dir/link.txt --verbose=1
-/usr/local/CrossPack-AVR/bin/avr-gcc      CMakeFiles/cmTC_19d45.dir/feature_tests.c.obj  -o cmTC_19d45 
+Run Build Command:"/usr/bin/make" "cmTC_7d8fa/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_7d8fa.dir/build.make CMakeFiles/cmTC_7d8fa.dir/build
+Building C object CMakeFiles/cmTC_7d8fa.dir/feature_tests.c.obj
+/usr/local/CrossPack-AVR/bin/avr-gcc   -std=c99 -o CMakeFiles/cmTC_7d8fa.dir/feature_tests.c.obj   -c /Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles/feature_tests.c
+Linking C executable cmTC_7d8fa
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d8fa.dir/link.txt --verbose=1
+/usr/local/CrossPack-AVR/bin/avr-gcc      CMakeFiles/cmTC_7d8fa.dir/feature_tests.c.obj  -o cmTC_7d8fa 
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -140,15 +140,15 @@ Linking C executable cmTC_19d45
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/CMakeFiles/CMakeTmp
+Change Dir: /Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_4a869/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_4a869.dir/build.make CMakeFiles/cmTC_4a869.dir/build
-Building C object CMakeFiles/cmTC_4a869.dir/feature_tests.c.obj
-/usr/local/CrossPack-AVR/bin/avr-gcc   -std=c90 -o CMakeFiles/cmTC_4a869.dir/feature_tests.c.obj   -c "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/CMakeFiles/feature_tests.c"
-Linking C executable cmTC_4a869
-/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a869.dir/link.txt --verbose=1
-/usr/local/CrossPack-AVR/bin/avr-gcc      CMakeFiles/cmTC_4a869.dir/feature_tests.c.obj  -o cmTC_4a869 
+Run Build Command:"/usr/bin/make" "cmTC_ac46e/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_ac46e.dir/build.make CMakeFiles/cmTC_ac46e.dir/build
+Building C object CMakeFiles/cmTC_ac46e.dir/feature_tests.c.obj
+/usr/local/CrossPack-AVR/bin/avr-gcc   -std=c90 -o CMakeFiles/cmTC_ac46e.dir/feature_tests.c.obj   -c /Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles/feature_tests.c
+Linking C executable cmTC_ac46e
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ac46e.dir/link.txt --verbose=1
+/usr/local/CrossPack-AVR/bin/avr-gcc      CMakeFiles/cmTC_ac46e.dir/feature_tests.c.obj  -o cmTC_ac46e 
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -156,27 +156,27 @@ Linking C executable cmTC_4a869
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/CMakeFiles/CMakeTmp
+Change Dir: /Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_393cf/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_393cf.dir/build.make CMakeFiles/cmTC_393cf.dir/build
-Building CXX object CMakeFiles/cmTC_393cf.dir/testCXXCompiler.cxx.obj
-/usr/local/CrossPack-AVR/bin/avr-g++     -o CMakeFiles/cmTC_393cf.dir/testCXXCompiler.cxx.obj -c "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/CMakeFiles/CMakeTmp/testCXXCompiler.cxx"
-Linking CXX executable cmTC_393cf
-/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_393cf.dir/link.txt --verbose=1
-/usr/local/CrossPack-AVR/bin/avr-g++       CMakeFiles/cmTC_393cf.dir/testCXXCompiler.cxx.obj  -o cmTC_393cf 
+Run Build Command:"/usr/bin/make" "cmTC_856fb/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_856fb.dir/build.make CMakeFiles/cmTC_856fb.dir/build
+Building CXX object CMakeFiles/cmTC_856fb.dir/testCXXCompiler.cxx.obj
+/usr/local/CrossPack-AVR/bin/avr-g++     -o CMakeFiles/cmTC_856fb.dir/testCXXCompiler.cxx.obj -c /Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_856fb
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_856fb.dir/link.txt --verbose=1
+/usr/local/CrossPack-AVR/bin/avr-g++       CMakeFiles/cmTC_856fb.dir/testCXXCompiler.cxx.obj  -o cmTC_856fb 
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/CMakeFiles/CMakeTmp
+Change Dir: /Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_48976/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_48976.dir/build.make CMakeFiles/cmTC_48976.dir/build
-Building CXX object CMakeFiles/cmTC_48976.dir/CMakeCXXCompilerABI.cpp.obj
-/usr/local/CrossPack-AVR/bin/avr-g++     -o CMakeFiles/cmTC_48976.dir/CMakeCXXCompilerABI.cpp.obj -c /Applications/CMake.app/Contents/share/cmake-3.9/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_48976
-/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48976.dir/link.txt --verbose=1
-/usr/local/CrossPack-AVR/bin/avr-g++      -v CMakeFiles/cmTC_48976.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTC_48976 
+Run Build Command:"/usr/bin/make" "cmTC_e0d7a/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_e0d7a.dir/build.make CMakeFiles/cmTC_e0d7a.dir/build
+Building CXX object CMakeFiles/cmTC_e0d7a.dir/CMakeCXXCompilerABI.cpp.obj
+/usr/local/CrossPack-AVR/bin/avr-g++     -o CMakeFiles/cmTC_e0d7a.dir/CMakeCXXCompilerABI.cpp.obj -c /Applications/CMake.app/Contents/share/cmake-3.9/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_e0d7a
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0d7a.dir/link.txt --verbose=1
+/usr/local/CrossPack-AVR/bin/avr-g++      -v CMakeFiles/cmTC_e0d7a.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTC_e0d7a 
 Using built-in specs.
 COLLECT_GCC=/usr/local/CrossPack-AVR/bin/avr-g++
 COLLECT_LTO_WRAPPER=/usr/local/CrossPack-AVR-20131216/libexec/gcc/avr/4.8.1/lto-wrapper
@@ -186,21 +186,21 @@ Thread model: single
 gcc version 4.8.1 (GCC) 
 COMPILER_PATH=/usr/local/CrossPack-AVR-20131216/libexec/gcc/avr/4.8.1/:/usr/local/CrossPack-AVR-20131216/libexec/gcc/avr/4.8.1/:/usr/local/CrossPack-AVR-20131216/libexec/gcc/avr/:/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/:/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/:/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/bin/
 LIBRARY_PATH=/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/:/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_48976'
- /usr/local/CrossPack-AVR-20131216/libexec/gcc/avr/4.8.1/collect2 -o cmTC_48976 -L/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1 -L/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib CMakeFiles/cmTC_48976.dir/CMakeCXXCompilerABI.cpp.obj -lgcc -lm --start-group -lgcc -lm -lc --end-group
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e0d7a'
+ /usr/local/CrossPack-AVR-20131216/libexec/gcc/avr/4.8.1/collect2 -o cmTC_e0d7a -L/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1 -L/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib CMakeFiles/cmTC_e0d7a.dir/CMakeCXXCompilerABI.cpp.obj -lgcc -lm --start-group -lgcc -lm -lc --end-group
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(avr-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_48976/fast"]
-  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_48976.dir/build.make CMakeFiles/cmTC_48976.dir/build]
-  ignore line: [Building CXX object CMakeFiles/cmTC_48976.dir/CMakeCXXCompilerABI.cpp.obj]
-  ignore line: [/usr/local/CrossPack-AVR/bin/avr-g++     -o CMakeFiles/cmTC_48976.dir/CMakeCXXCompilerABI.cpp.obj -c /Applications/CMake.app/Contents/share/cmake-3.9/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_48976]
-  ignore line: [/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48976.dir/link.txt --verbose=1]
-  ignore line: [/usr/local/CrossPack-AVR/bin/avr-g++      -v CMakeFiles/cmTC_48976.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTC_48976 ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_e0d7a/fast"]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_e0d7a.dir/build.make CMakeFiles/cmTC_e0d7a.dir/build]
+  ignore line: [Building CXX object CMakeFiles/cmTC_e0d7a.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [/usr/local/CrossPack-AVR/bin/avr-g++     -o CMakeFiles/cmTC_e0d7a.dir/CMakeCXXCompilerABI.cpp.obj -c /Applications/CMake.app/Contents/share/cmake-3.9/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_e0d7a]
+  ignore line: [/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0d7a.dir/link.txt --verbose=1]
+  ignore line: [/usr/local/CrossPack-AVR/bin/avr-g++      -v CMakeFiles/cmTC_e0d7a.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTC_e0d7a ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/local/CrossPack-AVR/bin/avr-g++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/local/CrossPack-AVR-20131216/libexec/gcc/avr/4.8.1/lto-wrapper]
@@ -210,14 +210,14 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 4.8.1 (GCC) ]
   ignore line: [COMPILER_PATH=/usr/local/CrossPack-AVR-20131216/libexec/gcc/avr/4.8.1/:/usr/local/CrossPack-AVR-20131216/libexec/gcc/avr/4.8.1/:/usr/local/CrossPack-AVR-20131216/libexec/gcc/avr/:/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/:/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/:/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/bin/]
   ignore line: [LIBRARY_PATH=/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/:/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_48976']
-  link line: [ /usr/local/CrossPack-AVR-20131216/libexec/gcc/avr/4.8.1/collect2 -o cmTC_48976 -L/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1 -L/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib CMakeFiles/cmTC_48976.dir/CMakeCXXCompilerABI.cpp.obj -lgcc -lm --start-group -lgcc -lm -lc --end-group]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e0d7a']
+  link line: [ /usr/local/CrossPack-AVR-20131216/libexec/gcc/avr/4.8.1/collect2 -o cmTC_e0d7a -L/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1 -L/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib CMakeFiles/cmTC_e0d7a.dir/CMakeCXXCompilerABI.cpp.obj -lgcc -lm --start-group -lgcc -lm -lc --end-group]
     arg [/usr/local/CrossPack-AVR-20131216/libexec/gcc/avr/4.8.1/collect2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_48976] ==> ignore
+    arg [cmTC_e0d7a] ==> ignore
     arg [-L/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1] ==> dir [/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1]
     arg [-L/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib] ==> dir [/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib]
-    arg [CMakeFiles/cmTC_48976.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+    arg [CMakeFiles/cmTC_e0d7a.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [-lm] ==> lib [m]
     arg [--start-group] ==> ignore
@@ -235,15 +235,15 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++1y] compiler features compiled with the following output:
-Change Dir: /Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/CMakeFiles/CMakeTmp
+Change Dir: /Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_475ad/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_475ad.dir/build.make CMakeFiles/cmTC_475ad.dir/build
-Building CXX object CMakeFiles/cmTC_475ad.dir/feature_tests.cxx.obj
-/usr/local/CrossPack-AVR/bin/avr-g++    -std=c++1y -o CMakeFiles/cmTC_475ad.dir/feature_tests.cxx.obj -c "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/CMakeFiles/feature_tests.cxx"
-Linking CXX executable cmTC_475ad
-/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_475ad.dir/link.txt --verbose=1
-/usr/local/CrossPack-AVR/bin/avr-g++       CMakeFiles/cmTC_475ad.dir/feature_tests.cxx.obj  -o cmTC_475ad 
+Run Build Command:"/usr/bin/make" "cmTC_1539e/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_1539e.dir/build.make CMakeFiles/cmTC_1539e.dir/build
+Building CXX object CMakeFiles/cmTC_1539e.dir/feature_tests.cxx.obj
+/usr/local/CrossPack-AVR/bin/avr-g++    -std=c++1y -o CMakeFiles/cmTC_1539e.dir/feature_tests.cxx.obj -c /Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_1539e
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1539e.dir/link.txt --verbose=1
+/usr/local/CrossPack-AVR/bin/avr-g++       CMakeFiles/cmTC_1539e.dir/feature_tests.cxx.obj  -o cmTC_1539e 
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -306,15 +306,15 @@ Linking CXX executable cmTC_475ad
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/CMakeFiles/CMakeTmp
+Change Dir: /Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1abe0/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_1abe0.dir/build.make CMakeFiles/cmTC_1abe0.dir/build
-Building CXX object CMakeFiles/cmTC_1abe0.dir/feature_tests.cxx.obj
-/usr/local/CrossPack-AVR/bin/avr-g++    -std=c++11 -o CMakeFiles/cmTC_1abe0.dir/feature_tests.cxx.obj -c "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/CMakeFiles/feature_tests.cxx"
-Linking CXX executable cmTC_1abe0
-/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1abe0.dir/link.txt --verbose=1
-/usr/local/CrossPack-AVR/bin/avr-g++       CMakeFiles/cmTC_1abe0.dir/feature_tests.cxx.obj  -o cmTC_1abe0 
+Run Build Command:"/usr/bin/make" "cmTC_09fea/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_09fea.dir/build.make CMakeFiles/cmTC_09fea.dir/build
+Building CXX object CMakeFiles/cmTC_09fea.dir/feature_tests.cxx.obj
+/usr/local/CrossPack-AVR/bin/avr-g++    -std=c++11 -o CMakeFiles/cmTC_09fea.dir/feature_tests.cxx.obj -c /Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_09fea
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_09fea.dir/link.txt --verbose=1
+/usr/local/CrossPack-AVR/bin/avr-g++       CMakeFiles/cmTC_09fea.dir/feature_tests.cxx.obj  -o cmTC_09fea 
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -377,15 +377,15 @@ Linking CXX executable cmTC_1abe0
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/CMakeFiles/CMakeTmp
+Change Dir: /Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1b8e4/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_1b8e4.dir/build.make CMakeFiles/cmTC_1b8e4.dir/build
-Building CXX object CMakeFiles/cmTC_1b8e4.dir/feature_tests.cxx.obj
-/usr/local/CrossPack-AVR/bin/avr-g++    -std=c++98 -o CMakeFiles/cmTC_1b8e4.dir/feature_tests.cxx.obj -c "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/CMakeFiles/feature_tests.cxx"
-Linking CXX executable cmTC_1b8e4
-/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1b8e4.dir/link.txt --verbose=1
-/usr/local/CrossPack-AVR/bin/avr-g++       CMakeFiles/cmTC_1b8e4.dir/feature_tests.cxx.obj  -o cmTC_1b8e4 
+Run Build Command:"/usr/bin/make" "cmTC_e8038/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_e8038.dir/build.make CMakeFiles/cmTC_e8038.dir/build
+Building CXX object CMakeFiles/cmTC_e8038.dir/feature_tests.cxx.obj
+/usr/local/CrossPack-AVR/bin/avr-g++    -std=c++98 -o CMakeFiles/cmTC_e8038.dir/feature_tests.cxx.obj -c /Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_e8038
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8038.dir/link.txt --verbose=1
+/usr/local/CrossPack-AVR/bin/avr-g++       CMakeFiles/cmTC_e8038.dir/feature_tests.cxx.obj  -o cmTC_e8038 
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers

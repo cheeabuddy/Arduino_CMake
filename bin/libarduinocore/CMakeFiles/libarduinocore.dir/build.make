@@ -43,10 +43,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test"
+CMAKE_SOURCE_DIR = /Users/liamsycamore/Documents/Arduino_Test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin"
+CMAKE_BINARY_DIR = /Users/liamsycamore/Documents/Arduino_Test/bin
 
 # Include any dependencies generated for this target.
 include libarduinocore/CMakeFiles/libarduinocore.dir/depend.make
@@ -59,16 +59,16 @@ include libarduinocore/CMakeFiles/libarduinocore.dir/flags.make
 
 libarduinocore/CMakeFiles/libarduinocore.dir/CDC.cpp.obj: libarduinocore/CMakeFiles/libarduinocore.dir/flags.make
 libarduinocore/CMakeFiles/libarduinocore.dir/CDC.cpp.obj: ../libarduinocore/CDC.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libarduinocore/CMakeFiles/libarduinocore.dir/CDC.cpp.obj"
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/libarduinocore" && /usr/local/CrossPack-AVR/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libarduinocore.dir/CDC.cpp.obj -c "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/libarduinocore/CDC.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libarduinocore/CMakeFiles/libarduinocore.dir/CDC.cpp.obj"
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libarduinocore.dir/CDC.cpp.obj -c /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/CDC.cpp
 
 libarduinocore/CMakeFiles/libarduinocore.dir/CDC.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libarduinocore.dir/CDC.cpp.i"
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/libarduinocore" && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/libarduinocore/CDC.cpp" > CMakeFiles/libarduinocore.dir/CDC.cpp.i
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/CDC.cpp > CMakeFiles/libarduinocore.dir/CDC.cpp.i
 
 libarduinocore/CMakeFiles/libarduinocore.dir/CDC.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libarduinocore.dir/CDC.cpp.s"
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/libarduinocore" && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/libarduinocore/CDC.cpp" -o CMakeFiles/libarduinocore.dir/CDC.cpp.s
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/CDC.cpp -o CMakeFiles/libarduinocore.dir/CDC.cpp.s
 
 libarduinocore/CMakeFiles/libarduinocore.dir/CDC.cpp.obj.requires:
 
@@ -83,16 +83,16 @@ libarduinocore/CMakeFiles/libarduinocore.dir/CDC.cpp.obj.provides.build: libardu
 
 libarduinocore/CMakeFiles/libarduinocore.dir/HardwareSerial.cpp.obj: libarduinocore/CMakeFiles/libarduinocore.dir/flags.make
 libarduinocore/CMakeFiles/libarduinocore.dir/HardwareSerial.cpp.obj: ../libarduinocore/HardwareSerial.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object libarduinocore/CMakeFiles/libarduinocore.dir/HardwareSerial.cpp.obj"
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/libarduinocore" && /usr/local/CrossPack-AVR/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libarduinocore.dir/HardwareSerial.cpp.obj -c "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/libarduinocore/HardwareSerial.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object libarduinocore/CMakeFiles/libarduinocore.dir/HardwareSerial.cpp.obj"
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libarduinocore.dir/HardwareSerial.cpp.obj -c /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/HardwareSerial.cpp
 
 libarduinocore/CMakeFiles/libarduinocore.dir/HardwareSerial.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libarduinocore.dir/HardwareSerial.cpp.i"
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/libarduinocore" && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/libarduinocore/HardwareSerial.cpp" > CMakeFiles/libarduinocore.dir/HardwareSerial.cpp.i
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/HardwareSerial.cpp > CMakeFiles/libarduinocore.dir/HardwareSerial.cpp.i
 
 libarduinocore/CMakeFiles/libarduinocore.dir/HardwareSerial.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libarduinocore.dir/HardwareSerial.cpp.s"
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/libarduinocore" && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/libarduinocore/HardwareSerial.cpp" -o CMakeFiles/libarduinocore.dir/HardwareSerial.cpp.s
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/HardwareSerial.cpp -o CMakeFiles/libarduinocore.dir/HardwareSerial.cpp.s
 
 libarduinocore/CMakeFiles/libarduinocore.dir/HardwareSerial.cpp.obj.requires:
 
@@ -107,16 +107,16 @@ libarduinocore/CMakeFiles/libarduinocore.dir/HardwareSerial.cpp.obj.provides.bui
 
 libarduinocore/CMakeFiles/libarduinocore.dir/HardwareSerial0.cpp.obj: libarduinocore/CMakeFiles/libarduinocore.dir/flags.make
 libarduinocore/CMakeFiles/libarduinocore.dir/HardwareSerial0.cpp.obj: ../libarduinocore/HardwareSerial0.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object libarduinocore/CMakeFiles/libarduinocore.dir/HardwareSerial0.cpp.obj"
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/libarduinocore" && /usr/local/CrossPack-AVR/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libarduinocore.dir/HardwareSerial0.cpp.obj -c "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/libarduinocore/HardwareSerial0.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object libarduinocore/CMakeFiles/libarduinocore.dir/HardwareSerial0.cpp.obj"
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libarduinocore.dir/HardwareSerial0.cpp.obj -c /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/HardwareSerial0.cpp
 
 libarduinocore/CMakeFiles/libarduinocore.dir/HardwareSerial0.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libarduinocore.dir/HardwareSerial0.cpp.i"
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/libarduinocore" && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/libarduinocore/HardwareSerial0.cpp" > CMakeFiles/libarduinocore.dir/HardwareSerial0.cpp.i
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/HardwareSerial0.cpp > CMakeFiles/libarduinocore.dir/HardwareSerial0.cpp.i
 
 libarduinocore/CMakeFiles/libarduinocore.dir/HardwareSerial0.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libarduinocore.dir/HardwareSerial0.cpp.s"
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/libarduinocore" && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/libarduinocore/HardwareSerial0.cpp" -o CMakeFiles/libarduinocore.dir/HardwareSerial0.cpp.s
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/HardwareSerial0.cpp -o CMakeFiles/libarduinocore.dir/HardwareSerial0.cpp.s
 
 libarduinocore/CMakeFiles/libarduinocore.dir/HardwareSerial0.cpp.obj.requires:
 
@@ -131,16 +131,16 @@ libarduinocore/CMakeFiles/libarduinocore.dir/HardwareSerial0.cpp.obj.provides.bu
 
 libarduinocore/CMakeFiles/libarduinocore.dir/HardwareSerial1.cpp.obj: libarduinocore/CMakeFiles/libarduinocore.dir/flags.make
 libarduinocore/CMakeFiles/libarduinocore.dir/HardwareSerial1.cpp.obj: ../libarduinocore/HardwareSerial1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object libarduinocore/CMakeFiles/libarduinocore.dir/HardwareSerial1.cpp.obj"
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/libarduinocore" && /usr/local/CrossPack-AVR/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libarduinocore.dir/HardwareSerial1.cpp.obj -c "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/libarduinocore/HardwareSerial1.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object libarduinocore/CMakeFiles/libarduinocore.dir/HardwareSerial1.cpp.obj"
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libarduinocore.dir/HardwareSerial1.cpp.obj -c /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/HardwareSerial1.cpp
 
 libarduinocore/CMakeFiles/libarduinocore.dir/HardwareSerial1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libarduinocore.dir/HardwareSerial1.cpp.i"
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/libarduinocore" && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/libarduinocore/HardwareSerial1.cpp" > CMakeFiles/libarduinocore.dir/HardwareSerial1.cpp.i
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/HardwareSerial1.cpp > CMakeFiles/libarduinocore.dir/HardwareSerial1.cpp.i
 
 libarduinocore/CMakeFiles/libarduinocore.dir/HardwareSerial1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libarduinocore.dir/HardwareSerial1.cpp.s"
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/libarduinocore" && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/libarduinocore/HardwareSerial1.cpp" -o CMakeFiles/libarduinocore.dir/HardwareSerial1.cpp.s
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/HardwareSerial1.cpp -o CMakeFiles/libarduinocore.dir/HardwareSerial1.cpp.s
 
 libarduinocore/CMakeFiles/libarduinocore.dir/HardwareSerial1.cpp.obj.requires:
 
@@ -155,16 +155,16 @@ libarduinocore/CMakeFiles/libarduinocore.dir/HardwareSerial1.cpp.obj.provides.bu
 
 libarduinocore/CMakeFiles/libarduinocore.dir/HardwareSerial2.cpp.obj: libarduinocore/CMakeFiles/libarduinocore.dir/flags.make
 libarduinocore/CMakeFiles/libarduinocore.dir/HardwareSerial2.cpp.obj: ../libarduinocore/HardwareSerial2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object libarduinocore/CMakeFiles/libarduinocore.dir/HardwareSerial2.cpp.obj"
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/libarduinocore" && /usr/local/CrossPack-AVR/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libarduinocore.dir/HardwareSerial2.cpp.obj -c "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/libarduinocore/HardwareSerial2.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object libarduinocore/CMakeFiles/libarduinocore.dir/HardwareSerial2.cpp.obj"
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libarduinocore.dir/HardwareSerial2.cpp.obj -c /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/HardwareSerial2.cpp
 
 libarduinocore/CMakeFiles/libarduinocore.dir/HardwareSerial2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libarduinocore.dir/HardwareSerial2.cpp.i"
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/libarduinocore" && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/libarduinocore/HardwareSerial2.cpp" > CMakeFiles/libarduinocore.dir/HardwareSerial2.cpp.i
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/HardwareSerial2.cpp > CMakeFiles/libarduinocore.dir/HardwareSerial2.cpp.i
 
 libarduinocore/CMakeFiles/libarduinocore.dir/HardwareSerial2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libarduinocore.dir/HardwareSerial2.cpp.s"
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/libarduinocore" && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/libarduinocore/HardwareSerial2.cpp" -o CMakeFiles/libarduinocore.dir/HardwareSerial2.cpp.s
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/HardwareSerial2.cpp -o CMakeFiles/libarduinocore.dir/HardwareSerial2.cpp.s
 
 libarduinocore/CMakeFiles/libarduinocore.dir/HardwareSerial2.cpp.obj.requires:
 
@@ -179,16 +179,16 @@ libarduinocore/CMakeFiles/libarduinocore.dir/HardwareSerial2.cpp.obj.provides.bu
 
 libarduinocore/CMakeFiles/libarduinocore.dir/HardwareSerial3.cpp.obj: libarduinocore/CMakeFiles/libarduinocore.dir/flags.make
 libarduinocore/CMakeFiles/libarduinocore.dir/HardwareSerial3.cpp.obj: ../libarduinocore/HardwareSerial3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object libarduinocore/CMakeFiles/libarduinocore.dir/HardwareSerial3.cpp.obj"
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/libarduinocore" && /usr/local/CrossPack-AVR/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libarduinocore.dir/HardwareSerial3.cpp.obj -c "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/libarduinocore/HardwareSerial3.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object libarduinocore/CMakeFiles/libarduinocore.dir/HardwareSerial3.cpp.obj"
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libarduinocore.dir/HardwareSerial3.cpp.obj -c /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/HardwareSerial3.cpp
 
 libarduinocore/CMakeFiles/libarduinocore.dir/HardwareSerial3.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libarduinocore.dir/HardwareSerial3.cpp.i"
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/libarduinocore" && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/libarduinocore/HardwareSerial3.cpp" > CMakeFiles/libarduinocore.dir/HardwareSerial3.cpp.i
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/HardwareSerial3.cpp > CMakeFiles/libarduinocore.dir/HardwareSerial3.cpp.i
 
 libarduinocore/CMakeFiles/libarduinocore.dir/HardwareSerial3.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libarduinocore.dir/HardwareSerial3.cpp.s"
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/libarduinocore" && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/libarduinocore/HardwareSerial3.cpp" -o CMakeFiles/libarduinocore.dir/HardwareSerial3.cpp.s
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/HardwareSerial3.cpp -o CMakeFiles/libarduinocore.dir/HardwareSerial3.cpp.s
 
 libarduinocore/CMakeFiles/libarduinocore.dir/HardwareSerial3.cpp.obj.requires:
 
@@ -203,16 +203,16 @@ libarduinocore/CMakeFiles/libarduinocore.dir/HardwareSerial3.cpp.obj.provides.bu
 
 libarduinocore/CMakeFiles/libarduinocore.dir/IPAddress.cpp.obj: libarduinocore/CMakeFiles/libarduinocore.dir/flags.make
 libarduinocore/CMakeFiles/libarduinocore.dir/IPAddress.cpp.obj: ../libarduinocore/IPAddress.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object libarduinocore/CMakeFiles/libarduinocore.dir/IPAddress.cpp.obj"
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/libarduinocore" && /usr/local/CrossPack-AVR/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libarduinocore.dir/IPAddress.cpp.obj -c "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/libarduinocore/IPAddress.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object libarduinocore/CMakeFiles/libarduinocore.dir/IPAddress.cpp.obj"
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libarduinocore.dir/IPAddress.cpp.obj -c /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/IPAddress.cpp
 
 libarduinocore/CMakeFiles/libarduinocore.dir/IPAddress.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libarduinocore.dir/IPAddress.cpp.i"
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/libarduinocore" && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/libarduinocore/IPAddress.cpp" > CMakeFiles/libarduinocore.dir/IPAddress.cpp.i
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/IPAddress.cpp > CMakeFiles/libarduinocore.dir/IPAddress.cpp.i
 
 libarduinocore/CMakeFiles/libarduinocore.dir/IPAddress.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libarduinocore.dir/IPAddress.cpp.s"
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/libarduinocore" && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/libarduinocore/IPAddress.cpp" -o CMakeFiles/libarduinocore.dir/IPAddress.cpp.s
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/IPAddress.cpp -o CMakeFiles/libarduinocore.dir/IPAddress.cpp.s
 
 libarduinocore/CMakeFiles/libarduinocore.dir/IPAddress.cpp.obj.requires:
 
@@ -227,16 +227,16 @@ libarduinocore/CMakeFiles/libarduinocore.dir/IPAddress.cpp.obj.provides.build: l
 
 libarduinocore/CMakeFiles/libarduinocore.dir/PluggableUSB.cpp.obj: libarduinocore/CMakeFiles/libarduinocore.dir/flags.make
 libarduinocore/CMakeFiles/libarduinocore.dir/PluggableUSB.cpp.obj: ../libarduinocore/PluggableUSB.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object libarduinocore/CMakeFiles/libarduinocore.dir/PluggableUSB.cpp.obj"
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/libarduinocore" && /usr/local/CrossPack-AVR/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libarduinocore.dir/PluggableUSB.cpp.obj -c "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/libarduinocore/PluggableUSB.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object libarduinocore/CMakeFiles/libarduinocore.dir/PluggableUSB.cpp.obj"
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libarduinocore.dir/PluggableUSB.cpp.obj -c /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/PluggableUSB.cpp
 
 libarduinocore/CMakeFiles/libarduinocore.dir/PluggableUSB.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libarduinocore.dir/PluggableUSB.cpp.i"
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/libarduinocore" && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/libarduinocore/PluggableUSB.cpp" > CMakeFiles/libarduinocore.dir/PluggableUSB.cpp.i
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/PluggableUSB.cpp > CMakeFiles/libarduinocore.dir/PluggableUSB.cpp.i
 
 libarduinocore/CMakeFiles/libarduinocore.dir/PluggableUSB.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libarduinocore.dir/PluggableUSB.cpp.s"
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/libarduinocore" && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/libarduinocore/PluggableUSB.cpp" -o CMakeFiles/libarduinocore.dir/PluggableUSB.cpp.s
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/PluggableUSB.cpp -o CMakeFiles/libarduinocore.dir/PluggableUSB.cpp.s
 
 libarduinocore/CMakeFiles/libarduinocore.dir/PluggableUSB.cpp.obj.requires:
 
@@ -251,16 +251,16 @@ libarduinocore/CMakeFiles/libarduinocore.dir/PluggableUSB.cpp.obj.provides.build
 
 libarduinocore/CMakeFiles/libarduinocore.dir/Print.cpp.obj: libarduinocore/CMakeFiles/libarduinocore.dir/flags.make
 libarduinocore/CMakeFiles/libarduinocore.dir/Print.cpp.obj: ../libarduinocore/Print.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object libarduinocore/CMakeFiles/libarduinocore.dir/Print.cpp.obj"
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/libarduinocore" && /usr/local/CrossPack-AVR/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libarduinocore.dir/Print.cpp.obj -c "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/libarduinocore/Print.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object libarduinocore/CMakeFiles/libarduinocore.dir/Print.cpp.obj"
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libarduinocore.dir/Print.cpp.obj -c /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/Print.cpp
 
 libarduinocore/CMakeFiles/libarduinocore.dir/Print.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libarduinocore.dir/Print.cpp.i"
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/libarduinocore" && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/libarduinocore/Print.cpp" > CMakeFiles/libarduinocore.dir/Print.cpp.i
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/Print.cpp > CMakeFiles/libarduinocore.dir/Print.cpp.i
 
 libarduinocore/CMakeFiles/libarduinocore.dir/Print.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libarduinocore.dir/Print.cpp.s"
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/libarduinocore" && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/libarduinocore/Print.cpp" -o CMakeFiles/libarduinocore.dir/Print.cpp.s
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/Print.cpp -o CMakeFiles/libarduinocore.dir/Print.cpp.s
 
 libarduinocore/CMakeFiles/libarduinocore.dir/Print.cpp.obj.requires:
 
@@ -275,16 +275,16 @@ libarduinocore/CMakeFiles/libarduinocore.dir/Print.cpp.obj.provides.build: libar
 
 libarduinocore/CMakeFiles/libarduinocore.dir/Stream.cpp.obj: libarduinocore/CMakeFiles/libarduinocore.dir/flags.make
 libarduinocore/CMakeFiles/libarduinocore.dir/Stream.cpp.obj: ../libarduinocore/Stream.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object libarduinocore/CMakeFiles/libarduinocore.dir/Stream.cpp.obj"
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/libarduinocore" && /usr/local/CrossPack-AVR/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libarduinocore.dir/Stream.cpp.obj -c "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/libarduinocore/Stream.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object libarduinocore/CMakeFiles/libarduinocore.dir/Stream.cpp.obj"
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libarduinocore.dir/Stream.cpp.obj -c /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/Stream.cpp
 
 libarduinocore/CMakeFiles/libarduinocore.dir/Stream.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libarduinocore.dir/Stream.cpp.i"
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/libarduinocore" && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/libarduinocore/Stream.cpp" > CMakeFiles/libarduinocore.dir/Stream.cpp.i
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/Stream.cpp > CMakeFiles/libarduinocore.dir/Stream.cpp.i
 
 libarduinocore/CMakeFiles/libarduinocore.dir/Stream.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libarduinocore.dir/Stream.cpp.s"
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/libarduinocore" && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/libarduinocore/Stream.cpp" -o CMakeFiles/libarduinocore.dir/Stream.cpp.s
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/Stream.cpp -o CMakeFiles/libarduinocore.dir/Stream.cpp.s
 
 libarduinocore/CMakeFiles/libarduinocore.dir/Stream.cpp.obj.requires:
 
@@ -299,16 +299,16 @@ libarduinocore/CMakeFiles/libarduinocore.dir/Stream.cpp.obj.provides.build: liba
 
 libarduinocore/CMakeFiles/libarduinocore.dir/Tone.cpp.obj: libarduinocore/CMakeFiles/libarduinocore.dir/flags.make
 libarduinocore/CMakeFiles/libarduinocore.dir/Tone.cpp.obj: ../libarduinocore/Tone.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object libarduinocore/CMakeFiles/libarduinocore.dir/Tone.cpp.obj"
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/libarduinocore" && /usr/local/CrossPack-AVR/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libarduinocore.dir/Tone.cpp.obj -c "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/libarduinocore/Tone.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object libarduinocore/CMakeFiles/libarduinocore.dir/Tone.cpp.obj"
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libarduinocore.dir/Tone.cpp.obj -c /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/Tone.cpp
 
 libarduinocore/CMakeFiles/libarduinocore.dir/Tone.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libarduinocore.dir/Tone.cpp.i"
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/libarduinocore" && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/libarduinocore/Tone.cpp" > CMakeFiles/libarduinocore.dir/Tone.cpp.i
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/Tone.cpp > CMakeFiles/libarduinocore.dir/Tone.cpp.i
 
 libarduinocore/CMakeFiles/libarduinocore.dir/Tone.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libarduinocore.dir/Tone.cpp.s"
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/libarduinocore" && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/libarduinocore/Tone.cpp" -o CMakeFiles/libarduinocore.dir/Tone.cpp.s
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/Tone.cpp -o CMakeFiles/libarduinocore.dir/Tone.cpp.s
 
 libarduinocore/CMakeFiles/libarduinocore.dir/Tone.cpp.obj.requires:
 
@@ -323,16 +323,16 @@ libarduinocore/CMakeFiles/libarduinocore.dir/Tone.cpp.obj.provides.build: libard
 
 libarduinocore/CMakeFiles/libarduinocore.dir/USBCore.cpp.obj: libarduinocore/CMakeFiles/libarduinocore.dir/flags.make
 libarduinocore/CMakeFiles/libarduinocore.dir/USBCore.cpp.obj: ../libarduinocore/USBCore.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object libarduinocore/CMakeFiles/libarduinocore.dir/USBCore.cpp.obj"
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/libarduinocore" && /usr/local/CrossPack-AVR/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libarduinocore.dir/USBCore.cpp.obj -c "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/libarduinocore/USBCore.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object libarduinocore/CMakeFiles/libarduinocore.dir/USBCore.cpp.obj"
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libarduinocore.dir/USBCore.cpp.obj -c /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/USBCore.cpp
 
 libarduinocore/CMakeFiles/libarduinocore.dir/USBCore.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libarduinocore.dir/USBCore.cpp.i"
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/libarduinocore" && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/libarduinocore/USBCore.cpp" > CMakeFiles/libarduinocore.dir/USBCore.cpp.i
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/USBCore.cpp > CMakeFiles/libarduinocore.dir/USBCore.cpp.i
 
 libarduinocore/CMakeFiles/libarduinocore.dir/USBCore.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libarduinocore.dir/USBCore.cpp.s"
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/libarduinocore" && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/libarduinocore/USBCore.cpp" -o CMakeFiles/libarduinocore.dir/USBCore.cpp.s
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/USBCore.cpp -o CMakeFiles/libarduinocore.dir/USBCore.cpp.s
 
 libarduinocore/CMakeFiles/libarduinocore.dir/USBCore.cpp.obj.requires:
 
@@ -347,16 +347,16 @@ libarduinocore/CMakeFiles/libarduinocore.dir/USBCore.cpp.obj.provides.build: lib
 
 libarduinocore/CMakeFiles/libarduinocore.dir/WInterrupts.c.obj: libarduinocore/CMakeFiles/libarduinocore.dir/flags.make
 libarduinocore/CMakeFiles/libarduinocore.dir/WInterrupts.c.obj: ../libarduinocore/WInterrupts.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building C object libarduinocore/CMakeFiles/libarduinocore.dir/WInterrupts.c.obj"
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/libarduinocore" && /usr/local/CrossPack-AVR/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libarduinocore.dir/WInterrupts.c.obj   -c "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/libarduinocore/WInterrupts.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object libarduinocore/CMakeFiles/libarduinocore.dir/WInterrupts.c.obj"
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libarduinocore.dir/WInterrupts.c.obj   -c /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/WInterrupts.c
 
 libarduinocore/CMakeFiles/libarduinocore.dir/WInterrupts.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libarduinocore.dir/WInterrupts.c.i"
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/libarduinocore" && /usr/local/CrossPack-AVR/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/libarduinocore/WInterrupts.c" > CMakeFiles/libarduinocore.dir/WInterrupts.c.i
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/WInterrupts.c > CMakeFiles/libarduinocore.dir/WInterrupts.c.i
 
 libarduinocore/CMakeFiles/libarduinocore.dir/WInterrupts.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libarduinocore.dir/WInterrupts.c.s"
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/libarduinocore" && /usr/local/CrossPack-AVR/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/libarduinocore/WInterrupts.c" -o CMakeFiles/libarduinocore.dir/WInterrupts.c.s
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/WInterrupts.c -o CMakeFiles/libarduinocore.dir/WInterrupts.c.s
 
 libarduinocore/CMakeFiles/libarduinocore.dir/WInterrupts.c.obj.requires:
 
@@ -371,16 +371,16 @@ libarduinocore/CMakeFiles/libarduinocore.dir/WInterrupts.c.obj.provides.build: l
 
 libarduinocore/CMakeFiles/libarduinocore.dir/WMath.cpp.obj: libarduinocore/CMakeFiles/libarduinocore.dir/flags.make
 libarduinocore/CMakeFiles/libarduinocore.dir/WMath.cpp.obj: ../libarduinocore/WMath.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object libarduinocore/CMakeFiles/libarduinocore.dir/WMath.cpp.obj"
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/libarduinocore" && /usr/local/CrossPack-AVR/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libarduinocore.dir/WMath.cpp.obj -c "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/libarduinocore/WMath.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object libarduinocore/CMakeFiles/libarduinocore.dir/WMath.cpp.obj"
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libarduinocore.dir/WMath.cpp.obj -c /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/WMath.cpp
 
 libarduinocore/CMakeFiles/libarduinocore.dir/WMath.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libarduinocore.dir/WMath.cpp.i"
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/libarduinocore" && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/libarduinocore/WMath.cpp" > CMakeFiles/libarduinocore.dir/WMath.cpp.i
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/WMath.cpp > CMakeFiles/libarduinocore.dir/WMath.cpp.i
 
 libarduinocore/CMakeFiles/libarduinocore.dir/WMath.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libarduinocore.dir/WMath.cpp.s"
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/libarduinocore" && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/libarduinocore/WMath.cpp" -o CMakeFiles/libarduinocore.dir/WMath.cpp.s
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/WMath.cpp -o CMakeFiles/libarduinocore.dir/WMath.cpp.s
 
 libarduinocore/CMakeFiles/libarduinocore.dir/WMath.cpp.obj.requires:
 
@@ -395,16 +395,16 @@ libarduinocore/CMakeFiles/libarduinocore.dir/WMath.cpp.obj.provides.build: libar
 
 libarduinocore/CMakeFiles/libarduinocore.dir/WString.cpp.obj: libarduinocore/CMakeFiles/libarduinocore.dir/flags.make
 libarduinocore/CMakeFiles/libarduinocore.dir/WString.cpp.obj: ../libarduinocore/WString.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object libarduinocore/CMakeFiles/libarduinocore.dir/WString.cpp.obj"
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/libarduinocore" && /usr/local/CrossPack-AVR/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libarduinocore.dir/WString.cpp.obj -c "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/libarduinocore/WString.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object libarduinocore/CMakeFiles/libarduinocore.dir/WString.cpp.obj"
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libarduinocore.dir/WString.cpp.obj -c /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/WString.cpp
 
 libarduinocore/CMakeFiles/libarduinocore.dir/WString.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libarduinocore.dir/WString.cpp.i"
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/libarduinocore" && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/libarduinocore/WString.cpp" > CMakeFiles/libarduinocore.dir/WString.cpp.i
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/WString.cpp > CMakeFiles/libarduinocore.dir/WString.cpp.i
 
 libarduinocore/CMakeFiles/libarduinocore.dir/WString.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libarduinocore.dir/WString.cpp.s"
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/libarduinocore" && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/libarduinocore/WString.cpp" -o CMakeFiles/libarduinocore.dir/WString.cpp.s
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/WString.cpp -o CMakeFiles/libarduinocore.dir/WString.cpp.s
 
 libarduinocore/CMakeFiles/libarduinocore.dir/WString.cpp.obj.requires:
 
@@ -419,16 +419,16 @@ libarduinocore/CMakeFiles/libarduinocore.dir/WString.cpp.obj.provides.build: lib
 
 libarduinocore/CMakeFiles/libarduinocore.dir/abi.cpp.obj: libarduinocore/CMakeFiles/libarduinocore.dir/flags.make
 libarduinocore/CMakeFiles/libarduinocore.dir/abi.cpp.obj: ../libarduinocore/abi.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object libarduinocore/CMakeFiles/libarduinocore.dir/abi.cpp.obj"
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/libarduinocore" && /usr/local/CrossPack-AVR/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libarduinocore.dir/abi.cpp.obj -c "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/libarduinocore/abi.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object libarduinocore/CMakeFiles/libarduinocore.dir/abi.cpp.obj"
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libarduinocore.dir/abi.cpp.obj -c /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/abi.cpp
 
 libarduinocore/CMakeFiles/libarduinocore.dir/abi.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libarduinocore.dir/abi.cpp.i"
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/libarduinocore" && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/libarduinocore/abi.cpp" > CMakeFiles/libarduinocore.dir/abi.cpp.i
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/abi.cpp > CMakeFiles/libarduinocore.dir/abi.cpp.i
 
 libarduinocore/CMakeFiles/libarduinocore.dir/abi.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libarduinocore.dir/abi.cpp.s"
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/libarduinocore" && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/libarduinocore/abi.cpp" -o CMakeFiles/libarduinocore.dir/abi.cpp.s
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/abi.cpp -o CMakeFiles/libarduinocore.dir/abi.cpp.s
 
 libarduinocore/CMakeFiles/libarduinocore.dir/abi.cpp.obj.requires:
 
@@ -443,16 +443,16 @@ libarduinocore/CMakeFiles/libarduinocore.dir/abi.cpp.obj.provides.build: libardu
 
 libarduinocore/CMakeFiles/libarduinocore.dir/hooks.c.obj: libarduinocore/CMakeFiles/libarduinocore.dir/flags.make
 libarduinocore/CMakeFiles/libarduinocore.dir/hooks.c.obj: ../libarduinocore/hooks.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building C object libarduinocore/CMakeFiles/libarduinocore.dir/hooks.c.obj"
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/libarduinocore" && /usr/local/CrossPack-AVR/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libarduinocore.dir/hooks.c.obj   -c "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/libarduinocore/hooks.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object libarduinocore/CMakeFiles/libarduinocore.dir/hooks.c.obj"
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libarduinocore.dir/hooks.c.obj   -c /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/hooks.c
 
 libarduinocore/CMakeFiles/libarduinocore.dir/hooks.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libarduinocore.dir/hooks.c.i"
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/libarduinocore" && /usr/local/CrossPack-AVR/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/libarduinocore/hooks.c" > CMakeFiles/libarduinocore.dir/hooks.c.i
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/hooks.c > CMakeFiles/libarduinocore.dir/hooks.c.i
 
 libarduinocore/CMakeFiles/libarduinocore.dir/hooks.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libarduinocore.dir/hooks.c.s"
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/libarduinocore" && /usr/local/CrossPack-AVR/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/libarduinocore/hooks.c" -o CMakeFiles/libarduinocore.dir/hooks.c.s
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/hooks.c -o CMakeFiles/libarduinocore.dir/hooks.c.s
 
 libarduinocore/CMakeFiles/libarduinocore.dir/hooks.c.obj.requires:
 
@@ -467,16 +467,16 @@ libarduinocore/CMakeFiles/libarduinocore.dir/hooks.c.obj.provides.build: libardu
 
 libarduinocore/CMakeFiles/libarduinocore.dir/new.cpp.obj: libarduinocore/CMakeFiles/libarduinocore.dir/flags.make
 libarduinocore/CMakeFiles/libarduinocore.dir/new.cpp.obj: ../libarduinocore/new.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object libarduinocore/CMakeFiles/libarduinocore.dir/new.cpp.obj"
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/libarduinocore" && /usr/local/CrossPack-AVR/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libarduinocore.dir/new.cpp.obj -c "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/libarduinocore/new.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object libarduinocore/CMakeFiles/libarduinocore.dir/new.cpp.obj"
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libarduinocore.dir/new.cpp.obj -c /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/new.cpp
 
 libarduinocore/CMakeFiles/libarduinocore.dir/new.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libarduinocore.dir/new.cpp.i"
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/libarduinocore" && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/libarduinocore/new.cpp" > CMakeFiles/libarduinocore.dir/new.cpp.i
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/new.cpp > CMakeFiles/libarduinocore.dir/new.cpp.i
 
 libarduinocore/CMakeFiles/libarduinocore.dir/new.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libarduinocore.dir/new.cpp.s"
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/libarduinocore" && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/libarduinocore/new.cpp" -o CMakeFiles/libarduinocore.dir/new.cpp.s
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/new.cpp -o CMakeFiles/libarduinocore.dir/new.cpp.s
 
 libarduinocore/CMakeFiles/libarduinocore.dir/new.cpp.obj.requires:
 
@@ -491,16 +491,16 @@ libarduinocore/CMakeFiles/libarduinocore.dir/new.cpp.obj.provides.build: libardu
 
 libarduinocore/CMakeFiles/libarduinocore.dir/wiring.c.obj: libarduinocore/CMakeFiles/libarduinocore.dir/flags.make
 libarduinocore/CMakeFiles/libarduinocore.dir/wiring.c.obj: ../libarduinocore/wiring.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Building C object libarduinocore/CMakeFiles/libarduinocore.dir/wiring.c.obj"
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/libarduinocore" && /usr/local/CrossPack-AVR/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libarduinocore.dir/wiring.c.obj   -c "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/libarduinocore/wiring.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object libarduinocore/CMakeFiles/libarduinocore.dir/wiring.c.obj"
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libarduinocore.dir/wiring.c.obj   -c /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/wiring.c
 
 libarduinocore/CMakeFiles/libarduinocore.dir/wiring.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libarduinocore.dir/wiring.c.i"
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/libarduinocore" && /usr/local/CrossPack-AVR/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/libarduinocore/wiring.c" > CMakeFiles/libarduinocore.dir/wiring.c.i
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/wiring.c > CMakeFiles/libarduinocore.dir/wiring.c.i
 
 libarduinocore/CMakeFiles/libarduinocore.dir/wiring.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libarduinocore.dir/wiring.c.s"
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/libarduinocore" && /usr/local/CrossPack-AVR/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/libarduinocore/wiring.c" -o CMakeFiles/libarduinocore.dir/wiring.c.s
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/wiring.c -o CMakeFiles/libarduinocore.dir/wiring.c.s
 
 libarduinocore/CMakeFiles/libarduinocore.dir/wiring.c.obj.requires:
 
@@ -515,16 +515,16 @@ libarduinocore/CMakeFiles/libarduinocore.dir/wiring.c.obj.provides.build: libard
 
 libarduinocore/CMakeFiles/libarduinocore.dir/wiring_analog.c.obj: libarduinocore/CMakeFiles/libarduinocore.dir/flags.make
 libarduinocore/CMakeFiles/libarduinocore.dir/wiring_analog.c.obj: ../libarduinocore/wiring_analog.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Building C object libarduinocore/CMakeFiles/libarduinocore.dir/wiring_analog.c.obj"
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/libarduinocore" && /usr/local/CrossPack-AVR/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libarduinocore.dir/wiring_analog.c.obj   -c "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/libarduinocore/wiring_analog.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object libarduinocore/CMakeFiles/libarduinocore.dir/wiring_analog.c.obj"
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libarduinocore.dir/wiring_analog.c.obj   -c /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/wiring_analog.c
 
 libarduinocore/CMakeFiles/libarduinocore.dir/wiring_analog.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libarduinocore.dir/wiring_analog.c.i"
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/libarduinocore" && /usr/local/CrossPack-AVR/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/libarduinocore/wiring_analog.c" > CMakeFiles/libarduinocore.dir/wiring_analog.c.i
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/wiring_analog.c > CMakeFiles/libarduinocore.dir/wiring_analog.c.i
 
 libarduinocore/CMakeFiles/libarduinocore.dir/wiring_analog.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libarduinocore.dir/wiring_analog.c.s"
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/libarduinocore" && /usr/local/CrossPack-AVR/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/libarduinocore/wiring_analog.c" -o CMakeFiles/libarduinocore.dir/wiring_analog.c.s
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/wiring_analog.c -o CMakeFiles/libarduinocore.dir/wiring_analog.c.s
 
 libarduinocore/CMakeFiles/libarduinocore.dir/wiring_analog.c.obj.requires:
 
@@ -539,16 +539,16 @@ libarduinocore/CMakeFiles/libarduinocore.dir/wiring_analog.c.obj.provides.build:
 
 libarduinocore/CMakeFiles/libarduinocore.dir/wiring_digital.c.obj: libarduinocore/CMakeFiles/libarduinocore.dir/flags.make
 libarduinocore/CMakeFiles/libarduinocore.dir/wiring_digital.c.obj: ../libarduinocore/wiring_digital.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_21) "Building C object libarduinocore/CMakeFiles/libarduinocore.dir/wiring_digital.c.obj"
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/libarduinocore" && /usr/local/CrossPack-AVR/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libarduinocore.dir/wiring_digital.c.obj   -c "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/libarduinocore/wiring_digital.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object libarduinocore/CMakeFiles/libarduinocore.dir/wiring_digital.c.obj"
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libarduinocore.dir/wiring_digital.c.obj   -c /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/wiring_digital.c
 
 libarduinocore/CMakeFiles/libarduinocore.dir/wiring_digital.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libarduinocore.dir/wiring_digital.c.i"
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/libarduinocore" && /usr/local/CrossPack-AVR/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/libarduinocore/wiring_digital.c" > CMakeFiles/libarduinocore.dir/wiring_digital.c.i
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/wiring_digital.c > CMakeFiles/libarduinocore.dir/wiring_digital.c.i
 
 libarduinocore/CMakeFiles/libarduinocore.dir/wiring_digital.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libarduinocore.dir/wiring_digital.c.s"
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/libarduinocore" && /usr/local/CrossPack-AVR/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/libarduinocore/wiring_digital.c" -o CMakeFiles/libarduinocore.dir/wiring_digital.c.s
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/wiring_digital.c -o CMakeFiles/libarduinocore.dir/wiring_digital.c.s
 
 libarduinocore/CMakeFiles/libarduinocore.dir/wiring_digital.c.obj.requires:
 
@@ -563,16 +563,16 @@ libarduinocore/CMakeFiles/libarduinocore.dir/wiring_digital.c.obj.provides.build
 
 libarduinocore/CMakeFiles/libarduinocore.dir/wiring_pulse.c.obj: libarduinocore/CMakeFiles/libarduinocore.dir/flags.make
 libarduinocore/CMakeFiles/libarduinocore.dir/wiring_pulse.c.obj: ../libarduinocore/wiring_pulse.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_22) "Building C object libarduinocore/CMakeFiles/libarduinocore.dir/wiring_pulse.c.obj"
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/libarduinocore" && /usr/local/CrossPack-AVR/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libarduinocore.dir/wiring_pulse.c.obj   -c "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/libarduinocore/wiring_pulse.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object libarduinocore/CMakeFiles/libarduinocore.dir/wiring_pulse.c.obj"
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libarduinocore.dir/wiring_pulse.c.obj   -c /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/wiring_pulse.c
 
 libarduinocore/CMakeFiles/libarduinocore.dir/wiring_pulse.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libarduinocore.dir/wiring_pulse.c.i"
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/libarduinocore" && /usr/local/CrossPack-AVR/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/libarduinocore/wiring_pulse.c" > CMakeFiles/libarduinocore.dir/wiring_pulse.c.i
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/wiring_pulse.c > CMakeFiles/libarduinocore.dir/wiring_pulse.c.i
 
 libarduinocore/CMakeFiles/libarduinocore.dir/wiring_pulse.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libarduinocore.dir/wiring_pulse.c.s"
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/libarduinocore" && /usr/local/CrossPack-AVR/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/libarduinocore/wiring_pulse.c" -o CMakeFiles/libarduinocore.dir/wiring_pulse.c.s
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/wiring_pulse.c -o CMakeFiles/libarduinocore.dir/wiring_pulse.c.s
 
 libarduinocore/CMakeFiles/libarduinocore.dir/wiring_pulse.c.obj.requires:
 
@@ -587,16 +587,16 @@ libarduinocore/CMakeFiles/libarduinocore.dir/wiring_pulse.c.obj.provides.build: 
 
 libarduinocore/CMakeFiles/libarduinocore.dir/wiring_shift.c.obj: libarduinocore/CMakeFiles/libarduinocore.dir/flags.make
 libarduinocore/CMakeFiles/libarduinocore.dir/wiring_shift.c.obj: ../libarduinocore/wiring_shift.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_23) "Building C object libarduinocore/CMakeFiles/libarduinocore.dir/wiring_shift.c.obj"
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/libarduinocore" && /usr/local/CrossPack-AVR/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libarduinocore.dir/wiring_shift.c.obj   -c "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/libarduinocore/wiring_shift.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object libarduinocore/CMakeFiles/libarduinocore.dir/wiring_shift.c.obj"
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libarduinocore.dir/wiring_shift.c.obj   -c /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/wiring_shift.c
 
 libarduinocore/CMakeFiles/libarduinocore.dir/wiring_shift.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libarduinocore.dir/wiring_shift.c.i"
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/libarduinocore" && /usr/local/CrossPack-AVR/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/libarduinocore/wiring_shift.c" > CMakeFiles/libarduinocore.dir/wiring_shift.c.i
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/wiring_shift.c > CMakeFiles/libarduinocore.dir/wiring_shift.c.i
 
 libarduinocore/CMakeFiles/libarduinocore.dir/wiring_shift.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libarduinocore.dir/wiring_shift.c.s"
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/libarduinocore" && /usr/local/CrossPack-AVR/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/libarduinocore/wiring_shift.c" -o CMakeFiles/libarduinocore.dir/wiring_shift.c.s
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/wiring_shift.c -o CMakeFiles/libarduinocore.dir/wiring_shift.c.s
 
 libarduinocore/CMakeFiles/libarduinocore.dir/wiring_shift.c.obj.requires:
 
@@ -663,9 +663,9 @@ libarduinocore/liblibarduinocore.a: libarduinocore/CMakeFiles/libarduinocore.dir
 libarduinocore/liblibarduinocore.a: libarduinocore/CMakeFiles/libarduinocore.dir/wiring_shift.c.obj
 libarduinocore/liblibarduinocore.a: libarduinocore/CMakeFiles/libarduinocore.dir/build.make
 libarduinocore/liblibarduinocore.a: libarduinocore/CMakeFiles/libarduinocore.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_24) "Linking CXX static library liblibarduinocore.a"
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/libarduinocore" && $(CMAKE_COMMAND) -P CMakeFiles/libarduinocore.dir/cmake_clean_target.cmake
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/libarduinocore" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libarduinocore.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Linking CXX static library liblibarduinocore.a"
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && $(CMAKE_COMMAND) -P CMakeFiles/libarduinocore.dir/cmake_clean_target.cmake
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libarduinocore.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 libarduinocore/CMakeFiles/libarduinocore.dir/build: libarduinocore/liblibarduinocore.a
@@ -699,10 +699,10 @@ libarduinocore/CMakeFiles/libarduinocore.dir/requires: libarduinocore/CMakeFiles
 .PHONY : libarduinocore/CMakeFiles/libarduinocore.dir/requires
 
 libarduinocore/CMakeFiles/libarduinocore.dir/clean:
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/libarduinocore" && $(CMAKE_COMMAND) -P CMakeFiles/libarduinocore.dir/cmake_clean.cmake
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && $(CMAKE_COMMAND) -P CMakeFiles/libarduinocore.dir/cmake_clean.cmake
 .PHONY : libarduinocore/CMakeFiles/libarduinocore.dir/clean
 
 libarduinocore/CMakeFiles/libarduinocore.dir/depend:
-	cd "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test" "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/libarduinocore" "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin" "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/libarduinocore" "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/libarduinocore/CMakeFiles/libarduinocore.dir/DependInfo.cmake" --color=$(COLOR)
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/liamsycamore/Documents/Arduino_Test /Users/liamsycamore/Documents/Arduino_Test/libarduinocore /Users/liamsycamore/Documents/Arduino_Test/bin /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore/CMakeFiles/libarduinocore.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : libarduinocore/CMakeFiles/libarduinocore.dir/depend
 

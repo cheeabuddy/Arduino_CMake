@@ -21,8 +21,12 @@ set(CMCU "-mmcu=atmega328p")
 set(CDEFS "-DF_CPU=16000000")
 
 
+
 set(CFLAGS "${CMCU} ${CDEBUG} ${CDEFS} ${CINCS} ${COPT} ${CWARN} ${CSTANDARD} ${CEXTRA}")
 set(CXXFLAGS "${CMCU} ${CDEFS} ${CINCS} ${COPT}")
 
+
 set(CMAKE_C_FLAGS  ${CFLAGS})
 set(CMAKE_CXX_FLAGS ${CXXFLAGS})
+message("C_" ${CMAKE_C_FLAGS})
+message("CXX_" ${CMAKE_CXX_FLAGS})

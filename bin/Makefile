@@ -48,10 +48,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test"
+CMAKE_SOURCE_DIR = /Users/liamsycamore/Documents/Arduino_Test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin"
+CMAKE_BINARY_DIR = /Users/liamsycamore/Documents/Arduino_Test/bin
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/CMakeFiles" "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles /Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liamsycamore/Google Drive/Code/Micros/Arduino_Test/bin/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named libarduinocore
+# Target rules for targets named arduinocore
 
 # Build rule for target.
-libarduinocore: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 libarduinocore
-.PHONY : libarduinocore
+arduinocore: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 arduinocore
+.PHONY : arduinocore
 
 # fast build rule for target.
-libarduinocore/fast:
-	$(MAKE) -f libarduinocore/CMakeFiles/libarduinocore.dir/build.make libarduinocore/CMakeFiles/libarduinocore.dir/build
-.PHONY : libarduinocore/fast
+arduinocore/fast:
+	$(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/build
+.PHONY : arduinocore/fast
 
 #=============================================================================
 # Target rules for targets named upload
@@ -170,7 +170,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... libarduinocore"
+	@echo "... arduinocore"
 	@echo "... upload"
 	@echo "... bin2hex"
 	@echo "... blinkLED"

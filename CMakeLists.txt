@@ -1,4 +1,5 @@
 set(CMAKE_TOOLCHAIN_FILE cmake/ArduinoToolchain.cmake) # Arduino Toolchain
+message("TOOL_" ${CMAKE_TOOLCHAIN_FILE})
 
 cmake_minimum_required(VERSION 2.8)
 #====================================================================#
