@@ -38,7 +38,6 @@ CMAKE_CXX_COMPILER_AR:FILEPATH=/usr/local/CrossPack-AVR/bin/avr-gcc-ar
 // for the GCC compiler
 CMAKE_CXX_COMPILER_RANLIB:FILEPATH=/usr/local/CrossPack-AVR/bin/avr-gcc-ranlib
 
-//Flags used by the compiler during all build types.
 CMAKE_CXX_FLAGS:STRING=-mmcu=atmega328p -DF_CPU=16000000 -I/Users/liamsycamore/Documents/Arduino_Test/libarduinocore -Os
 
 //Flags used by the compiler during debug builds.
@@ -62,8 +61,7 @@ CMAKE_C_COMPILER_AR:FILEPATH=/usr/local/CrossPack-AVR/bin/avr-gcc-ar
 // for the GCC compiler
 CMAKE_C_COMPILER_RANLIB:FILEPATH=/usr/local/CrossPack-AVR/bin/avr-gcc-ranlib
 
-//Flags used by the compiler during all build types.
-CMAKE_C_FLAGS:STRING=-mmcu=atmega328p -gstabs -DF_CPU=16000000 -I/Users/liamsycamore/Documents/Arduino_Test/libarduinocore -Os -Wall -Wstrict-prototypes -std=gnu99
+CMAKE_C_FLAGS:STRING='-mmcu=atmega328p -gstabs -DF_CPU=16000000 -I/Users/liamsycamore/Documents/Arduino_Test/libarduinocore -Os -Wall -Wstrict-prototypes -std=gnu99 '
 
 //Flags used by the compiler during debug builds.
 CMAKE_C_FLAGS_DEBUG:STRING=-g
@@ -186,9 +184,6 @@ CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Dependencies for target
 arduinocore_LIB_DEPENDS:STATIC=
-
-//Dependencies for target
-libarduinocore_LIB_DEPENDS:STATIC=
 
 
 ########################

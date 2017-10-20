@@ -69,5 +69,5 @@ endif()
 
 
 set(CMAKE_CXX_IMPLICIT_LINK_LIBRARIES "gcc;m;gcc;m;c")
-set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1;/usr/local/CrossPack-AVR-20131216/avr/lib")
+set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5;/usr/local/CrossPack-AVR-20131216/avr/lib/avr5;/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1;/usr/local/CrossPack-AVR-20131216/avr/lib")
 set(CMAKE_CXX_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")

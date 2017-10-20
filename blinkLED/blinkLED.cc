@@ -29,7 +29,7 @@ int main()
 		Serial.println("Sup");
 		digitalWrite(13, pin);
 		(pin == HIGH) ? (pin = LOW) : (pin = HIGH);
-		delay(4000);
+		delay(500);
 	}
 	return 0;
 }
