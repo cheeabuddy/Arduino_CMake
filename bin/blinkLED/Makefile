@@ -110,78 +110,6 @@ depend:
 	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-# Convenience name for target.
-blinkLED/CMakeFiles/upload.dir/rule:
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f CMakeFiles/Makefile2 blinkLED/CMakeFiles/upload.dir/rule
-.PHONY : blinkLED/CMakeFiles/upload.dir/rule
-
-# Convenience name for target.
-upload: blinkLED/CMakeFiles/upload.dir/rule
-
-.PHONY : upload
-
-# fast build rule for target.
-upload/fast:
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f blinkLED/CMakeFiles/upload.dir/build.make blinkLED/CMakeFiles/upload.dir/build
-.PHONY : upload/fast
-
-# Convenience name for target.
-blinkLED/CMakeFiles/bin2hex.dir/rule:
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f CMakeFiles/Makefile2 blinkLED/CMakeFiles/bin2hex.dir/rule
-.PHONY : blinkLED/CMakeFiles/bin2hex.dir/rule
-
-# Convenience name for target.
-bin2hex: blinkLED/CMakeFiles/bin2hex.dir/rule
-
-.PHONY : bin2hex
-
-# fast build rule for target.
-bin2hex/fast:
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f blinkLED/CMakeFiles/bin2hex.dir/build.make blinkLED/CMakeFiles/bin2hex.dir/build
-.PHONY : bin2hex/fast
-
-# Convenience name for target.
-blinkLED/CMakeFiles/blinkLED.dir/rule:
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f CMakeFiles/Makefile2 blinkLED/CMakeFiles/blinkLED.dir/rule
-.PHONY : blinkLED/CMakeFiles/blinkLED.dir/rule
-
-# Convenience name for target.
-blinkLED: blinkLED/CMakeFiles/blinkLED.dir/rule
-
-.PHONY : blinkLED
-
-# fast build rule for target.
-blinkLED/fast:
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f blinkLED/CMakeFiles/blinkLED.dir/build.make blinkLED/CMakeFiles/blinkLED.dir/build
-.PHONY : blinkLED/fast
-
-blinkLED.obj: blinkLED.cc.obj
-
-.PHONY : blinkLED.obj
-
-# target to build an object file
-blinkLED.cc.obj:
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f blinkLED/CMakeFiles/blinkLED.dir/build.make blinkLED/CMakeFiles/blinkLED.dir/blinkLED.cc.obj
-.PHONY : blinkLED.cc.obj
-
-blinkLED.i: blinkLED.cc.i
-
-.PHONY : blinkLED.i
-
-# target to preprocess a source file
-blinkLED.cc.i:
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f blinkLED/CMakeFiles/blinkLED.dir/build.make blinkLED/CMakeFiles/blinkLED.dir/blinkLED.cc.i
-.PHONY : blinkLED.cc.i
-
-blinkLED.s: blinkLED.cc.s
-
-.PHONY : blinkLED.s
-
-# target to generate assembly for a file
-blinkLED.cc.s:
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f blinkLED/CMakeFiles/blinkLED.dir/build.make blinkLED/CMakeFiles/blinkLED.dir/blinkLED.cc.s
-.PHONY : blinkLED.cc.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -190,12 +118,6 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... upload"
-	@echo "... bin2hex"
-	@echo "... blinkLED"
-	@echo "... blinkLED.obj"
-	@echo "... blinkLED.i"
-	@echo "... blinkLED.s"
 .PHONY : help
 
 

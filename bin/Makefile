@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named arduinocore
+# Target rules for targets named simulation
 
 # Build rule for target.
-arduinocore: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 arduinocore
-.PHONY : arduinocore
+simulation: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 simulation
+.PHONY : simulation
 
 # fast build rule for target.
-arduinocore/fast:
-	$(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/build
-.PHONY : arduinocore/fast
+simulation/fast:
+	$(MAKE) -f builds/simulation/CMakeFiles/simulation.dir/build.make builds/simulation/CMakeFiles/simulation.dir/build
+.PHONY : simulation/fast
 
 #=============================================================================
 # Target rules for targets named upload
@@ -133,7 +133,7 @@ upload: cmake_check_build_system
 
 # fast build rule for target.
 upload/fast:
-	$(MAKE) -f blinkLED/CMakeFiles/upload.dir/build.make blinkLED/CMakeFiles/upload.dir/build
+	$(MAKE) -f builds/arduino/CMakeFiles/upload.dir/build.make builds/arduino/CMakeFiles/upload.dir/build
 .PHONY : upload/fast
 
 #=============================================================================
@@ -146,21 +146,34 @@ bin2hex: cmake_check_build_system
 
 # fast build rule for target.
 bin2hex/fast:
-	$(MAKE) -f blinkLED/CMakeFiles/bin2hex.dir/build.make blinkLED/CMakeFiles/bin2hex.dir/build
+	$(MAKE) -f builds/arduino/CMakeFiles/bin2hex.dir/build.make builds/arduino/CMakeFiles/bin2hex.dir/build
 .PHONY : bin2hex/fast
 
 #=============================================================================
-# Target rules for targets named blinkLED
+# Target rules for targets named arduino
 
 # Build rule for target.
-blinkLED: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 blinkLED
-.PHONY : blinkLED
+arduino: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 arduino
+.PHONY : arduino
 
 # fast build rule for target.
-blinkLED/fast:
-	$(MAKE) -f blinkLED/CMakeFiles/blinkLED.dir/build.make blinkLED/CMakeFiles/blinkLED.dir/build
-.PHONY : blinkLED/fast
+arduino/fast:
+	$(MAKE) -f builds/arduino/CMakeFiles/arduino.dir/build.make builds/arduino/CMakeFiles/arduino.dir/build
+.PHONY : arduino/fast
+
+#=============================================================================
+# Target rules for targets named arduinocore
+
+# Build rule for target.
+arduinocore: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 arduinocore
+.PHONY : arduinocore
+
+# fast build rule for target.
+arduinocore/fast:
+	$(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/build
+.PHONY : arduinocore/fast
 
 # Help Target
 help:
@@ -170,10 +183,11 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... arduinocore"
+	@echo "... simulation"
 	@echo "... upload"
 	@echo "... bin2hex"
-	@echo "... blinkLED"
+	@echo "... arduino"
+	@echo "... arduinocore"
 .PHONY : help
 
 

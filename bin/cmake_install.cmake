@@ -29,6 +29,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
+  include("/Users/liamsycamore/Documents/Arduino_Test/bin/builds/cmake_install.cmake")
   include("/Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore/cmake_install.cmake")
   include("/Users/liamsycamore/Documents/Arduino_Test/bin/blinkLED/cmake_install.cmake")
 

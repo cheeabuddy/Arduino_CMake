@@ -125,14 +125,14 @@ arduinocore/fast:
 	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/build
 .PHONY : arduinocore/fast
 
-CDC.obj: CDC.cpp.obj
+CDC.o: CDC.cpp.o
 
-.PHONY : CDC.obj
+.PHONY : CDC.o
 
 # target to build an object file
-CDC.cpp.obj:
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/CDC.cpp.obj
-.PHONY : CDC.cpp.obj
+CDC.cpp.o:
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/CDC.cpp.o
+.PHONY : CDC.cpp.o
 
 CDC.i: CDC.cpp.i
 
@@ -152,14 +152,14 @@ CDC.cpp.s:
 	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/CDC.cpp.s
 .PHONY : CDC.cpp.s
 
-HardwareSerial.obj: HardwareSerial.cpp.obj
+HardwareSerial.o: HardwareSerial.cpp.o
 
-.PHONY : HardwareSerial.obj
+.PHONY : HardwareSerial.o
 
 # target to build an object file
-HardwareSerial.cpp.obj:
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial.cpp.obj
-.PHONY : HardwareSerial.cpp.obj
+HardwareSerial.cpp.o:
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial.cpp.o
+.PHONY : HardwareSerial.cpp.o
 
 HardwareSerial.i: HardwareSerial.cpp.i
 
@@ -179,14 +179,14 @@ HardwareSerial.cpp.s:
 	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial.cpp.s
 .PHONY : HardwareSerial.cpp.s
 
-HardwareSerial0.obj: HardwareSerial0.cpp.obj
+HardwareSerial0.o: HardwareSerial0.cpp.o
 
-.PHONY : HardwareSerial0.obj
+.PHONY : HardwareSerial0.o
 
 # target to build an object file
-HardwareSerial0.cpp.obj:
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial0.cpp.obj
-.PHONY : HardwareSerial0.cpp.obj
+HardwareSerial0.cpp.o:
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial0.cpp.o
+.PHONY : HardwareSerial0.cpp.o
 
 HardwareSerial0.i: HardwareSerial0.cpp.i
 
@@ -206,14 +206,14 @@ HardwareSerial0.cpp.s:
 	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial0.cpp.s
 .PHONY : HardwareSerial0.cpp.s
 
-HardwareSerial1.obj: HardwareSerial1.cpp.obj
+HardwareSerial1.o: HardwareSerial1.cpp.o
 
-.PHONY : HardwareSerial1.obj
+.PHONY : HardwareSerial1.o
 
 # target to build an object file
-HardwareSerial1.cpp.obj:
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial1.cpp.obj
-.PHONY : HardwareSerial1.cpp.obj
+HardwareSerial1.cpp.o:
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial1.cpp.o
+.PHONY : HardwareSerial1.cpp.o
 
 HardwareSerial1.i: HardwareSerial1.cpp.i
 
@@ -233,14 +233,14 @@ HardwareSerial1.cpp.s:
 	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial1.cpp.s
 .PHONY : HardwareSerial1.cpp.s
 
-HardwareSerial2.obj: HardwareSerial2.cpp.obj
+HardwareSerial2.o: HardwareSerial2.cpp.o
 
-.PHONY : HardwareSerial2.obj
+.PHONY : HardwareSerial2.o
 
 # target to build an object file
-HardwareSerial2.cpp.obj:
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial2.cpp.obj
-.PHONY : HardwareSerial2.cpp.obj
+HardwareSerial2.cpp.o:
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial2.cpp.o
+.PHONY : HardwareSerial2.cpp.o
 
 HardwareSerial2.i: HardwareSerial2.cpp.i
 
@@ -260,14 +260,14 @@ HardwareSerial2.cpp.s:
 	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial2.cpp.s
 .PHONY : HardwareSerial2.cpp.s
 
-HardwareSerial3.obj: HardwareSerial3.cpp.obj
+HardwareSerial3.o: HardwareSerial3.cpp.o
 
-.PHONY : HardwareSerial3.obj
+.PHONY : HardwareSerial3.o
 
 # target to build an object file
-HardwareSerial3.cpp.obj:
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial3.cpp.obj
-.PHONY : HardwareSerial3.cpp.obj
+HardwareSerial3.cpp.o:
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial3.cpp.o
+.PHONY : HardwareSerial3.cpp.o
 
 HardwareSerial3.i: HardwareSerial3.cpp.i
 
@@ -287,14 +287,14 @@ HardwareSerial3.cpp.s:
 	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial3.cpp.s
 .PHONY : HardwareSerial3.cpp.s
 
-IPAddress.obj: IPAddress.cpp.obj
+IPAddress.o: IPAddress.cpp.o
 
-.PHONY : IPAddress.obj
+.PHONY : IPAddress.o
 
 # target to build an object file
-IPAddress.cpp.obj:
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/IPAddress.cpp.obj
-.PHONY : IPAddress.cpp.obj
+IPAddress.cpp.o:
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/IPAddress.cpp.o
+.PHONY : IPAddress.cpp.o
 
 IPAddress.i: IPAddress.cpp.i
 
@@ -314,14 +314,14 @@ IPAddress.cpp.s:
 	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/IPAddress.cpp.s
 .PHONY : IPAddress.cpp.s
 
-PluggableUSB.obj: PluggableUSB.cpp.obj
+PluggableUSB.o: PluggableUSB.cpp.o
 
-.PHONY : PluggableUSB.obj
+.PHONY : PluggableUSB.o
 
 # target to build an object file
-PluggableUSB.cpp.obj:
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/PluggableUSB.cpp.obj
-.PHONY : PluggableUSB.cpp.obj
+PluggableUSB.cpp.o:
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/PluggableUSB.cpp.o
+.PHONY : PluggableUSB.cpp.o
 
 PluggableUSB.i: PluggableUSB.cpp.i
 
@@ -341,14 +341,14 @@ PluggableUSB.cpp.s:
 	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/PluggableUSB.cpp.s
 .PHONY : PluggableUSB.cpp.s
 
-Print.obj: Print.cpp.obj
+Print.o: Print.cpp.o
 
-.PHONY : Print.obj
+.PHONY : Print.o
 
 # target to build an object file
-Print.cpp.obj:
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/Print.cpp.obj
-.PHONY : Print.cpp.obj
+Print.cpp.o:
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/Print.cpp.o
+.PHONY : Print.cpp.o
 
 Print.i: Print.cpp.i
 
@@ -368,14 +368,14 @@ Print.cpp.s:
 	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/Print.cpp.s
 .PHONY : Print.cpp.s
 
-Stream.obj: Stream.cpp.obj
+Stream.o: Stream.cpp.o
 
-.PHONY : Stream.obj
+.PHONY : Stream.o
 
 # target to build an object file
-Stream.cpp.obj:
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/Stream.cpp.obj
-.PHONY : Stream.cpp.obj
+Stream.cpp.o:
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/Stream.cpp.o
+.PHONY : Stream.cpp.o
 
 Stream.i: Stream.cpp.i
 
@@ -395,14 +395,14 @@ Stream.cpp.s:
 	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/Stream.cpp.s
 .PHONY : Stream.cpp.s
 
-Tone.obj: Tone.cpp.obj
+Tone.o: Tone.cpp.o
 
-.PHONY : Tone.obj
+.PHONY : Tone.o
 
 # target to build an object file
-Tone.cpp.obj:
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/Tone.cpp.obj
-.PHONY : Tone.cpp.obj
+Tone.cpp.o:
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/Tone.cpp.o
+.PHONY : Tone.cpp.o
 
 Tone.i: Tone.cpp.i
 
@@ -422,14 +422,14 @@ Tone.cpp.s:
 	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/Tone.cpp.s
 .PHONY : Tone.cpp.s
 
-USBCore.obj: USBCore.cpp.obj
+USBCore.o: USBCore.cpp.o
 
-.PHONY : USBCore.obj
+.PHONY : USBCore.o
 
 # target to build an object file
-USBCore.cpp.obj:
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/USBCore.cpp.obj
-.PHONY : USBCore.cpp.obj
+USBCore.cpp.o:
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/USBCore.cpp.o
+.PHONY : USBCore.cpp.o
 
 USBCore.i: USBCore.cpp.i
 
@@ -449,14 +449,14 @@ USBCore.cpp.s:
 	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/USBCore.cpp.s
 .PHONY : USBCore.cpp.s
 
-WInterrupts.obj: WInterrupts.c.obj
+WInterrupts.o: WInterrupts.c.o
 
-.PHONY : WInterrupts.obj
+.PHONY : WInterrupts.o
 
 # target to build an object file
-WInterrupts.c.obj:
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/WInterrupts.c.obj
-.PHONY : WInterrupts.c.obj
+WInterrupts.c.o:
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/WInterrupts.c.o
+.PHONY : WInterrupts.c.o
 
 WInterrupts.i: WInterrupts.c.i
 
@@ -476,14 +476,14 @@ WInterrupts.c.s:
 	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/WInterrupts.c.s
 .PHONY : WInterrupts.c.s
 
-WMath.obj: WMath.cpp.obj
+WMath.o: WMath.cpp.o
 
-.PHONY : WMath.obj
+.PHONY : WMath.o
 
 # target to build an object file
-WMath.cpp.obj:
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/WMath.cpp.obj
-.PHONY : WMath.cpp.obj
+WMath.cpp.o:
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/WMath.cpp.o
+.PHONY : WMath.cpp.o
 
 WMath.i: WMath.cpp.i
 
@@ -503,14 +503,14 @@ WMath.cpp.s:
 	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/WMath.cpp.s
 .PHONY : WMath.cpp.s
 
-WString.obj: WString.cpp.obj
+WString.o: WString.cpp.o
 
-.PHONY : WString.obj
+.PHONY : WString.o
 
 # target to build an object file
-WString.cpp.obj:
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/WString.cpp.obj
-.PHONY : WString.cpp.obj
+WString.cpp.o:
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/WString.cpp.o
+.PHONY : WString.cpp.o
 
 WString.i: WString.cpp.i
 
@@ -530,14 +530,14 @@ WString.cpp.s:
 	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/WString.cpp.s
 .PHONY : WString.cpp.s
 
-abi.obj: abi.cpp.obj
+abi.o: abi.cpp.o
 
-.PHONY : abi.obj
+.PHONY : abi.o
 
 # target to build an object file
-abi.cpp.obj:
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/abi.cpp.obj
-.PHONY : abi.cpp.obj
+abi.cpp.o:
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/abi.cpp.o
+.PHONY : abi.cpp.o
 
 abi.i: abi.cpp.i
 
@@ -557,14 +557,14 @@ abi.cpp.s:
 	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/abi.cpp.s
 .PHONY : abi.cpp.s
 
-hooks.obj: hooks.c.obj
+hooks.o: hooks.c.o
 
-.PHONY : hooks.obj
+.PHONY : hooks.o
 
 # target to build an object file
-hooks.c.obj:
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/hooks.c.obj
-.PHONY : hooks.c.obj
+hooks.c.o:
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/hooks.c.o
+.PHONY : hooks.c.o
 
 hooks.i: hooks.c.i
 
@@ -584,14 +584,14 @@ hooks.c.s:
 	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/hooks.c.s
 .PHONY : hooks.c.s
 
-new.obj: new.cpp.obj
+new.o: new.cpp.o
 
-.PHONY : new.obj
+.PHONY : new.o
 
 # target to build an object file
-new.cpp.obj:
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/new.cpp.obj
-.PHONY : new.cpp.obj
+new.cpp.o:
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/new.cpp.o
+.PHONY : new.cpp.o
 
 new.i: new.cpp.i
 
@@ -611,14 +611,14 @@ new.cpp.s:
 	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/new.cpp.s
 .PHONY : new.cpp.s
 
-wiring.obj: wiring.c.obj
+wiring.o: wiring.c.o
 
-.PHONY : wiring.obj
+.PHONY : wiring.o
 
 # target to build an object file
-wiring.c.obj:
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/wiring.c.obj
-.PHONY : wiring.c.obj
+wiring.c.o:
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/wiring.c.o
+.PHONY : wiring.c.o
 
 wiring.i: wiring.c.i
 
@@ -638,14 +638,14 @@ wiring.c.s:
 	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/wiring.c.s
 .PHONY : wiring.c.s
 
-wiring_analog.obj: wiring_analog.c.obj
+wiring_analog.o: wiring_analog.c.o
 
-.PHONY : wiring_analog.obj
+.PHONY : wiring_analog.o
 
 # target to build an object file
-wiring_analog.c.obj:
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/wiring_analog.c.obj
-.PHONY : wiring_analog.c.obj
+wiring_analog.c.o:
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/wiring_analog.c.o
+.PHONY : wiring_analog.c.o
 
 wiring_analog.i: wiring_analog.c.i
 
@@ -665,14 +665,14 @@ wiring_analog.c.s:
 	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/wiring_analog.c.s
 .PHONY : wiring_analog.c.s
 
-wiring_digital.obj: wiring_digital.c.obj
+wiring_digital.o: wiring_digital.c.o
 
-.PHONY : wiring_digital.obj
+.PHONY : wiring_digital.o
 
 # target to build an object file
-wiring_digital.c.obj:
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/wiring_digital.c.obj
-.PHONY : wiring_digital.c.obj
+wiring_digital.c.o:
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/wiring_digital.c.o
+.PHONY : wiring_digital.c.o
 
 wiring_digital.i: wiring_digital.c.i
 
@@ -692,14 +692,14 @@ wiring_digital.c.s:
 	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/wiring_digital.c.s
 .PHONY : wiring_digital.c.s
 
-wiring_pulse.obj: wiring_pulse.c.obj
+wiring_pulse.o: wiring_pulse.c.o
 
-.PHONY : wiring_pulse.obj
+.PHONY : wiring_pulse.o
 
 # target to build an object file
-wiring_pulse.c.obj:
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/wiring_pulse.c.obj
-.PHONY : wiring_pulse.c.obj
+wiring_pulse.c.o:
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/wiring_pulse.c.o
+.PHONY : wiring_pulse.c.o
 
 wiring_pulse.i: wiring_pulse.c.i
 
@@ -719,14 +719,14 @@ wiring_pulse.c.s:
 	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/wiring_pulse.c.s
 .PHONY : wiring_pulse.c.s
 
-wiring_shift.obj: wiring_shift.c.obj
+wiring_shift.o: wiring_shift.c.o
 
-.PHONY : wiring_shift.obj
+.PHONY : wiring_shift.o
 
 # target to build an object file
-wiring_shift.c.obj:
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/wiring_shift.c.obj
-.PHONY : wiring_shift.c.obj
+wiring_shift.c.o:
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin && $(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/wiring_shift.c.o
+.PHONY : wiring_shift.c.o
 
 wiring_shift.i: wiring_shift.c.i
 
@@ -755,73 +755,73 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... arduinocore"
-	@echo "... CDC.obj"
+	@echo "... CDC.o"
 	@echo "... CDC.i"
 	@echo "... CDC.s"
-	@echo "... HardwareSerial.obj"
+	@echo "... HardwareSerial.o"
 	@echo "... HardwareSerial.i"
 	@echo "... HardwareSerial.s"
-	@echo "... HardwareSerial0.obj"
+	@echo "... HardwareSerial0.o"
 	@echo "... HardwareSerial0.i"
 	@echo "... HardwareSerial0.s"
-	@echo "... HardwareSerial1.obj"
+	@echo "... HardwareSerial1.o"
 	@echo "... HardwareSerial1.i"
 	@echo "... HardwareSerial1.s"
-	@echo "... HardwareSerial2.obj"
+	@echo "... HardwareSerial2.o"
 	@echo "... HardwareSerial2.i"
 	@echo "... HardwareSerial2.s"
-	@echo "... HardwareSerial3.obj"
+	@echo "... HardwareSerial3.o"
 	@echo "... HardwareSerial3.i"
 	@echo "... HardwareSerial3.s"
-	@echo "... IPAddress.obj"
+	@echo "... IPAddress.o"
 	@echo "... IPAddress.i"
 	@echo "... IPAddress.s"
-	@echo "... PluggableUSB.obj"
+	@echo "... PluggableUSB.o"
 	@echo "... PluggableUSB.i"
 	@echo "... PluggableUSB.s"
-	@echo "... Print.obj"
+	@echo "... Print.o"
 	@echo "... Print.i"
 	@echo "... Print.s"
-	@echo "... Stream.obj"
+	@echo "... Stream.o"
 	@echo "... Stream.i"
 	@echo "... Stream.s"
-	@echo "... Tone.obj"
+	@echo "... Tone.o"
 	@echo "... Tone.i"
 	@echo "... Tone.s"
-	@echo "... USBCore.obj"
+	@echo "... USBCore.o"
 	@echo "... USBCore.i"
 	@echo "... USBCore.s"
-	@echo "... WInterrupts.obj"
+	@echo "... WInterrupts.o"
 	@echo "... WInterrupts.i"
 	@echo "... WInterrupts.s"
-	@echo "... WMath.obj"
+	@echo "... WMath.o"
 	@echo "... WMath.i"
 	@echo "... WMath.s"
-	@echo "... WString.obj"
+	@echo "... WString.o"
 	@echo "... WString.i"
 	@echo "... WString.s"
-	@echo "... abi.obj"
+	@echo "... abi.o"
 	@echo "... abi.i"
 	@echo "... abi.s"
-	@echo "... hooks.obj"
+	@echo "... hooks.o"
 	@echo "... hooks.i"
 	@echo "... hooks.s"
-	@echo "... new.obj"
+	@echo "... new.o"
 	@echo "... new.i"
 	@echo "... new.s"
-	@echo "... wiring.obj"
+	@echo "... wiring.o"
 	@echo "... wiring.i"
 	@echo "... wiring.s"
-	@echo "... wiring_analog.obj"
+	@echo "... wiring_analog.o"
 	@echo "... wiring_analog.i"
 	@echo "... wiring_analog.s"
-	@echo "... wiring_digital.obj"
+	@echo "... wiring_digital.o"
 	@echo "... wiring_digital.i"
 	@echo "... wiring_digital.s"
-	@echo "... wiring_pulse.obj"
+	@echo "... wiring_pulse.o"
 	@echo "... wiring_pulse.i"
 	@echo "... wiring_pulse.s"
-	@echo "... wiring_shift.obj"
+	@echo "... wiring_shift.o"
 	@echo "... wiring_shift.i"
 	@echo "... wiring_shift.s"
 .PHONY : help

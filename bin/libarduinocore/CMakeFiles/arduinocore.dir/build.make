@@ -57,610 +57,610 @@ include libarduinocore/CMakeFiles/arduinocore.dir/progress.make
 # Include the compile flags for this target's objects.
 include libarduinocore/CMakeFiles/arduinocore.dir/flags.make
 
-libarduinocore/CMakeFiles/arduinocore.dir/CDC.cpp.obj: libarduinocore/CMakeFiles/arduinocore.dir/flags.make
-libarduinocore/CMakeFiles/arduinocore.dir/CDC.cpp.obj: ../libarduinocore/CDC.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libarduinocore/CMakeFiles/arduinocore.dir/CDC.cpp.obj"
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arduinocore.dir/CDC.cpp.obj -c /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/CDC.cpp
+libarduinocore/CMakeFiles/arduinocore.dir/CDC.cpp.o: libarduinocore/CMakeFiles/arduinocore.dir/flags.make
+libarduinocore/CMakeFiles/arduinocore.dir/CDC.cpp.o: ../libarduinocore/CDC.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libarduinocore/CMakeFiles/arduinocore.dir/CDC.cpp.o"
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arduinocore.dir/CDC.cpp.o -c /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/CDC.cpp
 
 libarduinocore/CMakeFiles/arduinocore.dir/CDC.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/arduinocore.dir/CDC.cpp.i"
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/CDC.cpp > CMakeFiles/arduinocore.dir/CDC.cpp.i
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/CDC.cpp > CMakeFiles/arduinocore.dir/CDC.cpp.i
 
 libarduinocore/CMakeFiles/arduinocore.dir/CDC.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/arduinocore.dir/CDC.cpp.s"
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/CDC.cpp -o CMakeFiles/arduinocore.dir/CDC.cpp.s
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/CDC.cpp -o CMakeFiles/arduinocore.dir/CDC.cpp.s
 
-libarduinocore/CMakeFiles/arduinocore.dir/CDC.cpp.obj.requires:
+libarduinocore/CMakeFiles/arduinocore.dir/CDC.cpp.o.requires:
 
-.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/CDC.cpp.obj.requires
+.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/CDC.cpp.o.requires
 
-libarduinocore/CMakeFiles/arduinocore.dir/CDC.cpp.obj.provides: libarduinocore/CMakeFiles/arduinocore.dir/CDC.cpp.obj.requires
-	$(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/CDC.cpp.obj.provides.build
-.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/CDC.cpp.obj.provides
+libarduinocore/CMakeFiles/arduinocore.dir/CDC.cpp.o.provides: libarduinocore/CMakeFiles/arduinocore.dir/CDC.cpp.o.requires
+	$(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/CDC.cpp.o.provides.build
+.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/CDC.cpp.o.provides
 
-libarduinocore/CMakeFiles/arduinocore.dir/CDC.cpp.obj.provides.build: libarduinocore/CMakeFiles/arduinocore.dir/CDC.cpp.obj
+libarduinocore/CMakeFiles/arduinocore.dir/CDC.cpp.o.provides.build: libarduinocore/CMakeFiles/arduinocore.dir/CDC.cpp.o
 
 
-libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial.cpp.obj: libarduinocore/CMakeFiles/arduinocore.dir/flags.make
-libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial.cpp.obj: ../libarduinocore/HardwareSerial.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial.cpp.obj"
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arduinocore.dir/HardwareSerial.cpp.obj -c /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/HardwareSerial.cpp
+libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial.cpp.o: libarduinocore/CMakeFiles/arduinocore.dir/flags.make
+libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial.cpp.o: ../libarduinocore/HardwareSerial.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial.cpp.o"
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arduinocore.dir/HardwareSerial.cpp.o -c /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/HardwareSerial.cpp
 
 libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/arduinocore.dir/HardwareSerial.cpp.i"
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/HardwareSerial.cpp > CMakeFiles/arduinocore.dir/HardwareSerial.cpp.i
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/HardwareSerial.cpp > CMakeFiles/arduinocore.dir/HardwareSerial.cpp.i
 
 libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/arduinocore.dir/HardwareSerial.cpp.s"
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/HardwareSerial.cpp -o CMakeFiles/arduinocore.dir/HardwareSerial.cpp.s
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/HardwareSerial.cpp -o CMakeFiles/arduinocore.dir/HardwareSerial.cpp.s
 
-libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial.cpp.obj.requires:
+libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial.cpp.o.requires:
 
-.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial.cpp.obj.requires
+.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial.cpp.o.requires
 
-libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial.cpp.obj.provides: libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial.cpp.obj.requires
-	$(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial.cpp.obj.provides.build
-.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial.cpp.obj.provides
+libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial.cpp.o.provides: libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial.cpp.o.requires
+	$(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial.cpp.o.provides.build
+.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial.cpp.o.provides
 
-libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial.cpp.obj.provides.build: libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial.cpp.obj
+libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial.cpp.o.provides.build: libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial.cpp.o
 
 
-libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial0.cpp.obj: libarduinocore/CMakeFiles/arduinocore.dir/flags.make
-libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial0.cpp.obj: ../libarduinocore/HardwareSerial0.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial0.cpp.obj"
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arduinocore.dir/HardwareSerial0.cpp.obj -c /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/HardwareSerial0.cpp
+libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial0.cpp.o: libarduinocore/CMakeFiles/arduinocore.dir/flags.make
+libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial0.cpp.o: ../libarduinocore/HardwareSerial0.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial0.cpp.o"
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arduinocore.dir/HardwareSerial0.cpp.o -c /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/HardwareSerial0.cpp
 
 libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial0.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/arduinocore.dir/HardwareSerial0.cpp.i"
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/HardwareSerial0.cpp > CMakeFiles/arduinocore.dir/HardwareSerial0.cpp.i
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/HardwareSerial0.cpp > CMakeFiles/arduinocore.dir/HardwareSerial0.cpp.i
 
 libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial0.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/arduinocore.dir/HardwareSerial0.cpp.s"
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/HardwareSerial0.cpp -o CMakeFiles/arduinocore.dir/HardwareSerial0.cpp.s
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/HardwareSerial0.cpp -o CMakeFiles/arduinocore.dir/HardwareSerial0.cpp.s
 
-libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial0.cpp.obj.requires:
+libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial0.cpp.o.requires:
 
-.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial0.cpp.obj.requires
+.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial0.cpp.o.requires
 
-libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial0.cpp.obj.provides: libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial0.cpp.obj.requires
-	$(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial0.cpp.obj.provides.build
-.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial0.cpp.obj.provides
+libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial0.cpp.o.provides: libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial0.cpp.o.requires
+	$(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial0.cpp.o.provides.build
+.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial0.cpp.o.provides
 
-libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial0.cpp.obj.provides.build: libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial0.cpp.obj
+libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial0.cpp.o.provides.build: libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial0.cpp.o
 
 
-libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial1.cpp.obj: libarduinocore/CMakeFiles/arduinocore.dir/flags.make
-libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial1.cpp.obj: ../libarduinocore/HardwareSerial1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial1.cpp.obj"
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arduinocore.dir/HardwareSerial1.cpp.obj -c /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/HardwareSerial1.cpp
+libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial1.cpp.o: libarduinocore/CMakeFiles/arduinocore.dir/flags.make
+libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial1.cpp.o: ../libarduinocore/HardwareSerial1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial1.cpp.o"
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arduinocore.dir/HardwareSerial1.cpp.o -c /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/HardwareSerial1.cpp
 
 libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/arduinocore.dir/HardwareSerial1.cpp.i"
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/HardwareSerial1.cpp > CMakeFiles/arduinocore.dir/HardwareSerial1.cpp.i
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/HardwareSerial1.cpp > CMakeFiles/arduinocore.dir/HardwareSerial1.cpp.i
 
 libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/arduinocore.dir/HardwareSerial1.cpp.s"
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/HardwareSerial1.cpp -o CMakeFiles/arduinocore.dir/HardwareSerial1.cpp.s
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/HardwareSerial1.cpp -o CMakeFiles/arduinocore.dir/HardwareSerial1.cpp.s
 
-libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial1.cpp.obj.requires:
+libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial1.cpp.o.requires:
 
-.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial1.cpp.obj.requires
+.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial1.cpp.o.requires
 
-libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial1.cpp.obj.provides: libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial1.cpp.obj.requires
-	$(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial1.cpp.obj.provides.build
-.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial1.cpp.obj.provides
+libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial1.cpp.o.provides: libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial1.cpp.o.requires
+	$(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial1.cpp.o.provides.build
+.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial1.cpp.o.provides
 
-libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial1.cpp.obj.provides.build: libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial1.cpp.obj
+libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial1.cpp.o.provides.build: libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial1.cpp.o
 
 
-libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial2.cpp.obj: libarduinocore/CMakeFiles/arduinocore.dir/flags.make
-libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial2.cpp.obj: ../libarduinocore/HardwareSerial2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial2.cpp.obj"
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arduinocore.dir/HardwareSerial2.cpp.obj -c /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/HardwareSerial2.cpp
+libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial2.cpp.o: libarduinocore/CMakeFiles/arduinocore.dir/flags.make
+libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial2.cpp.o: ../libarduinocore/HardwareSerial2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial2.cpp.o"
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arduinocore.dir/HardwareSerial2.cpp.o -c /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/HardwareSerial2.cpp
 
 libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/arduinocore.dir/HardwareSerial2.cpp.i"
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/HardwareSerial2.cpp > CMakeFiles/arduinocore.dir/HardwareSerial2.cpp.i
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/HardwareSerial2.cpp > CMakeFiles/arduinocore.dir/HardwareSerial2.cpp.i
 
 libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/arduinocore.dir/HardwareSerial2.cpp.s"
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/HardwareSerial2.cpp -o CMakeFiles/arduinocore.dir/HardwareSerial2.cpp.s
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/HardwareSerial2.cpp -o CMakeFiles/arduinocore.dir/HardwareSerial2.cpp.s
 
-libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial2.cpp.obj.requires:
+libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial2.cpp.o.requires:
 
-.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial2.cpp.obj.requires
+.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial2.cpp.o.requires
 
-libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial2.cpp.obj.provides: libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial2.cpp.obj.requires
-	$(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial2.cpp.obj.provides.build
-.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial2.cpp.obj.provides
+libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial2.cpp.o.provides: libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial2.cpp.o.requires
+	$(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial2.cpp.o.provides.build
+.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial2.cpp.o.provides
 
-libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial2.cpp.obj.provides.build: libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial2.cpp.obj
+libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial2.cpp.o.provides.build: libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial2.cpp.o
 
 
-libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial3.cpp.obj: libarduinocore/CMakeFiles/arduinocore.dir/flags.make
-libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial3.cpp.obj: ../libarduinocore/HardwareSerial3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial3.cpp.obj"
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arduinocore.dir/HardwareSerial3.cpp.obj -c /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/HardwareSerial3.cpp
+libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial3.cpp.o: libarduinocore/CMakeFiles/arduinocore.dir/flags.make
+libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial3.cpp.o: ../libarduinocore/HardwareSerial3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial3.cpp.o"
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arduinocore.dir/HardwareSerial3.cpp.o -c /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/HardwareSerial3.cpp
 
 libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial3.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/arduinocore.dir/HardwareSerial3.cpp.i"
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/HardwareSerial3.cpp > CMakeFiles/arduinocore.dir/HardwareSerial3.cpp.i
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/HardwareSerial3.cpp > CMakeFiles/arduinocore.dir/HardwareSerial3.cpp.i
 
 libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial3.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/arduinocore.dir/HardwareSerial3.cpp.s"
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/HardwareSerial3.cpp -o CMakeFiles/arduinocore.dir/HardwareSerial3.cpp.s
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/HardwareSerial3.cpp -o CMakeFiles/arduinocore.dir/HardwareSerial3.cpp.s
 
-libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial3.cpp.obj.requires:
+libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial3.cpp.o.requires:
 
-.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial3.cpp.obj.requires
+.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial3.cpp.o.requires
 
-libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial3.cpp.obj.provides: libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial3.cpp.obj.requires
-	$(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial3.cpp.obj.provides.build
-.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial3.cpp.obj.provides
+libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial3.cpp.o.provides: libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial3.cpp.o.requires
+	$(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial3.cpp.o.provides.build
+.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial3.cpp.o.provides
 
-libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial3.cpp.obj.provides.build: libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial3.cpp.obj
+libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial3.cpp.o.provides.build: libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial3.cpp.o
 
 
-libarduinocore/CMakeFiles/arduinocore.dir/IPAddress.cpp.obj: libarduinocore/CMakeFiles/arduinocore.dir/flags.make
-libarduinocore/CMakeFiles/arduinocore.dir/IPAddress.cpp.obj: ../libarduinocore/IPAddress.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object libarduinocore/CMakeFiles/arduinocore.dir/IPAddress.cpp.obj"
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arduinocore.dir/IPAddress.cpp.obj -c /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/IPAddress.cpp
+libarduinocore/CMakeFiles/arduinocore.dir/IPAddress.cpp.o: libarduinocore/CMakeFiles/arduinocore.dir/flags.make
+libarduinocore/CMakeFiles/arduinocore.dir/IPAddress.cpp.o: ../libarduinocore/IPAddress.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object libarduinocore/CMakeFiles/arduinocore.dir/IPAddress.cpp.o"
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arduinocore.dir/IPAddress.cpp.o -c /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/IPAddress.cpp
 
 libarduinocore/CMakeFiles/arduinocore.dir/IPAddress.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/arduinocore.dir/IPAddress.cpp.i"
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/IPAddress.cpp > CMakeFiles/arduinocore.dir/IPAddress.cpp.i
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/IPAddress.cpp > CMakeFiles/arduinocore.dir/IPAddress.cpp.i
 
 libarduinocore/CMakeFiles/arduinocore.dir/IPAddress.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/arduinocore.dir/IPAddress.cpp.s"
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/IPAddress.cpp -o CMakeFiles/arduinocore.dir/IPAddress.cpp.s
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/IPAddress.cpp -o CMakeFiles/arduinocore.dir/IPAddress.cpp.s
 
-libarduinocore/CMakeFiles/arduinocore.dir/IPAddress.cpp.obj.requires:
+libarduinocore/CMakeFiles/arduinocore.dir/IPAddress.cpp.o.requires:
 
-.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/IPAddress.cpp.obj.requires
+.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/IPAddress.cpp.o.requires
 
-libarduinocore/CMakeFiles/arduinocore.dir/IPAddress.cpp.obj.provides: libarduinocore/CMakeFiles/arduinocore.dir/IPAddress.cpp.obj.requires
-	$(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/IPAddress.cpp.obj.provides.build
-.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/IPAddress.cpp.obj.provides
+libarduinocore/CMakeFiles/arduinocore.dir/IPAddress.cpp.o.provides: libarduinocore/CMakeFiles/arduinocore.dir/IPAddress.cpp.o.requires
+	$(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/IPAddress.cpp.o.provides.build
+.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/IPAddress.cpp.o.provides
 
-libarduinocore/CMakeFiles/arduinocore.dir/IPAddress.cpp.obj.provides.build: libarduinocore/CMakeFiles/arduinocore.dir/IPAddress.cpp.obj
+libarduinocore/CMakeFiles/arduinocore.dir/IPAddress.cpp.o.provides.build: libarduinocore/CMakeFiles/arduinocore.dir/IPAddress.cpp.o
 
 
-libarduinocore/CMakeFiles/arduinocore.dir/PluggableUSB.cpp.obj: libarduinocore/CMakeFiles/arduinocore.dir/flags.make
-libarduinocore/CMakeFiles/arduinocore.dir/PluggableUSB.cpp.obj: ../libarduinocore/PluggableUSB.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object libarduinocore/CMakeFiles/arduinocore.dir/PluggableUSB.cpp.obj"
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arduinocore.dir/PluggableUSB.cpp.obj -c /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/PluggableUSB.cpp
+libarduinocore/CMakeFiles/arduinocore.dir/PluggableUSB.cpp.o: libarduinocore/CMakeFiles/arduinocore.dir/flags.make
+libarduinocore/CMakeFiles/arduinocore.dir/PluggableUSB.cpp.o: ../libarduinocore/PluggableUSB.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object libarduinocore/CMakeFiles/arduinocore.dir/PluggableUSB.cpp.o"
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arduinocore.dir/PluggableUSB.cpp.o -c /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/PluggableUSB.cpp
 
 libarduinocore/CMakeFiles/arduinocore.dir/PluggableUSB.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/arduinocore.dir/PluggableUSB.cpp.i"
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/PluggableUSB.cpp > CMakeFiles/arduinocore.dir/PluggableUSB.cpp.i
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/PluggableUSB.cpp > CMakeFiles/arduinocore.dir/PluggableUSB.cpp.i
 
 libarduinocore/CMakeFiles/arduinocore.dir/PluggableUSB.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/arduinocore.dir/PluggableUSB.cpp.s"
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/PluggableUSB.cpp -o CMakeFiles/arduinocore.dir/PluggableUSB.cpp.s
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/PluggableUSB.cpp -o CMakeFiles/arduinocore.dir/PluggableUSB.cpp.s
 
-libarduinocore/CMakeFiles/arduinocore.dir/PluggableUSB.cpp.obj.requires:
+libarduinocore/CMakeFiles/arduinocore.dir/PluggableUSB.cpp.o.requires:
 
-.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/PluggableUSB.cpp.obj.requires
+.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/PluggableUSB.cpp.o.requires
 
-libarduinocore/CMakeFiles/arduinocore.dir/PluggableUSB.cpp.obj.provides: libarduinocore/CMakeFiles/arduinocore.dir/PluggableUSB.cpp.obj.requires
-	$(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/PluggableUSB.cpp.obj.provides.build
-.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/PluggableUSB.cpp.obj.provides
+libarduinocore/CMakeFiles/arduinocore.dir/PluggableUSB.cpp.o.provides: libarduinocore/CMakeFiles/arduinocore.dir/PluggableUSB.cpp.o.requires
+	$(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/PluggableUSB.cpp.o.provides.build
+.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/PluggableUSB.cpp.o.provides
 
-libarduinocore/CMakeFiles/arduinocore.dir/PluggableUSB.cpp.obj.provides.build: libarduinocore/CMakeFiles/arduinocore.dir/PluggableUSB.cpp.obj
+libarduinocore/CMakeFiles/arduinocore.dir/PluggableUSB.cpp.o.provides.build: libarduinocore/CMakeFiles/arduinocore.dir/PluggableUSB.cpp.o
 
 
-libarduinocore/CMakeFiles/arduinocore.dir/Print.cpp.obj: libarduinocore/CMakeFiles/arduinocore.dir/flags.make
-libarduinocore/CMakeFiles/arduinocore.dir/Print.cpp.obj: ../libarduinocore/Print.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object libarduinocore/CMakeFiles/arduinocore.dir/Print.cpp.obj"
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arduinocore.dir/Print.cpp.obj -c /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/Print.cpp
+libarduinocore/CMakeFiles/arduinocore.dir/Print.cpp.o: libarduinocore/CMakeFiles/arduinocore.dir/flags.make
+libarduinocore/CMakeFiles/arduinocore.dir/Print.cpp.o: ../libarduinocore/Print.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object libarduinocore/CMakeFiles/arduinocore.dir/Print.cpp.o"
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arduinocore.dir/Print.cpp.o -c /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/Print.cpp
 
 libarduinocore/CMakeFiles/arduinocore.dir/Print.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/arduinocore.dir/Print.cpp.i"
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/Print.cpp > CMakeFiles/arduinocore.dir/Print.cpp.i
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/Print.cpp > CMakeFiles/arduinocore.dir/Print.cpp.i
 
 libarduinocore/CMakeFiles/arduinocore.dir/Print.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/arduinocore.dir/Print.cpp.s"
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/Print.cpp -o CMakeFiles/arduinocore.dir/Print.cpp.s
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/Print.cpp -o CMakeFiles/arduinocore.dir/Print.cpp.s
 
-libarduinocore/CMakeFiles/arduinocore.dir/Print.cpp.obj.requires:
+libarduinocore/CMakeFiles/arduinocore.dir/Print.cpp.o.requires:
 
-.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/Print.cpp.obj.requires
+.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/Print.cpp.o.requires
 
-libarduinocore/CMakeFiles/arduinocore.dir/Print.cpp.obj.provides: libarduinocore/CMakeFiles/arduinocore.dir/Print.cpp.obj.requires
-	$(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/Print.cpp.obj.provides.build
-.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/Print.cpp.obj.provides
+libarduinocore/CMakeFiles/arduinocore.dir/Print.cpp.o.provides: libarduinocore/CMakeFiles/arduinocore.dir/Print.cpp.o.requires
+	$(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/Print.cpp.o.provides.build
+.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/Print.cpp.o.provides
 
-libarduinocore/CMakeFiles/arduinocore.dir/Print.cpp.obj.provides.build: libarduinocore/CMakeFiles/arduinocore.dir/Print.cpp.obj
+libarduinocore/CMakeFiles/arduinocore.dir/Print.cpp.o.provides.build: libarduinocore/CMakeFiles/arduinocore.dir/Print.cpp.o
 
 
-libarduinocore/CMakeFiles/arduinocore.dir/Stream.cpp.obj: libarduinocore/CMakeFiles/arduinocore.dir/flags.make
-libarduinocore/CMakeFiles/arduinocore.dir/Stream.cpp.obj: ../libarduinocore/Stream.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object libarduinocore/CMakeFiles/arduinocore.dir/Stream.cpp.obj"
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arduinocore.dir/Stream.cpp.obj -c /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/Stream.cpp
+libarduinocore/CMakeFiles/arduinocore.dir/Stream.cpp.o: libarduinocore/CMakeFiles/arduinocore.dir/flags.make
+libarduinocore/CMakeFiles/arduinocore.dir/Stream.cpp.o: ../libarduinocore/Stream.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object libarduinocore/CMakeFiles/arduinocore.dir/Stream.cpp.o"
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arduinocore.dir/Stream.cpp.o -c /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/Stream.cpp
 
 libarduinocore/CMakeFiles/arduinocore.dir/Stream.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/arduinocore.dir/Stream.cpp.i"
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/Stream.cpp > CMakeFiles/arduinocore.dir/Stream.cpp.i
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/Stream.cpp > CMakeFiles/arduinocore.dir/Stream.cpp.i
 
 libarduinocore/CMakeFiles/arduinocore.dir/Stream.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/arduinocore.dir/Stream.cpp.s"
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/Stream.cpp -o CMakeFiles/arduinocore.dir/Stream.cpp.s
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/Stream.cpp -o CMakeFiles/arduinocore.dir/Stream.cpp.s
 
-libarduinocore/CMakeFiles/arduinocore.dir/Stream.cpp.obj.requires:
+libarduinocore/CMakeFiles/arduinocore.dir/Stream.cpp.o.requires:
 
-.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/Stream.cpp.obj.requires
+.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/Stream.cpp.o.requires
 
-libarduinocore/CMakeFiles/arduinocore.dir/Stream.cpp.obj.provides: libarduinocore/CMakeFiles/arduinocore.dir/Stream.cpp.obj.requires
-	$(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/Stream.cpp.obj.provides.build
-.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/Stream.cpp.obj.provides
+libarduinocore/CMakeFiles/arduinocore.dir/Stream.cpp.o.provides: libarduinocore/CMakeFiles/arduinocore.dir/Stream.cpp.o.requires
+	$(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/Stream.cpp.o.provides.build
+.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/Stream.cpp.o.provides
 
-libarduinocore/CMakeFiles/arduinocore.dir/Stream.cpp.obj.provides.build: libarduinocore/CMakeFiles/arduinocore.dir/Stream.cpp.obj
+libarduinocore/CMakeFiles/arduinocore.dir/Stream.cpp.o.provides.build: libarduinocore/CMakeFiles/arduinocore.dir/Stream.cpp.o
 
 
-libarduinocore/CMakeFiles/arduinocore.dir/Tone.cpp.obj: libarduinocore/CMakeFiles/arduinocore.dir/flags.make
-libarduinocore/CMakeFiles/arduinocore.dir/Tone.cpp.obj: ../libarduinocore/Tone.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object libarduinocore/CMakeFiles/arduinocore.dir/Tone.cpp.obj"
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arduinocore.dir/Tone.cpp.obj -c /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/Tone.cpp
+libarduinocore/CMakeFiles/arduinocore.dir/Tone.cpp.o: libarduinocore/CMakeFiles/arduinocore.dir/flags.make
+libarduinocore/CMakeFiles/arduinocore.dir/Tone.cpp.o: ../libarduinocore/Tone.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object libarduinocore/CMakeFiles/arduinocore.dir/Tone.cpp.o"
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arduinocore.dir/Tone.cpp.o -c /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/Tone.cpp
 
 libarduinocore/CMakeFiles/arduinocore.dir/Tone.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/arduinocore.dir/Tone.cpp.i"
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/Tone.cpp > CMakeFiles/arduinocore.dir/Tone.cpp.i
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/Tone.cpp > CMakeFiles/arduinocore.dir/Tone.cpp.i
 
 libarduinocore/CMakeFiles/arduinocore.dir/Tone.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/arduinocore.dir/Tone.cpp.s"
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/Tone.cpp -o CMakeFiles/arduinocore.dir/Tone.cpp.s
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/Tone.cpp -o CMakeFiles/arduinocore.dir/Tone.cpp.s
 
-libarduinocore/CMakeFiles/arduinocore.dir/Tone.cpp.obj.requires:
+libarduinocore/CMakeFiles/arduinocore.dir/Tone.cpp.o.requires:
 
-.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/Tone.cpp.obj.requires
+.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/Tone.cpp.o.requires
 
-libarduinocore/CMakeFiles/arduinocore.dir/Tone.cpp.obj.provides: libarduinocore/CMakeFiles/arduinocore.dir/Tone.cpp.obj.requires
-	$(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/Tone.cpp.obj.provides.build
-.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/Tone.cpp.obj.provides
+libarduinocore/CMakeFiles/arduinocore.dir/Tone.cpp.o.provides: libarduinocore/CMakeFiles/arduinocore.dir/Tone.cpp.o.requires
+	$(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/Tone.cpp.o.provides.build
+.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/Tone.cpp.o.provides
 
-libarduinocore/CMakeFiles/arduinocore.dir/Tone.cpp.obj.provides.build: libarduinocore/CMakeFiles/arduinocore.dir/Tone.cpp.obj
+libarduinocore/CMakeFiles/arduinocore.dir/Tone.cpp.o.provides.build: libarduinocore/CMakeFiles/arduinocore.dir/Tone.cpp.o
 
 
-libarduinocore/CMakeFiles/arduinocore.dir/USBCore.cpp.obj: libarduinocore/CMakeFiles/arduinocore.dir/flags.make
-libarduinocore/CMakeFiles/arduinocore.dir/USBCore.cpp.obj: ../libarduinocore/USBCore.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object libarduinocore/CMakeFiles/arduinocore.dir/USBCore.cpp.obj"
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arduinocore.dir/USBCore.cpp.obj -c /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/USBCore.cpp
+libarduinocore/CMakeFiles/arduinocore.dir/USBCore.cpp.o: libarduinocore/CMakeFiles/arduinocore.dir/flags.make
+libarduinocore/CMakeFiles/arduinocore.dir/USBCore.cpp.o: ../libarduinocore/USBCore.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object libarduinocore/CMakeFiles/arduinocore.dir/USBCore.cpp.o"
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arduinocore.dir/USBCore.cpp.o -c /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/USBCore.cpp
 
 libarduinocore/CMakeFiles/arduinocore.dir/USBCore.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/arduinocore.dir/USBCore.cpp.i"
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/USBCore.cpp > CMakeFiles/arduinocore.dir/USBCore.cpp.i
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/USBCore.cpp > CMakeFiles/arduinocore.dir/USBCore.cpp.i
 
 libarduinocore/CMakeFiles/arduinocore.dir/USBCore.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/arduinocore.dir/USBCore.cpp.s"
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/USBCore.cpp -o CMakeFiles/arduinocore.dir/USBCore.cpp.s
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/USBCore.cpp -o CMakeFiles/arduinocore.dir/USBCore.cpp.s
 
-libarduinocore/CMakeFiles/arduinocore.dir/USBCore.cpp.obj.requires:
+libarduinocore/CMakeFiles/arduinocore.dir/USBCore.cpp.o.requires:
 
-.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/USBCore.cpp.obj.requires
+.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/USBCore.cpp.o.requires
 
-libarduinocore/CMakeFiles/arduinocore.dir/USBCore.cpp.obj.provides: libarduinocore/CMakeFiles/arduinocore.dir/USBCore.cpp.obj.requires
-	$(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/USBCore.cpp.obj.provides.build
-.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/USBCore.cpp.obj.provides
+libarduinocore/CMakeFiles/arduinocore.dir/USBCore.cpp.o.provides: libarduinocore/CMakeFiles/arduinocore.dir/USBCore.cpp.o.requires
+	$(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/USBCore.cpp.o.provides.build
+.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/USBCore.cpp.o.provides
 
-libarduinocore/CMakeFiles/arduinocore.dir/USBCore.cpp.obj.provides.build: libarduinocore/CMakeFiles/arduinocore.dir/USBCore.cpp.obj
+libarduinocore/CMakeFiles/arduinocore.dir/USBCore.cpp.o.provides.build: libarduinocore/CMakeFiles/arduinocore.dir/USBCore.cpp.o
 
 
-libarduinocore/CMakeFiles/arduinocore.dir/WInterrupts.c.obj: libarduinocore/CMakeFiles/arduinocore.dir/flags.make
-libarduinocore/CMakeFiles/arduinocore.dir/WInterrupts.c.obj: ../libarduinocore/WInterrupts.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object libarduinocore/CMakeFiles/arduinocore.dir/WInterrupts.c.obj"
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/arduinocore.dir/WInterrupts.c.obj   -c /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/WInterrupts.c
+libarduinocore/CMakeFiles/arduinocore.dir/WInterrupts.c.o: libarduinocore/CMakeFiles/arduinocore.dir/flags.make
+libarduinocore/CMakeFiles/arduinocore.dir/WInterrupts.c.o: ../libarduinocore/WInterrupts.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object libarduinocore/CMakeFiles/arduinocore.dir/WInterrupts.c.o"
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/arduinocore.dir/WInterrupts.c.o   -c /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/WInterrupts.c
 
 libarduinocore/CMakeFiles/arduinocore.dir/WInterrupts.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/arduinocore.dir/WInterrupts.c.i"
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/WInterrupts.c > CMakeFiles/arduinocore.dir/WInterrupts.c.i
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/WInterrupts.c > CMakeFiles/arduinocore.dir/WInterrupts.c.i
 
 libarduinocore/CMakeFiles/arduinocore.dir/WInterrupts.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/arduinocore.dir/WInterrupts.c.s"
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/WInterrupts.c -o CMakeFiles/arduinocore.dir/WInterrupts.c.s
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/WInterrupts.c -o CMakeFiles/arduinocore.dir/WInterrupts.c.s
 
-libarduinocore/CMakeFiles/arduinocore.dir/WInterrupts.c.obj.requires:
+libarduinocore/CMakeFiles/arduinocore.dir/WInterrupts.c.o.requires:
 
-.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/WInterrupts.c.obj.requires
+.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/WInterrupts.c.o.requires
 
-libarduinocore/CMakeFiles/arduinocore.dir/WInterrupts.c.obj.provides: libarduinocore/CMakeFiles/arduinocore.dir/WInterrupts.c.obj.requires
-	$(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/WInterrupts.c.obj.provides.build
-.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/WInterrupts.c.obj.provides
+libarduinocore/CMakeFiles/arduinocore.dir/WInterrupts.c.o.provides: libarduinocore/CMakeFiles/arduinocore.dir/WInterrupts.c.o.requires
+	$(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/WInterrupts.c.o.provides.build
+.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/WInterrupts.c.o.provides
 
-libarduinocore/CMakeFiles/arduinocore.dir/WInterrupts.c.obj.provides.build: libarduinocore/CMakeFiles/arduinocore.dir/WInterrupts.c.obj
+libarduinocore/CMakeFiles/arduinocore.dir/WInterrupts.c.o.provides.build: libarduinocore/CMakeFiles/arduinocore.dir/WInterrupts.c.o
 
 
-libarduinocore/CMakeFiles/arduinocore.dir/WMath.cpp.obj: libarduinocore/CMakeFiles/arduinocore.dir/flags.make
-libarduinocore/CMakeFiles/arduinocore.dir/WMath.cpp.obj: ../libarduinocore/WMath.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object libarduinocore/CMakeFiles/arduinocore.dir/WMath.cpp.obj"
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arduinocore.dir/WMath.cpp.obj -c /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/WMath.cpp
+libarduinocore/CMakeFiles/arduinocore.dir/WMath.cpp.o: libarduinocore/CMakeFiles/arduinocore.dir/flags.make
+libarduinocore/CMakeFiles/arduinocore.dir/WMath.cpp.o: ../libarduinocore/WMath.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object libarduinocore/CMakeFiles/arduinocore.dir/WMath.cpp.o"
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arduinocore.dir/WMath.cpp.o -c /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/WMath.cpp
 
 libarduinocore/CMakeFiles/arduinocore.dir/WMath.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/arduinocore.dir/WMath.cpp.i"
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/WMath.cpp > CMakeFiles/arduinocore.dir/WMath.cpp.i
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/WMath.cpp > CMakeFiles/arduinocore.dir/WMath.cpp.i
 
 libarduinocore/CMakeFiles/arduinocore.dir/WMath.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/arduinocore.dir/WMath.cpp.s"
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/WMath.cpp -o CMakeFiles/arduinocore.dir/WMath.cpp.s
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/WMath.cpp -o CMakeFiles/arduinocore.dir/WMath.cpp.s
 
-libarduinocore/CMakeFiles/arduinocore.dir/WMath.cpp.obj.requires:
+libarduinocore/CMakeFiles/arduinocore.dir/WMath.cpp.o.requires:
 
-.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/WMath.cpp.obj.requires
+.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/WMath.cpp.o.requires
 
-libarduinocore/CMakeFiles/arduinocore.dir/WMath.cpp.obj.provides: libarduinocore/CMakeFiles/arduinocore.dir/WMath.cpp.obj.requires
-	$(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/WMath.cpp.obj.provides.build
-.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/WMath.cpp.obj.provides
+libarduinocore/CMakeFiles/arduinocore.dir/WMath.cpp.o.provides: libarduinocore/CMakeFiles/arduinocore.dir/WMath.cpp.o.requires
+	$(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/WMath.cpp.o.provides.build
+.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/WMath.cpp.o.provides
 
-libarduinocore/CMakeFiles/arduinocore.dir/WMath.cpp.obj.provides.build: libarduinocore/CMakeFiles/arduinocore.dir/WMath.cpp.obj
+libarduinocore/CMakeFiles/arduinocore.dir/WMath.cpp.o.provides.build: libarduinocore/CMakeFiles/arduinocore.dir/WMath.cpp.o
 
 
-libarduinocore/CMakeFiles/arduinocore.dir/WString.cpp.obj: libarduinocore/CMakeFiles/arduinocore.dir/flags.make
-libarduinocore/CMakeFiles/arduinocore.dir/WString.cpp.obj: ../libarduinocore/WString.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object libarduinocore/CMakeFiles/arduinocore.dir/WString.cpp.obj"
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arduinocore.dir/WString.cpp.obj -c /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/WString.cpp
+libarduinocore/CMakeFiles/arduinocore.dir/WString.cpp.o: libarduinocore/CMakeFiles/arduinocore.dir/flags.make
+libarduinocore/CMakeFiles/arduinocore.dir/WString.cpp.o: ../libarduinocore/WString.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object libarduinocore/CMakeFiles/arduinocore.dir/WString.cpp.o"
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arduinocore.dir/WString.cpp.o -c /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/WString.cpp
 
 libarduinocore/CMakeFiles/arduinocore.dir/WString.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/arduinocore.dir/WString.cpp.i"
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/WString.cpp > CMakeFiles/arduinocore.dir/WString.cpp.i
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/WString.cpp > CMakeFiles/arduinocore.dir/WString.cpp.i
 
 libarduinocore/CMakeFiles/arduinocore.dir/WString.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/arduinocore.dir/WString.cpp.s"
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/WString.cpp -o CMakeFiles/arduinocore.dir/WString.cpp.s
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/WString.cpp -o CMakeFiles/arduinocore.dir/WString.cpp.s
 
-libarduinocore/CMakeFiles/arduinocore.dir/WString.cpp.obj.requires:
+libarduinocore/CMakeFiles/arduinocore.dir/WString.cpp.o.requires:
 
-.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/WString.cpp.obj.requires
+.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/WString.cpp.o.requires
 
-libarduinocore/CMakeFiles/arduinocore.dir/WString.cpp.obj.provides: libarduinocore/CMakeFiles/arduinocore.dir/WString.cpp.obj.requires
-	$(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/WString.cpp.obj.provides.build
-.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/WString.cpp.obj.provides
+libarduinocore/CMakeFiles/arduinocore.dir/WString.cpp.o.provides: libarduinocore/CMakeFiles/arduinocore.dir/WString.cpp.o.requires
+	$(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/WString.cpp.o.provides.build
+.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/WString.cpp.o.provides
 
-libarduinocore/CMakeFiles/arduinocore.dir/WString.cpp.obj.provides.build: libarduinocore/CMakeFiles/arduinocore.dir/WString.cpp.obj
+libarduinocore/CMakeFiles/arduinocore.dir/WString.cpp.o.provides.build: libarduinocore/CMakeFiles/arduinocore.dir/WString.cpp.o
 
 
-libarduinocore/CMakeFiles/arduinocore.dir/abi.cpp.obj: libarduinocore/CMakeFiles/arduinocore.dir/flags.make
-libarduinocore/CMakeFiles/arduinocore.dir/abi.cpp.obj: ../libarduinocore/abi.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object libarduinocore/CMakeFiles/arduinocore.dir/abi.cpp.obj"
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arduinocore.dir/abi.cpp.obj -c /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/abi.cpp
+libarduinocore/CMakeFiles/arduinocore.dir/abi.cpp.o: libarduinocore/CMakeFiles/arduinocore.dir/flags.make
+libarduinocore/CMakeFiles/arduinocore.dir/abi.cpp.o: ../libarduinocore/abi.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object libarduinocore/CMakeFiles/arduinocore.dir/abi.cpp.o"
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arduinocore.dir/abi.cpp.o -c /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/abi.cpp
 
 libarduinocore/CMakeFiles/arduinocore.dir/abi.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/arduinocore.dir/abi.cpp.i"
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/abi.cpp > CMakeFiles/arduinocore.dir/abi.cpp.i
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/abi.cpp > CMakeFiles/arduinocore.dir/abi.cpp.i
 
 libarduinocore/CMakeFiles/arduinocore.dir/abi.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/arduinocore.dir/abi.cpp.s"
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/abi.cpp -o CMakeFiles/arduinocore.dir/abi.cpp.s
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/abi.cpp -o CMakeFiles/arduinocore.dir/abi.cpp.s
 
-libarduinocore/CMakeFiles/arduinocore.dir/abi.cpp.obj.requires:
+libarduinocore/CMakeFiles/arduinocore.dir/abi.cpp.o.requires:
 
-.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/abi.cpp.obj.requires
+.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/abi.cpp.o.requires
 
-libarduinocore/CMakeFiles/arduinocore.dir/abi.cpp.obj.provides: libarduinocore/CMakeFiles/arduinocore.dir/abi.cpp.obj.requires
-	$(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/abi.cpp.obj.provides.build
-.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/abi.cpp.obj.provides
+libarduinocore/CMakeFiles/arduinocore.dir/abi.cpp.o.provides: libarduinocore/CMakeFiles/arduinocore.dir/abi.cpp.o.requires
+	$(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/abi.cpp.o.provides.build
+.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/abi.cpp.o.provides
 
-libarduinocore/CMakeFiles/arduinocore.dir/abi.cpp.obj.provides.build: libarduinocore/CMakeFiles/arduinocore.dir/abi.cpp.obj
+libarduinocore/CMakeFiles/arduinocore.dir/abi.cpp.o.provides.build: libarduinocore/CMakeFiles/arduinocore.dir/abi.cpp.o
 
 
-libarduinocore/CMakeFiles/arduinocore.dir/hooks.c.obj: libarduinocore/CMakeFiles/arduinocore.dir/flags.make
-libarduinocore/CMakeFiles/arduinocore.dir/hooks.c.obj: ../libarduinocore/hooks.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object libarduinocore/CMakeFiles/arduinocore.dir/hooks.c.obj"
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/arduinocore.dir/hooks.c.obj   -c /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/hooks.c
+libarduinocore/CMakeFiles/arduinocore.dir/hooks.c.o: libarduinocore/CMakeFiles/arduinocore.dir/flags.make
+libarduinocore/CMakeFiles/arduinocore.dir/hooks.c.o: ../libarduinocore/hooks.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object libarduinocore/CMakeFiles/arduinocore.dir/hooks.c.o"
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/arduinocore.dir/hooks.c.o   -c /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/hooks.c
 
 libarduinocore/CMakeFiles/arduinocore.dir/hooks.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/arduinocore.dir/hooks.c.i"
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/hooks.c > CMakeFiles/arduinocore.dir/hooks.c.i
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/hooks.c > CMakeFiles/arduinocore.dir/hooks.c.i
 
 libarduinocore/CMakeFiles/arduinocore.dir/hooks.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/arduinocore.dir/hooks.c.s"
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/hooks.c -o CMakeFiles/arduinocore.dir/hooks.c.s
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/hooks.c -o CMakeFiles/arduinocore.dir/hooks.c.s
 
-libarduinocore/CMakeFiles/arduinocore.dir/hooks.c.obj.requires:
+libarduinocore/CMakeFiles/arduinocore.dir/hooks.c.o.requires:
 
-.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/hooks.c.obj.requires
+.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/hooks.c.o.requires
 
-libarduinocore/CMakeFiles/arduinocore.dir/hooks.c.obj.provides: libarduinocore/CMakeFiles/arduinocore.dir/hooks.c.obj.requires
-	$(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/hooks.c.obj.provides.build
-.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/hooks.c.obj.provides
+libarduinocore/CMakeFiles/arduinocore.dir/hooks.c.o.provides: libarduinocore/CMakeFiles/arduinocore.dir/hooks.c.o.requires
+	$(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/hooks.c.o.provides.build
+.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/hooks.c.o.provides
 
-libarduinocore/CMakeFiles/arduinocore.dir/hooks.c.obj.provides.build: libarduinocore/CMakeFiles/arduinocore.dir/hooks.c.obj
+libarduinocore/CMakeFiles/arduinocore.dir/hooks.c.o.provides.build: libarduinocore/CMakeFiles/arduinocore.dir/hooks.c.o
 
 
-libarduinocore/CMakeFiles/arduinocore.dir/new.cpp.obj: libarduinocore/CMakeFiles/arduinocore.dir/flags.make
-libarduinocore/CMakeFiles/arduinocore.dir/new.cpp.obj: ../libarduinocore/new.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object libarduinocore/CMakeFiles/arduinocore.dir/new.cpp.obj"
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arduinocore.dir/new.cpp.obj -c /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/new.cpp
+libarduinocore/CMakeFiles/arduinocore.dir/new.cpp.o: libarduinocore/CMakeFiles/arduinocore.dir/flags.make
+libarduinocore/CMakeFiles/arduinocore.dir/new.cpp.o: ../libarduinocore/new.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object libarduinocore/CMakeFiles/arduinocore.dir/new.cpp.o"
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arduinocore.dir/new.cpp.o -c /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/new.cpp
 
 libarduinocore/CMakeFiles/arduinocore.dir/new.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/arduinocore.dir/new.cpp.i"
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/new.cpp > CMakeFiles/arduinocore.dir/new.cpp.i
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/new.cpp > CMakeFiles/arduinocore.dir/new.cpp.i
 
 libarduinocore/CMakeFiles/arduinocore.dir/new.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/arduinocore.dir/new.cpp.s"
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/new.cpp -o CMakeFiles/arduinocore.dir/new.cpp.s
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/new.cpp -o CMakeFiles/arduinocore.dir/new.cpp.s
 
-libarduinocore/CMakeFiles/arduinocore.dir/new.cpp.obj.requires:
+libarduinocore/CMakeFiles/arduinocore.dir/new.cpp.o.requires:
 
-.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/new.cpp.obj.requires
+.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/new.cpp.o.requires
 
-libarduinocore/CMakeFiles/arduinocore.dir/new.cpp.obj.provides: libarduinocore/CMakeFiles/arduinocore.dir/new.cpp.obj.requires
-	$(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/new.cpp.obj.provides.build
-.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/new.cpp.obj.provides
+libarduinocore/CMakeFiles/arduinocore.dir/new.cpp.o.provides: libarduinocore/CMakeFiles/arduinocore.dir/new.cpp.o.requires
+	$(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/new.cpp.o.provides.build
+.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/new.cpp.o.provides
 
-libarduinocore/CMakeFiles/arduinocore.dir/new.cpp.obj.provides.build: libarduinocore/CMakeFiles/arduinocore.dir/new.cpp.obj
+libarduinocore/CMakeFiles/arduinocore.dir/new.cpp.o.provides.build: libarduinocore/CMakeFiles/arduinocore.dir/new.cpp.o
 
 
-libarduinocore/CMakeFiles/arduinocore.dir/wiring.c.obj: libarduinocore/CMakeFiles/arduinocore.dir/flags.make
-libarduinocore/CMakeFiles/arduinocore.dir/wiring.c.obj: ../libarduinocore/wiring.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object libarduinocore/CMakeFiles/arduinocore.dir/wiring.c.obj"
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/arduinocore.dir/wiring.c.obj   -c /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/wiring.c
+libarduinocore/CMakeFiles/arduinocore.dir/wiring.c.o: libarduinocore/CMakeFiles/arduinocore.dir/flags.make
+libarduinocore/CMakeFiles/arduinocore.dir/wiring.c.o: ../libarduinocore/wiring.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object libarduinocore/CMakeFiles/arduinocore.dir/wiring.c.o"
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/arduinocore.dir/wiring.c.o   -c /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/wiring.c
 
 libarduinocore/CMakeFiles/arduinocore.dir/wiring.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/arduinocore.dir/wiring.c.i"
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/wiring.c > CMakeFiles/arduinocore.dir/wiring.c.i
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/wiring.c > CMakeFiles/arduinocore.dir/wiring.c.i
 
 libarduinocore/CMakeFiles/arduinocore.dir/wiring.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/arduinocore.dir/wiring.c.s"
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/wiring.c -o CMakeFiles/arduinocore.dir/wiring.c.s
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/wiring.c -o CMakeFiles/arduinocore.dir/wiring.c.s
 
-libarduinocore/CMakeFiles/arduinocore.dir/wiring.c.obj.requires:
+libarduinocore/CMakeFiles/arduinocore.dir/wiring.c.o.requires:
 
-.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/wiring.c.obj.requires
+.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/wiring.c.o.requires
 
-libarduinocore/CMakeFiles/arduinocore.dir/wiring.c.obj.provides: libarduinocore/CMakeFiles/arduinocore.dir/wiring.c.obj.requires
-	$(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/wiring.c.obj.provides.build
-.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/wiring.c.obj.provides
+libarduinocore/CMakeFiles/arduinocore.dir/wiring.c.o.provides: libarduinocore/CMakeFiles/arduinocore.dir/wiring.c.o.requires
+	$(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/wiring.c.o.provides.build
+.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/wiring.c.o.provides
 
-libarduinocore/CMakeFiles/arduinocore.dir/wiring.c.obj.provides.build: libarduinocore/CMakeFiles/arduinocore.dir/wiring.c.obj
+libarduinocore/CMakeFiles/arduinocore.dir/wiring.c.o.provides.build: libarduinocore/CMakeFiles/arduinocore.dir/wiring.c.o
 
 
-libarduinocore/CMakeFiles/arduinocore.dir/wiring_analog.c.obj: libarduinocore/CMakeFiles/arduinocore.dir/flags.make
-libarduinocore/CMakeFiles/arduinocore.dir/wiring_analog.c.obj: ../libarduinocore/wiring_analog.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object libarduinocore/CMakeFiles/arduinocore.dir/wiring_analog.c.obj"
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/arduinocore.dir/wiring_analog.c.obj   -c /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/wiring_analog.c
+libarduinocore/CMakeFiles/arduinocore.dir/wiring_analog.c.o: libarduinocore/CMakeFiles/arduinocore.dir/flags.make
+libarduinocore/CMakeFiles/arduinocore.dir/wiring_analog.c.o: ../libarduinocore/wiring_analog.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object libarduinocore/CMakeFiles/arduinocore.dir/wiring_analog.c.o"
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/arduinocore.dir/wiring_analog.c.o   -c /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/wiring_analog.c
 
 libarduinocore/CMakeFiles/arduinocore.dir/wiring_analog.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/arduinocore.dir/wiring_analog.c.i"
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/wiring_analog.c > CMakeFiles/arduinocore.dir/wiring_analog.c.i
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/wiring_analog.c > CMakeFiles/arduinocore.dir/wiring_analog.c.i
 
 libarduinocore/CMakeFiles/arduinocore.dir/wiring_analog.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/arduinocore.dir/wiring_analog.c.s"
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/wiring_analog.c -o CMakeFiles/arduinocore.dir/wiring_analog.c.s
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/wiring_analog.c -o CMakeFiles/arduinocore.dir/wiring_analog.c.s
 
-libarduinocore/CMakeFiles/arduinocore.dir/wiring_analog.c.obj.requires:
+libarduinocore/CMakeFiles/arduinocore.dir/wiring_analog.c.o.requires:
 
-.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/wiring_analog.c.obj.requires
+.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/wiring_analog.c.o.requires
 
-libarduinocore/CMakeFiles/arduinocore.dir/wiring_analog.c.obj.provides: libarduinocore/CMakeFiles/arduinocore.dir/wiring_analog.c.obj.requires
-	$(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/wiring_analog.c.obj.provides.build
-.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/wiring_analog.c.obj.provides
+libarduinocore/CMakeFiles/arduinocore.dir/wiring_analog.c.o.provides: libarduinocore/CMakeFiles/arduinocore.dir/wiring_analog.c.o.requires
+	$(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/wiring_analog.c.o.provides.build
+.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/wiring_analog.c.o.provides
 
-libarduinocore/CMakeFiles/arduinocore.dir/wiring_analog.c.obj.provides.build: libarduinocore/CMakeFiles/arduinocore.dir/wiring_analog.c.obj
+libarduinocore/CMakeFiles/arduinocore.dir/wiring_analog.c.o.provides.build: libarduinocore/CMakeFiles/arduinocore.dir/wiring_analog.c.o
 
 
-libarduinocore/CMakeFiles/arduinocore.dir/wiring_digital.c.obj: libarduinocore/CMakeFiles/arduinocore.dir/flags.make
-libarduinocore/CMakeFiles/arduinocore.dir/wiring_digital.c.obj: ../libarduinocore/wiring_digital.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object libarduinocore/CMakeFiles/arduinocore.dir/wiring_digital.c.obj"
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/arduinocore.dir/wiring_digital.c.obj   -c /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/wiring_digital.c
+libarduinocore/CMakeFiles/arduinocore.dir/wiring_digital.c.o: libarduinocore/CMakeFiles/arduinocore.dir/flags.make
+libarduinocore/CMakeFiles/arduinocore.dir/wiring_digital.c.o: ../libarduinocore/wiring_digital.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object libarduinocore/CMakeFiles/arduinocore.dir/wiring_digital.c.o"
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/arduinocore.dir/wiring_digital.c.o   -c /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/wiring_digital.c
 
 libarduinocore/CMakeFiles/arduinocore.dir/wiring_digital.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/arduinocore.dir/wiring_digital.c.i"
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/wiring_digital.c > CMakeFiles/arduinocore.dir/wiring_digital.c.i
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/wiring_digital.c > CMakeFiles/arduinocore.dir/wiring_digital.c.i
 
 libarduinocore/CMakeFiles/arduinocore.dir/wiring_digital.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/arduinocore.dir/wiring_digital.c.s"
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/wiring_digital.c -o CMakeFiles/arduinocore.dir/wiring_digital.c.s
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/wiring_digital.c -o CMakeFiles/arduinocore.dir/wiring_digital.c.s
 
-libarduinocore/CMakeFiles/arduinocore.dir/wiring_digital.c.obj.requires:
+libarduinocore/CMakeFiles/arduinocore.dir/wiring_digital.c.o.requires:
 
-.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/wiring_digital.c.obj.requires
+.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/wiring_digital.c.o.requires
 
-libarduinocore/CMakeFiles/arduinocore.dir/wiring_digital.c.obj.provides: libarduinocore/CMakeFiles/arduinocore.dir/wiring_digital.c.obj.requires
-	$(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/wiring_digital.c.obj.provides.build
-.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/wiring_digital.c.obj.provides
+libarduinocore/CMakeFiles/arduinocore.dir/wiring_digital.c.o.provides: libarduinocore/CMakeFiles/arduinocore.dir/wiring_digital.c.o.requires
+	$(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/wiring_digital.c.o.provides.build
+.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/wiring_digital.c.o.provides
 
-libarduinocore/CMakeFiles/arduinocore.dir/wiring_digital.c.obj.provides.build: libarduinocore/CMakeFiles/arduinocore.dir/wiring_digital.c.obj
+libarduinocore/CMakeFiles/arduinocore.dir/wiring_digital.c.o.provides.build: libarduinocore/CMakeFiles/arduinocore.dir/wiring_digital.c.o
 
 
-libarduinocore/CMakeFiles/arduinocore.dir/wiring_pulse.c.obj: libarduinocore/CMakeFiles/arduinocore.dir/flags.make
-libarduinocore/CMakeFiles/arduinocore.dir/wiring_pulse.c.obj: ../libarduinocore/wiring_pulse.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object libarduinocore/CMakeFiles/arduinocore.dir/wiring_pulse.c.obj"
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/arduinocore.dir/wiring_pulse.c.obj   -c /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/wiring_pulse.c
+libarduinocore/CMakeFiles/arduinocore.dir/wiring_pulse.c.o: libarduinocore/CMakeFiles/arduinocore.dir/flags.make
+libarduinocore/CMakeFiles/arduinocore.dir/wiring_pulse.c.o: ../libarduinocore/wiring_pulse.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object libarduinocore/CMakeFiles/arduinocore.dir/wiring_pulse.c.o"
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/arduinocore.dir/wiring_pulse.c.o   -c /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/wiring_pulse.c
 
 libarduinocore/CMakeFiles/arduinocore.dir/wiring_pulse.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/arduinocore.dir/wiring_pulse.c.i"
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/wiring_pulse.c > CMakeFiles/arduinocore.dir/wiring_pulse.c.i
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/wiring_pulse.c > CMakeFiles/arduinocore.dir/wiring_pulse.c.i
 
 libarduinocore/CMakeFiles/arduinocore.dir/wiring_pulse.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/arduinocore.dir/wiring_pulse.c.s"
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/wiring_pulse.c -o CMakeFiles/arduinocore.dir/wiring_pulse.c.s
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/wiring_pulse.c -o CMakeFiles/arduinocore.dir/wiring_pulse.c.s
 
-libarduinocore/CMakeFiles/arduinocore.dir/wiring_pulse.c.obj.requires:
+libarduinocore/CMakeFiles/arduinocore.dir/wiring_pulse.c.o.requires:
 
-.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/wiring_pulse.c.obj.requires
+.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/wiring_pulse.c.o.requires
 
-libarduinocore/CMakeFiles/arduinocore.dir/wiring_pulse.c.obj.provides: libarduinocore/CMakeFiles/arduinocore.dir/wiring_pulse.c.obj.requires
-	$(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/wiring_pulse.c.obj.provides.build
-.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/wiring_pulse.c.obj.provides
+libarduinocore/CMakeFiles/arduinocore.dir/wiring_pulse.c.o.provides: libarduinocore/CMakeFiles/arduinocore.dir/wiring_pulse.c.o.requires
+	$(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/wiring_pulse.c.o.provides.build
+.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/wiring_pulse.c.o.provides
 
-libarduinocore/CMakeFiles/arduinocore.dir/wiring_pulse.c.obj.provides.build: libarduinocore/CMakeFiles/arduinocore.dir/wiring_pulse.c.obj
+libarduinocore/CMakeFiles/arduinocore.dir/wiring_pulse.c.o.provides.build: libarduinocore/CMakeFiles/arduinocore.dir/wiring_pulse.c.o
 
 
-libarduinocore/CMakeFiles/arduinocore.dir/wiring_shift.c.obj: libarduinocore/CMakeFiles/arduinocore.dir/flags.make
-libarduinocore/CMakeFiles/arduinocore.dir/wiring_shift.c.obj: ../libarduinocore/wiring_shift.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object libarduinocore/CMakeFiles/arduinocore.dir/wiring_shift.c.obj"
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/arduinocore.dir/wiring_shift.c.obj   -c /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/wiring_shift.c
+libarduinocore/CMakeFiles/arduinocore.dir/wiring_shift.c.o: libarduinocore/CMakeFiles/arduinocore.dir/flags.make
+libarduinocore/CMakeFiles/arduinocore.dir/wiring_shift.c.o: ../libarduinocore/wiring_shift.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object libarduinocore/CMakeFiles/arduinocore.dir/wiring_shift.c.o"
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/arduinocore.dir/wiring_shift.c.o   -c /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/wiring_shift.c
 
 libarduinocore/CMakeFiles/arduinocore.dir/wiring_shift.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/arduinocore.dir/wiring_shift.c.i"
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/wiring_shift.c > CMakeFiles/arduinocore.dir/wiring_shift.c.i
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/wiring_shift.c > CMakeFiles/arduinocore.dir/wiring_shift.c.i
 
 libarduinocore/CMakeFiles/arduinocore.dir/wiring_shift.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/arduinocore.dir/wiring_shift.c.s"
-	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /usr/local/CrossPack-AVR/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/wiring_shift.c -o CMakeFiles/arduinocore.dir/wiring_shift.c.s
+	cd /Users/liamsycamore/Documents/Arduino_Test/bin/libarduinocore && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/liamsycamore/Documents/Arduino_Test/libarduinocore/wiring_shift.c -o CMakeFiles/arduinocore.dir/wiring_shift.c.s
 
-libarduinocore/CMakeFiles/arduinocore.dir/wiring_shift.c.obj.requires:
+libarduinocore/CMakeFiles/arduinocore.dir/wiring_shift.c.o.requires:
 
-.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/wiring_shift.c.obj.requires
+.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/wiring_shift.c.o.requires
 
-libarduinocore/CMakeFiles/arduinocore.dir/wiring_shift.c.obj.provides: libarduinocore/CMakeFiles/arduinocore.dir/wiring_shift.c.obj.requires
-	$(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/wiring_shift.c.obj.provides.build
-.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/wiring_shift.c.obj.provides
+libarduinocore/CMakeFiles/arduinocore.dir/wiring_shift.c.o.provides: libarduinocore/CMakeFiles/arduinocore.dir/wiring_shift.c.o.requires
+	$(MAKE) -f libarduinocore/CMakeFiles/arduinocore.dir/build.make libarduinocore/CMakeFiles/arduinocore.dir/wiring_shift.c.o.provides.build
+.PHONY : libarduinocore/CMakeFiles/arduinocore.dir/wiring_shift.c.o.provides
 
-libarduinocore/CMakeFiles/arduinocore.dir/wiring_shift.c.obj.provides.build: libarduinocore/CMakeFiles/arduinocore.dir/wiring_shift.c.obj
+libarduinocore/CMakeFiles/arduinocore.dir/wiring_shift.c.o.provides.build: libarduinocore/CMakeFiles/arduinocore.dir/wiring_shift.c.o
 
 
 # Object files for target arduinocore
 arduinocore_OBJECTS = \
-"CMakeFiles/arduinocore.dir/CDC.cpp.obj" \
-"CMakeFiles/arduinocore.dir/HardwareSerial.cpp.obj" \
-"CMakeFiles/arduinocore.dir/HardwareSerial0.cpp.obj" \
-"CMakeFiles/arduinocore.dir/HardwareSerial1.cpp.obj" \
-"CMakeFiles/arduinocore.dir/HardwareSerial2.cpp.obj" \
-"CMakeFiles/arduinocore.dir/HardwareSerial3.cpp.obj" \
-"CMakeFiles/arduinocore.dir/IPAddress.cpp.obj" \
-"CMakeFiles/arduinocore.dir/PluggableUSB.cpp.obj" \
-"CMakeFiles/arduinocore.dir/Print.cpp.obj" \
-"CMakeFiles/arduinocore.dir/Stream.cpp.obj" \
-"CMakeFiles/arduinocore.dir/Tone.cpp.obj" \
-"CMakeFiles/arduinocore.dir/USBCore.cpp.obj" \
-"CMakeFiles/arduinocore.dir/WInterrupts.c.obj" \
-"CMakeFiles/arduinocore.dir/WMath.cpp.obj" \
-"CMakeFiles/arduinocore.dir/WString.cpp.obj" \
-"CMakeFiles/arduinocore.dir/abi.cpp.obj" \
-"CMakeFiles/arduinocore.dir/hooks.c.obj" \
-"CMakeFiles/arduinocore.dir/new.cpp.obj" \
-"CMakeFiles/arduinocore.dir/wiring.c.obj" \
-"CMakeFiles/arduinocore.dir/wiring_analog.c.obj" \
-"CMakeFiles/arduinocore.dir/wiring_digital.c.obj" \
-"CMakeFiles/arduinocore.dir/wiring_pulse.c.obj" \
-"CMakeFiles/arduinocore.dir/wiring_shift.c.obj"
+"CMakeFiles/arduinocore.dir/CDC.cpp.o" \
+"CMakeFiles/arduinocore.dir/HardwareSerial.cpp.o" \
+"CMakeFiles/arduinocore.dir/HardwareSerial0.cpp.o" \
+"CMakeFiles/arduinocore.dir/HardwareSerial1.cpp.o" \
+"CMakeFiles/arduinocore.dir/HardwareSerial2.cpp.o" \
+"CMakeFiles/arduinocore.dir/HardwareSerial3.cpp.o" \
+"CMakeFiles/arduinocore.dir/IPAddress.cpp.o" \
+"CMakeFiles/arduinocore.dir/PluggableUSB.cpp.o" \
+"CMakeFiles/arduinocore.dir/Print.cpp.o" \
+"CMakeFiles/arduinocore.dir/Stream.cpp.o" \
+"CMakeFiles/arduinocore.dir/Tone.cpp.o" \
+"CMakeFiles/arduinocore.dir/USBCore.cpp.o" \
+"CMakeFiles/arduinocore.dir/WInterrupts.c.o" \
+"CMakeFiles/arduinocore.dir/WMath.cpp.o" \
+"CMakeFiles/arduinocore.dir/WString.cpp.o" \
+"CMakeFiles/arduinocore.dir/abi.cpp.o" \
+"CMakeFiles/arduinocore.dir/hooks.c.o" \
+"CMakeFiles/arduinocore.dir/new.cpp.o" \
+"CMakeFiles/arduinocore.dir/wiring.c.o" \
+"CMakeFiles/arduinocore.dir/wiring_analog.c.o" \
+"CMakeFiles/arduinocore.dir/wiring_digital.c.o" \
+"CMakeFiles/arduinocore.dir/wiring_pulse.c.o" \
+"CMakeFiles/arduinocore.dir/wiring_shift.c.o"
 
 # External object files for target arduinocore
 arduinocore_EXTERNAL_OBJECTS =
 
-libarduinocore/libarduinocore.a: libarduinocore/CMakeFiles/arduinocore.dir/CDC.cpp.obj
-libarduinocore/libarduinocore.a: libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial.cpp.obj
-libarduinocore/libarduinocore.a: libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial0.cpp.obj
-libarduinocore/libarduinocore.a: libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial1.cpp.obj
-libarduinocore/libarduinocore.a: libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial2.cpp.obj
-libarduinocore/libarduinocore.a: libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial3.cpp.obj
-libarduinocore/libarduinocore.a: libarduinocore/CMakeFiles/arduinocore.dir/IPAddress.cpp.obj
-libarduinocore/libarduinocore.a: libarduinocore/CMakeFiles/arduinocore.dir/PluggableUSB.cpp.obj
-libarduinocore/libarduinocore.a: libarduinocore/CMakeFiles/arduinocore.dir/Print.cpp.obj
-libarduinocore/libarduinocore.a: libarduinocore/CMakeFiles/arduinocore.dir/Stream.cpp.obj
-libarduinocore/libarduinocore.a: libarduinocore/CMakeFiles/arduinocore.dir/Tone.cpp.obj
-libarduinocore/libarduinocore.a: libarduinocore/CMakeFiles/arduinocore.dir/USBCore.cpp.obj
-libarduinocore/libarduinocore.a: libarduinocore/CMakeFiles/arduinocore.dir/WInterrupts.c.obj
-libarduinocore/libarduinocore.a: libarduinocore/CMakeFiles/arduinocore.dir/WMath.cpp.obj
-libarduinocore/libarduinocore.a: libarduinocore/CMakeFiles/arduinocore.dir/WString.cpp.obj
-libarduinocore/libarduinocore.a: libarduinocore/CMakeFiles/arduinocore.dir/abi.cpp.obj
-libarduinocore/libarduinocore.a: libarduinocore/CMakeFiles/arduinocore.dir/hooks.c.obj
-libarduinocore/libarduinocore.a: libarduinocore/CMakeFiles/arduinocore.dir/new.cpp.obj
-libarduinocore/libarduinocore.a: libarduinocore/CMakeFiles/arduinocore.dir/wiring.c.obj
-libarduinocore/libarduinocore.a: libarduinocore/CMakeFiles/arduinocore.dir/wiring_analog.c.obj
-libarduinocore/libarduinocore.a: libarduinocore/CMakeFiles/arduinocore.dir/wiring_digital.c.obj
-libarduinocore/libarduinocore.a: libarduinocore/CMakeFiles/arduinocore.dir/wiring_pulse.c.obj
-libarduinocore/libarduinocore.a: libarduinocore/CMakeFiles/arduinocore.dir/wiring_shift.c.obj
+libarduinocore/libarduinocore.a: libarduinocore/CMakeFiles/arduinocore.dir/CDC.cpp.o
+libarduinocore/libarduinocore.a: libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial.cpp.o
+libarduinocore/libarduinocore.a: libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial0.cpp.o
+libarduinocore/libarduinocore.a: libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial1.cpp.o
+libarduinocore/libarduinocore.a: libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial2.cpp.o
+libarduinocore/libarduinocore.a: libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial3.cpp.o
+libarduinocore/libarduinocore.a: libarduinocore/CMakeFiles/arduinocore.dir/IPAddress.cpp.o
+libarduinocore/libarduinocore.a: libarduinocore/CMakeFiles/arduinocore.dir/PluggableUSB.cpp.o
+libarduinocore/libarduinocore.a: libarduinocore/CMakeFiles/arduinocore.dir/Print.cpp.o
+libarduinocore/libarduinocore.a: libarduinocore/CMakeFiles/arduinocore.dir/Stream.cpp.o
+libarduinocore/libarduinocore.a: libarduinocore/CMakeFiles/arduinocore.dir/Tone.cpp.o
+libarduinocore/libarduinocore.a: libarduinocore/CMakeFiles/arduinocore.dir/USBCore.cpp.o
+libarduinocore/libarduinocore.a: libarduinocore/CMakeFiles/arduinocore.dir/WInterrupts.c.o
+libarduinocore/libarduinocore.a: libarduinocore/CMakeFiles/arduinocore.dir/WMath.cpp.o
+libarduinocore/libarduinocore.a: libarduinocore/CMakeFiles/arduinocore.dir/WString.cpp.o
+libarduinocore/libarduinocore.a: libarduinocore/CMakeFiles/arduinocore.dir/abi.cpp.o
+libarduinocore/libarduinocore.a: libarduinocore/CMakeFiles/arduinocore.dir/hooks.c.o
+libarduinocore/libarduinocore.a: libarduinocore/CMakeFiles/arduinocore.dir/new.cpp.o
+libarduinocore/libarduinocore.a: libarduinocore/CMakeFiles/arduinocore.dir/wiring.c.o
+libarduinocore/libarduinocore.a: libarduinocore/CMakeFiles/arduinocore.dir/wiring_analog.c.o
+libarduinocore/libarduinocore.a: libarduinocore/CMakeFiles/arduinocore.dir/wiring_digital.c.o
+libarduinocore/libarduinocore.a: libarduinocore/CMakeFiles/arduinocore.dir/wiring_pulse.c.o
+libarduinocore/libarduinocore.a: libarduinocore/CMakeFiles/arduinocore.dir/wiring_shift.c.o
 libarduinocore/libarduinocore.a: libarduinocore/CMakeFiles/arduinocore.dir/build.make
 libarduinocore/libarduinocore.a: libarduinocore/CMakeFiles/arduinocore.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/liamsycamore/Documents/Arduino_Test/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Linking CXX static library libarduinocore.a"
@@ -672,29 +672,29 @@ libarduinocore/CMakeFiles/arduinocore.dir/build: libarduinocore/libarduinocore.a
 
 .PHONY : libarduinocore/CMakeFiles/arduinocore.dir/build
 
-libarduinocore/CMakeFiles/arduinocore.dir/requires: libarduinocore/CMakeFiles/arduinocore.dir/CDC.cpp.obj.requires
-libarduinocore/CMakeFiles/arduinocore.dir/requires: libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial.cpp.obj.requires
-libarduinocore/CMakeFiles/arduinocore.dir/requires: libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial0.cpp.obj.requires
-libarduinocore/CMakeFiles/arduinocore.dir/requires: libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial1.cpp.obj.requires
-libarduinocore/CMakeFiles/arduinocore.dir/requires: libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial2.cpp.obj.requires
-libarduinocore/CMakeFiles/arduinocore.dir/requires: libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial3.cpp.obj.requires
-libarduinocore/CMakeFiles/arduinocore.dir/requires: libarduinocore/CMakeFiles/arduinocore.dir/IPAddress.cpp.obj.requires
-libarduinocore/CMakeFiles/arduinocore.dir/requires: libarduinocore/CMakeFiles/arduinocore.dir/PluggableUSB.cpp.obj.requires
-libarduinocore/CMakeFiles/arduinocore.dir/requires: libarduinocore/CMakeFiles/arduinocore.dir/Print.cpp.obj.requires
-libarduinocore/CMakeFiles/arduinocore.dir/requires: libarduinocore/CMakeFiles/arduinocore.dir/Stream.cpp.obj.requires
-libarduinocore/CMakeFiles/arduinocore.dir/requires: libarduinocore/CMakeFiles/arduinocore.dir/Tone.cpp.obj.requires
-libarduinocore/CMakeFiles/arduinocore.dir/requires: libarduinocore/CMakeFiles/arduinocore.dir/USBCore.cpp.obj.requires
-libarduinocore/CMakeFiles/arduinocore.dir/requires: libarduinocore/CMakeFiles/arduinocore.dir/WInterrupts.c.obj.requires
-libarduinocore/CMakeFiles/arduinocore.dir/requires: libarduinocore/CMakeFiles/arduinocore.dir/WMath.cpp.obj.requires
-libarduinocore/CMakeFiles/arduinocore.dir/requires: libarduinocore/CMakeFiles/arduinocore.dir/WString.cpp.obj.requires
-libarduinocore/CMakeFiles/arduinocore.dir/requires: libarduinocore/CMakeFiles/arduinocore.dir/abi.cpp.obj.requires
-libarduinocore/CMakeFiles/arduinocore.dir/requires: libarduinocore/CMakeFiles/arduinocore.dir/hooks.c.obj.requires
-libarduinocore/CMakeFiles/arduinocore.dir/requires: libarduinocore/CMakeFiles/arduinocore.dir/new.cpp.obj.requires
-libarduinocore/CMakeFiles/arduinocore.dir/requires: libarduinocore/CMakeFiles/arduinocore.dir/wiring.c.obj.requires
-libarduinocore/CMakeFiles/arduinocore.dir/requires: libarduinocore/CMakeFiles/arduinocore.dir/wiring_analog.c.obj.requires
-libarduinocore/CMakeFiles/arduinocore.dir/requires: libarduinocore/CMakeFiles/arduinocore.dir/wiring_digital.c.obj.requires
-libarduinocore/CMakeFiles/arduinocore.dir/requires: libarduinocore/CMakeFiles/arduinocore.dir/wiring_pulse.c.obj.requires
-libarduinocore/CMakeFiles/arduinocore.dir/requires: libarduinocore/CMakeFiles/arduinocore.dir/wiring_shift.c.obj.requires
+libarduinocore/CMakeFiles/arduinocore.dir/requires: libarduinocore/CMakeFiles/arduinocore.dir/CDC.cpp.o.requires
+libarduinocore/CMakeFiles/arduinocore.dir/requires: libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial.cpp.o.requires
+libarduinocore/CMakeFiles/arduinocore.dir/requires: libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial0.cpp.o.requires
+libarduinocore/CMakeFiles/arduinocore.dir/requires: libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial1.cpp.o.requires
+libarduinocore/CMakeFiles/arduinocore.dir/requires: libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial2.cpp.o.requires
+libarduinocore/CMakeFiles/arduinocore.dir/requires: libarduinocore/CMakeFiles/arduinocore.dir/HardwareSerial3.cpp.o.requires
+libarduinocore/CMakeFiles/arduinocore.dir/requires: libarduinocore/CMakeFiles/arduinocore.dir/IPAddress.cpp.o.requires
+libarduinocore/CMakeFiles/arduinocore.dir/requires: libarduinocore/CMakeFiles/arduinocore.dir/PluggableUSB.cpp.o.requires
+libarduinocore/CMakeFiles/arduinocore.dir/requires: libarduinocore/CMakeFiles/arduinocore.dir/Print.cpp.o.requires
+libarduinocore/CMakeFiles/arduinocore.dir/requires: libarduinocore/CMakeFiles/arduinocore.dir/Stream.cpp.o.requires
+libarduinocore/CMakeFiles/arduinocore.dir/requires: libarduinocore/CMakeFiles/arduinocore.dir/Tone.cpp.o.requires
+libarduinocore/CMakeFiles/arduinocore.dir/requires: libarduinocore/CMakeFiles/arduinocore.dir/USBCore.cpp.o.requires
+libarduinocore/CMakeFiles/arduinocore.dir/requires: libarduinocore/CMakeFiles/arduinocore.dir/WInterrupts.c.o.requires
+libarduinocore/CMakeFiles/arduinocore.dir/requires: libarduinocore/CMakeFiles/arduinocore.dir/WMath.cpp.o.requires
+libarduinocore/CMakeFiles/arduinocore.dir/requires: libarduinocore/CMakeFiles/arduinocore.dir/WString.cpp.o.requires
+libarduinocore/CMakeFiles/arduinocore.dir/requires: libarduinocore/CMakeFiles/arduinocore.dir/abi.cpp.o.requires
+libarduinocore/CMakeFiles/arduinocore.dir/requires: libarduinocore/CMakeFiles/arduinocore.dir/hooks.c.o.requires
+libarduinocore/CMakeFiles/arduinocore.dir/requires: libarduinocore/CMakeFiles/arduinocore.dir/new.cpp.o.requires
+libarduinocore/CMakeFiles/arduinocore.dir/requires: libarduinocore/CMakeFiles/arduinocore.dir/wiring.c.o.requires
+libarduinocore/CMakeFiles/arduinocore.dir/requires: libarduinocore/CMakeFiles/arduinocore.dir/wiring_analog.c.o.requires
+libarduinocore/CMakeFiles/arduinocore.dir/requires: libarduinocore/CMakeFiles/arduinocore.dir/wiring_digital.c.o.requires
+libarduinocore/CMakeFiles/arduinocore.dir/requires: libarduinocore/CMakeFiles/arduinocore.dir/wiring_pulse.c.o.requires
+libarduinocore/CMakeFiles/arduinocore.dir/requires: libarduinocore/CMakeFiles/arduinocore.dir/wiring_shift.c.o.requires
 
 .PHONY : libarduinocore/CMakeFiles/arduinocore.dir/requires
 
