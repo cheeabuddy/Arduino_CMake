@@ -45,5 +45,5 @@ set(CXXFLAGS "${CMCU} ${CDEFS} ${CINCS} ${COPT}")
 set(CMAKE_C_FLAGS ${CFLAGS} CACHE STRING "")
 set(CMAKE_CXX_FLAGS ${CXXFLAGS} CACHE STRING "")
 
-message("C_" ${CMAKE_C_FLAGS})
-message("CXX_" ${CMAKE_CXX_FLAGS})
+#message("C_" ${CMAKE_C_FLAGS})
+#message("CXX_" ${CMAKE_CXX_FLAGS})

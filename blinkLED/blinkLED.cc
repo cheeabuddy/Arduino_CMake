@@ -26,10 +26,10 @@ int main()
 	int pin = HIGH;
 	for(;;)
 	{
-		Serial.println("Sup");
+		Serial.println("Sup gee");
 		digitalWrite(13, pin);
 		(pin == HIGH) ? (pin = LOW) : (pin = HIGH);
-		delay(500);
+		delay(1000);
 	}
 	return 0;
 }
