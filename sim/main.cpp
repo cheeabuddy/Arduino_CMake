@@ -1,6 +1,7 @@
 // Example program
 #include <iostream>
 #include <uart/uart_vt.h>
+#include <crc/crc.h>
 
 #ifdef __RISC__
 char type[] =  "RISC";

@@ -1,2 +1,0 @@
-/usr/bin/ar qc libsimulationcore.a  CMakeFiles/simulationcore.dir/uart/uart_vt.cpp.obj CMakeFiles/simulationcore.dir/delay/delay_vt.cpp.obj
-/usr/bin/ranlib libsimulationcore.a

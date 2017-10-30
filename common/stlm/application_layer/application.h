@@ -1,7 +1,7 @@
 #ifndef APPLICATION_H
 #define APPLICATION_H
 
-#include "../settings.h"
+//#include "../settings.h"
 #include "../data_link_layer/data_link.h"
 
 #define DATA_SIZE 30

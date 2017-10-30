@@ -1,8 +1,13 @@
 #ifndef DATA_LINK_H
 #define DATA_LINK_H
 
-#include "../settings.h"
-#include "../../crc.h"
+//#include "../settings.h"
+#include <iostream>       // std::cout
+#include <cstdint>      /* types */
+#include <stdio.h>      /* printf, scanf, NULL */
+#include <stdlib.h>     /* calloc, exit, free */
+#include <string.h>
+#include "../../crc/crc.h"
 
 #ifdef __RISC__
     #include <uart/uart_vt.h>
@@ -52,8 +57,8 @@ private:
     char STATUS_END[2] = {'$','4'};
     blocking_buffer_t buffer_send;
     blocking_buffer_t buffer_receive;
-#ifdef PC_ENVIRONMENT
-    Uart * port;
+#ifdef __RISC__
+    UartVirtual * port;
     Delay del;
 #endif
     // framing functions

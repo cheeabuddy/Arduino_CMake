@@ -1,7 +1,7 @@
 
 #include "data_link.h"
 
-#if defined PC_ENVIRONMENT
+#if defined __RISC__
 void
 DataLinkLayer::attach_port (UartVirtual * prt)
 {

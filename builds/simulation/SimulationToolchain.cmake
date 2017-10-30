@@ -16,7 +16,7 @@ set(CINCS "-I${Root_SOURCE_DIR}/libsimulationcore")
 
 
 set(CFLAGS "${CINCS} ${CWARN}")
-set(CXXFLAGS "${CINCS}")
+set(CXXFLAGS "${CINCS} -Wc++11-extensions")
 
 
 set(CMAKE_C_FLAGS ${CFLAGS} CACHE STRING "")

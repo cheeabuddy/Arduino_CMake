@@ -7,7 +7,7 @@ case $1 in
         cd bin/simulation
         rm -r *
         cmake -DSIM=on ../..
-        make
+        make #VERBOSE=1
     ;;
     arduino)
         cd bin/arduino
