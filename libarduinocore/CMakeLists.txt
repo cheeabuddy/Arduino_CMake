@@ -44,4 +44,4 @@ add_library(arduinocore
         wiring_pulse.S
         wiring_pulse.c
         wiring_shift.c
-)
+        ../common/stlm/stlm.h)

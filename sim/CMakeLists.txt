@@ -1,0 +1,15 @@
+#====================================================================#
+#  Setup Simulation                                                    #
+#====================================================================#
+project(SimulationCode C CXX)
+
+include_directories(/libsimulationcore)
+link_directories(/libsimulationcore)
+
+link_libraries(simulationcore)
+
+add_definitions(-D__RISC__)
+set(SOURCE_FILES main.cpp)
+
+add_executable(simulation.bin ${SOURCE_FILES})
+target_link_libraries(simulation.bin simulationcore)

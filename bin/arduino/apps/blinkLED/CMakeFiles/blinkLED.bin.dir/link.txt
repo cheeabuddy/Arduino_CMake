@@ -1,0 +1,1 @@
+/usr/local/CrossPack-AVR/bin/avr-g++  -mmcu=atmega328p -DF_CPU=16000000 -I/libarduinocore -Os   CMakeFiles/blinkLED.bin.dir/blinkLED.cc.obj  -o blinkLED.bin  -L/libarduinocore ../../libarduinocore/libarduinocore.a 

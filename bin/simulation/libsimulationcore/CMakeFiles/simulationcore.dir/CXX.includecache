@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/liamsycamore/Documents/Arduino_Test/libsimulationcore/delay/delay_vt.cpp
+delay_vt.h
+/Users/liamsycamore/Documents/Arduino_Test/libsimulationcore/delay/delay_vt.h
+
+/Users/liamsycamore/Documents/Arduino_Test/libsimulationcore/delay/delay_vt.h
+cstdint
+-
+stdio.h
+-
+stdlib.h
+-
+chrono
+-
+thread
+-
+
+/Users/liamsycamore/Documents/Arduino_Test/libsimulationcore/uart/uart_vt.cpp
+uart_vt.h
+/Users/liamsycamore/Documents/Arduino_Test/libsimulationcore/uart/uart_vt.h
+
+/Users/liamsycamore/Documents/Arduino_Test/libsimulationcore/uart/uart_vt.h
+fcntl.h
+-
+sys/stat.h
+-
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+

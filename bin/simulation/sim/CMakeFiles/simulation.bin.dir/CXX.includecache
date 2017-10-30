@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../../libsimulationcore/uart/uart_vt.h
+fcntl.h
+-
+sys/stat.h
+-
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+
+/Users/liamsycamore/Documents/Arduino_Test/sim/main.cpp
+iostream
+-
+uart/uart_vt.h
+-
+
