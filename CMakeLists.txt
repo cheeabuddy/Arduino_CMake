@@ -15,6 +15,8 @@ project(Root)
 #====================================================================#
 
 if(SIM)
+  set(CMAKE_CXX_STANDARD 11)
+  add_definitions(-D__RISC__)
   include_directories(libsimulationcore)
   add_subdirectory(libsimulationcore)
   include_directories(common)

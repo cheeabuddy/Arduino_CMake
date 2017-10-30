@@ -72,12 +72,13 @@ private:
     bool frame_send (void);
     bool frame_receive (void);
     bool status_send (frame_state_t status_type, bool state);
+
 public:
     DataLinkLayer (void)
     {
         crcInit();
     }
-#ifdef PC_ENVIRONMENT
+#ifdef __RISC__
     void attach_port (UartVirtual * prt);
 #endif
     void poll_data_link_layer (void);

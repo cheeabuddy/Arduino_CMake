@@ -1,7 +1,7 @@
 
 #include "data_link.h"
 
-#if defined __RISC__
+#ifdef __RISC__
 void
 DataLinkLayer::attach_port (UartVirtual * prt)
 {
@@ -288,12 +288,12 @@ DataLinkLayer::frame_receive(void)
         //return true;
     }
 
-    if(!port->ready_to_read())
-    {
-        return false;
-    }
+//    if(!port->ready_to_read())
+//    {
+//        return false;
+//    }
 
-    c = port->get_char();
+    c = port->read_char();
     std::cout << c;
 
     switch ( frame_state ) {

@@ -175,8 +175,8 @@ SimulationCode_BINARY_DIR:STATIC=/Users/liamsycamore/Documents/Arduino_Test/bin/
 //Value Computed by CMake
 SimulationCode_SOURCE_DIR:STATIC=/Users/liamsycamore/Documents/Arduino_Test/sim
 
-//Dependencies for target
-commoncore_LIB_DEPENDS:STATIC=
+//Dependencies for the target
+commoncore_LIB_DEPENDS:STATIC=general;simulationcore;
 
 //Dependencies for target
 simulationcore_LIB_DEPENDS:STATIC=

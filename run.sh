@@ -16,6 +16,6 @@ case $1 in
         make
     ;;
     *)
-echo Need correct input
-;;
+        echo Need correct input
+    ;;
 esac

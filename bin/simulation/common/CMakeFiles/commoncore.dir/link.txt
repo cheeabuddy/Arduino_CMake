@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcommoncore.a  CMakeFiles/commoncore.dir/crc/crc.cpp.obj CMakeFiles/commoncore.dir/stlm/data_link_layer/data_link.cpp.obj CMakeFiles/commoncore.dir/stlm/application_layer/application.cpp.obj
+/usr/bin/ranlib libcommoncore.a

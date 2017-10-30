@@ -1,0 +1,1 @@
+/usr/bin/g++  -I/Users/liamsycamore/Documents/Arduino_Test/libsimulationcore -Wc++11-extensions   CMakeFiles/simulation.bin.dir/main.cpp.obj  -o simulation.bin  -L/libsimulationcore  -L/common ../libsimulationcore/libsimulationcore.a ../common/libcommoncore.a ../libsimulationcore/libsimulationcore.a ../common/libcommoncore.a ../libsimulationcore/libsimulationcore.a 

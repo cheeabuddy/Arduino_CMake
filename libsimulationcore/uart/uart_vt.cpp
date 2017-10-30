@@ -72,7 +72,7 @@ char
 UartVirtual::read_char(void)
 {
     char c;
-    read(port_rx.instance,&c,1);
+    ::read(port_rx.instance,&c,1);
     return c;
 }
 
@@ -86,4 +86,16 @@ void
 UartVirtual::write (const char * c, uint8_t length)
 {
     ::write(port_tx.instance,c,length);
+}
+
+bool
+UartVirtual::ready_to_send (void)
+{
+    return true;
+}
+
+bool
+UartVirtual::ready_to_read (void)
+{
+    return true;
 }
