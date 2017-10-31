@@ -13,22 +13,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4c934af-12ba-434e-94bc-197cc51b58d0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ex.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mk.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/simulation/common/CMakeFiles/commoncore.dir/stlm/data_link_layer/data_link.cpp.obj" afterPath="$PROJECT_DIR$/bin/simulation/common/CMakeFiles/commoncore.dir/stlm/data_link_layer/data_link.cpp.obj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/simulation/common/libcommoncore.a" afterPath="$PROJECT_DIR$/bin/simulation/common/libcommoncore.a" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/simulation/libsimulationcore/libsimulationcore.a" afterPath="$PROJECT_DIR$/bin/simulation/libsimulationcore/libsimulationcore.a" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/simulation/sim/CMakeFiles/simulation.bin.dir/main.cpp.obj" afterPath="$PROJECT_DIR$/bin/simulation/sim/CMakeFiles/simulation.bin.dir/main.cpp.obj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/simulation/sim/simulation.bin" afterPath="$PROJECT_DIR$/bin/simulation/sim/simulation.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/simulation/CMakeFiles/CMakeOutput.log" afterPath="$PROJECT_DIR$/bin/simulation/CMakeFiles/CMakeOutput.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/simulation/sim/CMakeFiles/simulation.bin.dir/CXX.includecache" afterPath="$PROJECT_DIR$/bin/simulation/sim/CMakeFiles/simulation.bin.dir/CXX.includecache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/simulation/sim/CMakeFiles/simulation.bin.dir/depend.internal" afterPath="$PROJECT_DIR$/bin/simulation/sim/CMakeFiles/simulation.bin.dir/depend.internal" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/simulation/sim/CMakeFiles/simulation.bin.dir/depend.make" afterPath="$PROJECT_DIR$/bin/simulation/sim/CMakeFiles/simulation.bin.dir/depend.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/stlm/data_link_layer/data_link.cpp" afterPath="$PROJECT_DIR$/common/stlm/data_link_layer/data_link.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libsimulationcore/uart/uart_vt.cpp" afterPath="$PROJECT_DIR$/libsimulationcore/uart/uart_vt.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libsimulationcore/uart/uart_vt.h" afterPath="$PROJECT_DIR$/libsimulationcore/uart/uart_vt.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sim/main.cpp" afterPath="$PROJECT_DIR$/sim/main.cpp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -422,12 +407,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1509352430271</updated>
-      <workItem from="1509352432179" duration="24171000" />
+      <workItem from="1509352432179" duration="24206000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24171000" />
+    <option name="totallyTimeSpent" value="24206000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
