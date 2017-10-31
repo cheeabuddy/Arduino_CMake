@@ -51,6 +51,10 @@ DataLinkLayer::data_out (char * data, uint8_t length)
     {
         uint8_t length_buf;
         length_buf = (uint8_t) buffer_receive.data[0];
+        if (length_buf >= length)
+        {
+            length_buf = length;
+        }
         strncpy(data,buffer_receive.data+1,length_buf);
         buffer_receive.is_blocked = false;
         return true;
@@ -288,13 +292,13 @@ DataLinkLayer::frame_receive(void)
         //return true;
     }
 
-//    if(!port->ready_to_read())
-//    {
-//        return false;
-//    }
-
     c = port->read_char();
-    std::cout << c;
+    if (c == -1)
+    {
+        return false;
+    }
+
+    //std::cout << c;
 
     switch ( frame_state ) {
         case DATA:
@@ -348,7 +352,7 @@ DataLinkLayer::poll_data_link_layer (void)
             //break;
         }
     }
-    std::cout << '\n';
+    //std::cout << '\n';
 }
 
 bool
@@ -372,6 +376,6 @@ DataLinkLayer::query_data_link_layer (void)
             //break;
         }
     }
-    std::cout << '\n';
+    //std::cout << '\n';
     return buffer_send.is_blocked;
 }

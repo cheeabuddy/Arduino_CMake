@@ -43,8 +43,6 @@ public:
     char read_char (void);
     void put_char (char c);
     void write (const char * c, uint8_t length);
-    bool ready_to_send (void);
-    bool ready_to_read (void);
 };
 
 

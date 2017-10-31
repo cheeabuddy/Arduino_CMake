@@ -8,6 +8,36 @@
 
 ../../common/crc/crc.h
 
+../../common/stlm/data_link_layer/data_link.h
+iostream
+-
+cstdint
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+../../crc/crc.h
+../../common/crc/crc.h
+uart/uart_vt.h
+-
+delay/delay_vt.h
+-
+
+../../libsimulationcore/delay/delay_vt.h
+cstdint
+-
+stdio.h
+-
+stdlib.h
+-
+chrono
+-
+thread
+-
+
 ../../libsimulationcore/uart/uart_vt.h
 fcntl.h
 -
@@ -25,6 +55,10 @@ iostream
 -
 uart/uart_vt.h
 -
-crc/crc.h
+stlm/data_link_layer/data_link.h
+-
+delay/delay_vt.h
+-
+thread
 -
 

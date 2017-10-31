@@ -88,14 +88,3 @@ UartVirtual::write (const char * c, uint8_t length)
     ::write(port_tx.instance,c,length);
 }
 
-bool
-UartVirtual::ready_to_send (void)
-{
-    return true;
-}
-
-bool
-UartVirtual::ready_to_read (void)
-{
-    return true;
-}
